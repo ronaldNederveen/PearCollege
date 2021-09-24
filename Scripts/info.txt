@@ -1,0 +1,5 @@
+//TODO toevoegen van informatie over de bedoeling van de scripts folder.
+
+
+
+
