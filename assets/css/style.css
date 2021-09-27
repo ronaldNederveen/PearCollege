@@ -7,3 +7,7 @@
     --clr-white: #FFFFFF;
     --clr-blueish: #202731;
 }
+@font-face {
+    font-family: Futura;
+    src: url(../font/futur.ttf);
+}
