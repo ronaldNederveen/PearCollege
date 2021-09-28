@@ -20,3 +20,33 @@
 body {
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
+.loginScreen{
+    background-color: #01ACB4;
+}
+
+.login {
+    margin: 0 auto;
+    width: 610px;
+    height: 681px;
+    display: grid;
+    background-color: white;
+    grid-column: 1;
+    grid-template-rows:136px, 200px, 200px, 200px;
+    border-radius: 50px;
+    border-color: #01ACB4;
+}
+
+#loginLogo{
+    width: 136px;
+    
+}
+.loginHeader{
+grid-row: 1;
+}
+
+.emailInput{
+grid-row: 3;
+}
+.passwordInput{
+grid-row: 4;
+}
