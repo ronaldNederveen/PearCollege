@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- 
 * Filename      : index.php
 * Subject       :
@@ -7,3 +6,18 @@
 * Programmer('s):
 *
 -->
+<?php
+
+include "header.php";
+
+?>
+
+    <div class="container">
+        
+    </div>
+
+<?php
+
+include "footer.php";
+
+?>
