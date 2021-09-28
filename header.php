@@ -8,4 +8,3 @@
     <title>Document</title>
 </head>
 <body>
-    <!--img for the header -->
