@@ -17,6 +17,8 @@ include "header.php";
             <form>
                 <input type="text" name="E-mail...">
                 <input type="password" name="Password">
+
+                <input type="submit">
             </form>
 
         </div>
