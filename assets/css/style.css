@@ -50,3 +50,45 @@ grid-row: 3;
 .passwordInput{
 grid-row: 4;
 }
+
+/* Hero Style */
+.intro {
+    background-color: var(--clr-turquoise);
+    color: var(--clr-white);
+    padding: 0 100px 100px 133px;
+    width: max-content;
+    border-radius: 0 0 100px 0;
+    text-align: center;
+    position: relative;
+}
+.corner {
+    position: absolute;
+    right: -100px;
+    top: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--clr-turquoise);
+}
+.top {
+    position: absolute;
+    border-radius: 50%;
+    right: -200px;
+    top: 0;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: var(--clr-white);
+}
+h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.box {
+    width: 565px;
+    height: 461px;
+    background-color: var(--clr-white);
+    border-radius: 0 0 50px 0;
+}
+
+/* End of Hero style */
