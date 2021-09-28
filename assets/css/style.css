@@ -11,3 +11,12 @@
     font-family: Futura;
     src: url(../font/futur.ttf);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
