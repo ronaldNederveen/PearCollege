@@ -18,7 +18,7 @@ include "header.php";
                 <input type="text" name="E-mail...">
                 <input type="password" name="Password">
 
-                <input type="submit">
+                <input type="submit" name="login">
             </form>
 
         </div>
