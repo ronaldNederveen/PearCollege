@@ -11,7 +11,14 @@ include "header.php";
     <div class="login">
         <div class="loginHeader">
             <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo">
-            <h3></h3>
+            <h3>Pear College</h3>
+        </div>
+        <div class="loginInput">
+            <form>
+                <input type="text" name="E-mail...">
+                <input type="password" name="Password">
+            </form>
+
         </div>
 
 
