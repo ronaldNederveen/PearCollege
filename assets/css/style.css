@@ -93,29 +93,8 @@ h1 {
 
 /* End of Hero style */
 
-<<<<<<< HEAD
 /* header style*/
 
 .title-head{
     color: #ffffff;
 }
-=======
-/* Applications style*/
-
-
-#application_box {
-	width: 1300px;
-	height: 100px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.application {
-	width: 70px; 
-	height: 70px;
-	border: solid;
-
-} 
-
-/* End applications style*/
->>>>>>> bbef2eb31cd65bd482177e71da3960d119dac339
