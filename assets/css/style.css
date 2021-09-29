@@ -125,8 +125,8 @@ h1 {
 
 /*Head style*/
 .logo-head{
-    width: 50px;
-    height: 50px;
+    width: 135px;
+    height: 135px;
 }
 
 .search-head{
@@ -154,6 +154,7 @@ header{
 
 .title-head{
     color: #ffffff;
+    font-size:50px  ;
 }
 
 /*End od Head style*/
