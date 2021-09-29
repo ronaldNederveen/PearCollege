@@ -164,19 +164,9 @@ h1 {
 
 /*Head style*/
 
-
-/*
-.logo-head  {order: 1; }
-.title-head {order: 2; }
-.search-head{order: 3; }
-.UK-head    {order: 4; }
-.bell-head  {order: 5; }
-.user-head  {order: 6; }
-*/
-
 .logo-head {
-    width: 50px;
-    height: 50px;
+    width: 135px;
+    height: 135px;
 }
 
 .search-head {
@@ -194,8 +184,17 @@ h1 {
     height: 50px;
 }
 
+.translate-head {
+    color: #ffffff;
+}
+
+header {
+    background: #01ACB4;
+}
+
 .title-head {
     color: #ffffff;
+    font-size: 50px;
 }
 
 

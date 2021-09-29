@@ -2,10 +2,26 @@
 include "header.php";
 ?>
 
+<!DOCTYPE html>
+
 <body class="loginScreen">
+
+
+
     <div class="login">
         <div class="loginHeader">
-            <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo">
+                
+                    
+                        <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo" style="float:right" padding300px;> 
+</div>
+</div>
+
+        <
+
+
+
+
+
             <h3>Pear College</h3>
         </div>
         <div class="loginInput">
@@ -27,6 +43,9 @@ include "header.php";
         <div class="loginButton">
                 <input type="submit" name="login">    
         </div>
+
+
+
     </div>
 </body>
 
