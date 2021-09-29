@@ -92,3 +92,22 @@ h1 {
 }
 
 /* End of Hero style */
+
+/* Applications style*/
+
+
+#application_box {
+	width: 1300px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.application {
+	width: 70px; 
+	height: 70px;
+	border: solid;
+
+} 
+
+/* End applications style*/
