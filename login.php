@@ -2,8 +2,6 @@
 include "header.php";
 ?>
 
-<!DOCTYPE html>
-
 <body class="loginScreen">
 
 
