@@ -18,6 +18,8 @@ include "header.php";
 
             <div class="passwordField">
                 <img src="assetss/icons/lock-solid.svg" alt="Lock icon" id="loginLockIcon">
+                <br>
+                <br>
                 <input type="password" size="25" name="Password" placeholder="Password..." id="passwordInput">
             </div>
         </div>
