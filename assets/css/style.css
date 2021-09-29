@@ -146,9 +146,11 @@ h1 {
 
 
 .title-head{
-    color: black;
+    color:#000000;
 }
-
+.translate-head{
+    color:#000000; 
+}
 /*End od Head style*/
 /* Applications style*/
 
