@@ -20,6 +20,36 @@
 body {
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
+.loginScreen{
+    background-color: #01ACB4;
+}
+
+.login {
+    margin: 0 auto;
+    width: 610px;
+    height: 681px;
+    display: grid;
+    background-color: white;
+    grid-column: 1;
+    grid-template-rows:136px, 200px, 200px, 200px;
+    border-radius: 50px;
+    border-color: #01ACB4;
+}
+
+#loginLogo{
+    width: 136px;
+    
+}
+.loginHeader{
+margin: 0 auto;
+}
+
+.emailInput{
+grid-row: 3;
+}
+.passwordInput{
+grid-row: 4;
+}
 
 /* Hero Style */
 .intro {
@@ -63,8 +93,29 @@ h1 {
 
 /* End of Hero style */
 
+<<<<<<< HEAD
 /* header style*/
 
 .title-head{
     color: #ffffff;
 }
+=======
+/* Applications style*/
+
+
+#application_box {
+	width: 1300px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.application {
+	width: 70px; 
+	height: 70px;
+	border: solid;
+
+} 
+
+/* End applications style*/
+>>>>>>> bbef2eb31cd65bd482177e71da3960d119dac339
