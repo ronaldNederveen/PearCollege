@@ -10,7 +10,7 @@
 <img scr="icons/lock-solid.svg"       alt="lock"      class="lock-head">
 <img scr="icons/search-solid.svg"     alt="search"    class="search-head">
 <img scr="icons/user-solid.svg"       alt="user"      class="user-head">
-<img scr="img/"                       alt="UK "       class="UK-head">
+<img scr="img/"                       alt="UK"        class="UK-head">
 
     <!--text for the head-->
 <div class="title-head"> <p>Pear College</p> </div>
@@ -22,3 +22,5 @@
         <imput type="text" id="searchbar" name="searchbar">
     </form>
 </div>
+
+</body>

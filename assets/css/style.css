@@ -41,14 +41,22 @@ body {
     
 }
 .loginHeader{
+grid-row: 1;
+}
+
+.loginText{
+margin: 0 auto;
+}
+
+.loginInput{
 margin: 0 auto;
 }
 
 .emailInput{
-grid-row: 3;
+margin: 0 auto;
 }
 .passwordInput{
-grid-row: 4;
+margin: 0 auto;
 }
 
 /* Hero Style */
@@ -93,8 +101,37 @@ h1 {
 
 /* End of Hero style */
 
+/*Head style*/
+/*
+.logo-head  {order: 1; }
+.title-head {order: 2; }
+.search-head{order: 3; }
+.UK-head    {order: 4; }
+.bell-head  {order: 5; }
+.user-head  {order: 6; }
+*/
+
+/*End od Head style*/
 /* header style*/
 
 .title-head{
     color: #ffffff;
 }
+/* Applications style*/
+
+
+#application_box {
+	width: 1300px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.application {
+	width: 70px; 
+	height: 70px;
+	border: solid;
+
+} 
+
+/* End applications style*/
