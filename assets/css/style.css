@@ -133,12 +133,32 @@ h1 {
 .user-head  {order: 6; }
 */
 
-/*End od Head style*/
-/* header style*/
+.logo-head{
+    width: 50px;
+    height: 50px;
+}
+
+.search-head{
+    width: 50px;
+    height: 50px;
+}
+
+.bell-head{
+    width: 50px;
+    height:50px;
+}
+
+.user-head{
+    width: 50px;
+    height: 50px;
+}
+
 
 .title-head{
     color: #ffffff;
 }
+
+/*End od Head style*/
 /* Applications style*/
 
 
