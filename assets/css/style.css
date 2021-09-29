@@ -44,11 +44,19 @@ body {
 margin: 0 auto;
 }
 
+.loginText{
+margin: 0 auto;
+}
+
+.loginInput{
+margin: 0 auto;
+}
+
 .emailInput{
-grid-row: 3;
+margin: 0 auto;
 }
 .passwordInput{
-grid-row: 4;
+margin: 0 auto;
 }
 
 /* Hero Style */
