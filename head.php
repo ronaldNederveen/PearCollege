@@ -1,9 +1,6 @@
- <?php
-  include "assets/css/style.css";
-  include "assets/icons"
- ?>
+
  
- 
+ <link rel="stylesheet" href="assets/css/style.css">
  
  <!--img for the head -->
 <img src="assets/img/PerCallege_logo.svg"    alt="logo_Pear" class="logo-head"> 
