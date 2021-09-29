@@ -11,6 +11,7 @@ include "header.php";
         <div class="loginInput">
                 <input type="text" size="25" name="email" placeholder="E-mail..." id="emailInput">
                 <br>
+                <br>
                 <input type="password" size="25" name="Password" placeholder="Password..." id="passwordInput">
         </div>
         <div class="loginButton">
