@@ -6,6 +6,8 @@ include "header.php";
     <div class="login">
         <div class="loginHeader">
             <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo">
+        </div>
+        <div class="loginText">
             <h3>Pear College</h3>
         </div>
         <div class="loginInput">
