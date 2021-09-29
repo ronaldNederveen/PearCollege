@@ -52,6 +52,14 @@ margin: 0 auto;
 margin: 0 auto;
 }
 
+.loginText{
+margin: 0 auto;
+}
+
+.loginInput{
+margin: 0 auto;
+}
+
 .emailInput{
 margin: 0 auto;
 }
@@ -102,6 +110,7 @@ h1 {
 /* End of Hero style */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Head style*/
 /*
 .logo-head  {order: 1; }
@@ -114,6 +123,8 @@ h1 {
 
 /*End od Head style*/
 =======
+=======
+>>>>>>> d3f531be283971e0ee49d05076ff3b8d072d5fb7
 /* header style*/
 
 .title-head{
@@ -137,4 +148,7 @@ h1 {
 } 
 
 /* End applications style*/
+<<<<<<< HEAD
+>>>>>>> d3f531be283971e0ee49d05076ff3b8d072d5fb7
+=======
 >>>>>>> d3f531be283971e0ee49d05076ff3b8d072d5fb7
