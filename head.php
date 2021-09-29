@@ -1,4 +1,10 @@
-    <!--img for the head -->
+ <?php
+  include "assets/css/style.css";
+ ?>
+ 
+ 
+ 
+ <!--img for the head -->
 <img src="img/PerCallege_logo.svg"    alt="logo_Pear" class="logo-head"> 
 <img src="icons/bell-solid.svg"       alt="bell"      class="bell-head"> 
 <img scr="icons/lock-solid.svg"       alt="lock"      class="lock-head">
