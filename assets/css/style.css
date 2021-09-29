@@ -76,17 +76,12 @@ body {
     width: 38px;
 }
 
-<<<<<<< HEAD
 #emailInput{
 margin: 0 auto;
 padding: 10px;
 border-radius: 10px;
 background-color:var(--clr-black);
 color: #999999;
-=======
-#LoginLockIcon {
-    width: 38px;
->>>>>>> a9ffe299c60c8cc543eb4eb8f6e4b455f3ad18f9
 }
 
 .emailField {
