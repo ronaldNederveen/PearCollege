@@ -59,6 +59,7 @@ margin: 0 auto;
 padding: 10px;
 border-radius: 10px;
 background-color:var(--clr-black);
+color: #999999;
 }
 
 #passwordInput{
@@ -69,16 +70,46 @@ background-color:var(--clr-black);
 color: #999999;
 }
 
-.loginButton{
+#LoginUserIcon{
+    width: 38px;
+}
+
+#LoginLockIcon{
+    width: 38px;
+}
+
+.emailField{
+border: #000000 solid 1px;
+
+}
+
+.passwordField{
+border: #000000 solid 1px
+
+}
+
+.loginButton input{
 margin: 0 auto;
-height: 75px;
+height: 70px;
+width: 260px;
+background-color: #01ACB4;
+border-radius: 32px;
+
+}
+
+.loginButton{
+    margin: 0 auto;
+    color: #FFFFFF;
+    border-style: none;
 }
 
 .emailInput{
 margin: 0 auto;
+align-items: baseline;
 }
 .passwordInput{
 margin: 0 auto;
+align-items: baseline;
 }
 
 /* Hero Style */
