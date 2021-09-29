@@ -163,17 +163,33 @@ h1 {
 
 
 #application_box {
-	width: 1300px;
-	height: 100px;
+	width: 1631px;
+	height: 150px;
+    margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
+#app_box {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px; 
+    height: 150px; 
+}
 
+.title_applications {
+    display: flex;
+    width: 100px ;
+    height: 100px ;
+     
+}
 .application {
-	width: 70px; 
-	height: 70px;
+	width: 150px; 
+	height: 150px;
 	border: solid;
 
 } 
+#title_applications {
+    margin: 0 auto; 
+}
 
 /* End applications style*/
