@@ -1,6 +1,8 @@
 
+ <?php
+ include "header.php";
+ ?>
  
- <link rel="stylesheet" href="assets/css/style.css">
  
  <!--img for the head -->
 <img src="assets/img/PearCollege_logo.svg"    alt="logo_Pear" class="logo-head"> 
