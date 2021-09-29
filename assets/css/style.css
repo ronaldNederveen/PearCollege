@@ -25,7 +25,8 @@ body {
 }
 
 .login {
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 90px;
     width: 400px;
     height: 400px;
     display: grid;
@@ -51,6 +52,21 @@ margin: auto;
 .loginInput{
 background-color: transparent;
 margin: 0 auto;
+}
+
+#emailInput{
+margin: 0 auto;
+padding: 10px;
+border-radius: 10px;
+background-color:var(--clr-black);
+}
+
+#passwordInput{
+margin: 0 auto;
+padding: 10px;
+border-radius: 10px;
+background-color:var(--clr-black);
+color: #999999;
 }
 
 .loginButton{
@@ -117,12 +133,32 @@ h1 {
 .user-head  {order: 6; }
 */
 
-/*End od Head style*/
-/* header style*/
+.logo-head{
+    width: 50px;
+    height: 50px;
+}
+
+.search-head{
+    width: 50px;
+    height: 50px;
+}
+
+.bell-head{
+    width: 50px;
+    height:50px;
+}
+
+.user-head{
+    width: 50px;
+    height: 50px;
+}
+
 
 .title-head{
     color: #ffffff;
 }
+
+/*End od Head style*/
 /* Applications style*/
 
 

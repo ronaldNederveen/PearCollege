@@ -1,5 +1,5 @@
  <?php
-  include "header.php";
+  include "assets/css/style.css";
  ?>
  <!--Header of Pear College-->
     <header>
