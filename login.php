@@ -2,20 +2,40 @@
 include "header.php";
 ?>
 
+<!DOCTYPE html>
+
 <body class="loginScreen">
+
+
+
     <div class="login">
         <div class="loginHeader">
-            <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo">
+                
+                    
+                        <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo" style="float:right" padding300px;> 
+</div>
+</div>
+
+        <
+
+
+
+
+
             <h3>Pear College</h3>
         </div>
         <div class="loginInput">
-                <input type="text" size="25" name="email" placeholder="E-mail..." id="emailInput">
-                <br>
-                <input type="password" size="25" name="Password" placeholder="Password..." id="passwordInput">
+            <form>
+                <input type="text" name="email" placeholder="E-mail..." id="emailInput">
+                <input type="password" name="Password" placeholder="Password..." id="passwordInput">
+
+                <input type="submit" name="login">
+            </form>
+
         </div>
-        <div class="loginButton">
-                <input type="submit" name="login">    
-        </div>
+
+
+
     </div>
 </body>
 
