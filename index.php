@@ -9,6 +9,7 @@
 <?php
 
 include "header.php";
+include "head.php";
 
 ?>
 
@@ -26,6 +27,7 @@ include "header.php";
 
 <?php
 
+include "popups.php";
 include "footer.php";
 
 ?>
