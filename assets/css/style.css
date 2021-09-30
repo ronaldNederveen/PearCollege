@@ -106,6 +106,7 @@ body {
     display: flex;
     align-items: center;
     gap: 3px;
+    border-radius: 7px;
 }
 
 .passwordField {
@@ -114,6 +115,7 @@ body {
     display: flex;
     align-items: center;
     gap: 3px;
+    border-radius: 7px;
 }
 
 .loginButton input {
