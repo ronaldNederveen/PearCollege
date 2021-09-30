@@ -17,6 +17,7 @@
         </div>
         <!--icons part-->
         <div class="icons">
+            <img src="assets/icons/united-kingdom.svg"                       alt="UK"        class="UK-head">
             <img src="assets/icons/united-kingdom.svg"   alt="UK"        class="UK-head">
             <p class=translate-head>English</p> 
             <img src="assets/icons/bell-solid.svg"       alt="bell"      class="bell-head"> 
