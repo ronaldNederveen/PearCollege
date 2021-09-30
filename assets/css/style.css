@@ -89,11 +89,11 @@
     }
     
     .emailField {
-        border: #000000 solid 1px;
+        border: white solid 1px;
     }
     
     .passwordField {
-        border: #000000 solid 1px
+        border: white solid 1px
     }
     
     .loginButton input {
