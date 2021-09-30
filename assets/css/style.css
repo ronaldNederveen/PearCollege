@@ -195,13 +195,13 @@
      }
      
      .logo-head {
-         width: 135px;
-         height: 135px;
+         width: 120px;
+         height: 120px;
      }
      
      .title-head {
          color: #ffffff;
-         font-size: 50px;
+         font-size: 40px;
      }
      /* center head */
      
@@ -212,8 +212,17 @@
      }
      
      .search-head {
-         width: 50px;
-         height: 50px;
+         width: 15px;
+         height: 15px;
+         position: fixed;
+         padding: 10px;
+     }
+     
+     #searchbar {
+         border: 1px #565656;
+         border-radius: 8px;
+         height: 30px;
+         width: 400px;
      }
      /* right head*/
      
@@ -224,17 +233,33 @@
      }
      
      .bell-head {
-         width: 50px;
-         height: 50px;
+         width: 40px;
+         height: 40px;
+         filter: invert(1);
      }
      
      .user-head {
-         width: 50px;
-         height: 50px;
+         width: 40px;
+         height: 40px;
+         filter: invert(1);
      }
      
      .translate-head {
          color: #ffffff;
+     }
+     
+     .UK-head {
+         width: 30px;
+         height: 30px;
+     }
+     
+     header {
+         background: #01ACB4;
+     }
+     
+     .title-head {
+         color: #ffffff;
+         font-size: 50px;
      }
      /*End od Head style*/
      /* Applications style*/
@@ -242,7 +267,6 @@
      #app_box {
          width: 1631px;
          height: 150px;
-         background-color: red;
          display: flex;
          justify-content: space-between;
      }
@@ -250,10 +274,11 @@
      .app {
          width: 150px;
          height: 150px;
-         border: 5px solid black;
+         border: 1px solid black;
      }
      
      #title_applications {
-         background-color: blue;
+         width: 150px;
+         padding: 0 0 0 35px;
      }
      /* End applications style*/
