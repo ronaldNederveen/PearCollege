@@ -26,6 +26,7 @@ include "header.php";
 
 <?php
 
+include "popups.php";
 include "footer.php";
 
 ?>
