@@ -166,6 +166,11 @@
     /* End of Hero style */
     /*Head style*/
     
+    header {
+        background: #01ACB4;
+        display: flex;
+        justify-content: space-between;
+    } 
     .logo-head {
         width: 135px;
         height: 135px;
@@ -189,11 +194,7 @@
     .translate-head {
         color: #ffffff;
     }
-    
-    header {
-        background: #01ACB4;
-    }
-    
+
     .title-head {
         color: #ffffff;
         font-size: 50px;
