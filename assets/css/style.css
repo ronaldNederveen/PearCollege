@@ -185,6 +185,7 @@
          background: #01ACB4;
          display: flex;
          justify-content: space-between;
+         align-items: center;
      }
      /* left head */
      
@@ -209,12 +210,15 @@
          display: flex;
          align-content: center;
          align-items: center;
+         background-color: #ffffff;
+         border-radius: 8px;
+         height: 30px;
+         width: 415px;
      }
      
      .search-head {
          width: 15px;
          height: 15px;
-         position: fixed;
          padding: 10px;
      }
      
@@ -223,6 +227,7 @@
          border-radius: 8px;
          height: 30px;
          width: 400px;
+         outline: none;
      }
      /* right head*/
      
