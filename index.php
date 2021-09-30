@@ -20,7 +20,8 @@ include "header.php";
             <i class="top"></i>
         </div>
         <div class="news"></div>
-        <div class="apps"></div>
+        <div class="apps">
+        </div>
     </div>  
 
 <?php

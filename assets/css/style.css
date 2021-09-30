@@ -166,11 +166,6 @@
     /* End of Hero style */
     /*Head style*/
     
-    header {
-        background: #01ACB4;
-        display: flex;
-        justify-content: space-between;
-    } 
     .logo-head {
         width: 135px;
         height: 135px;
@@ -194,7 +189,11 @@
     .translate-head {
         color: #ffffff;
     }
-
+    
+    header {
+        background: #01ACB4;
+    }
+    
     .title-head {
         color: #ffffff;
         font-size: 50px;
@@ -205,7 +204,6 @@
     #app_box {
         width: 1631px;
         height: 150px;
-        background-color: red;
         display: flex;
         justify-content: space-between;
     }
@@ -213,9 +211,11 @@
     .app {
         width: 150px;
         height: 150px;
-        border: 5px solid black;
+        border: 1px solid black;
     } 
     #title_applications {
-        background-color: blue;
+        width: 150px;
+        padding: 0 0 0 35px;
+    
     }
     /* End applications style*/
