@@ -176,3 +176,23 @@ header{
 } 
 
 /* End applications style*/
+
+/* footer style */
+
+.footersmall {
+    height: 20px;
+    background-color: black;
+}
+
+.footerbig { 
+    height: 40px;
+    background-color: black;
+}
+
+.copyright-notice {
+    margin-left: 33.5px;
+    font-size:14px ;
+    color:#ffffff ;
+}
+
+/* End footer style*/
