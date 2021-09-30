@@ -1,276 +1,302 @@
-      :root {
-         --clr-turquoise: #01ACB4;
-         --clr-gray-1: #565656;
-         --clr-gray-2: #999999;
-         --clr-gray-3: #A7A7A7;
-         --clr-black: #000000;
-         --clr-white: #FFFFFF;
-         --clr-blueish: #202731;
-     }
-     
-     @font-face {
-         font-family: Futura;
-         src: url(../font/futur.ttf);
-     }
-     
-     * {
-         margin: 0;
-         padding: 0;
-     }
-     
-     body {
-         font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-     }
-     /* Begin style LoginScreen */
-     
-     .loginScreen {
-         background-color: #01ACB4;
-     }
-     
-     .login {
-         margin: auto;
-         margin-top: 90px;
-         width: 400px;
-         height: 400px;
-         display: grid;
-         background-color: white;
-         grid-column: 1;
-         grid-template-rows: 100px, 100px, 100px, 100px;
-         border-radius: 50px;
-         border-color: #01ACB4;
-     }
-     
-     #loginLogo {
-         width: 136px;
-     }
-     
-     .loginHeader {
-         margin: auto;
-         display: flex;
-         align-items: center;
-         gap: 3px;
-     }
-     
-     .loginText {
-         margin: auto;
-     }
-     
-     .loginInput {
-         background-color: transparent;
-         margin: 0 auto;
-     }
-     
-     #emailInput {
-         margin: 0 auto;
-         padding: 10px;
-         border-radius: 10px;
-         background-color: var(--clr-black);
-         color: #999999;
-     }
-     
-     #passwordInput {
-         margin: 0 auto;
-         padding: 10px;
-         border-radius: 10px;
-         background-color: var(--clr-black);
-         color: #999999;
-     }
-     
-     #LoginUserIcon {
-         width: 38px;
-         filter: invert(1);
-     }
-     
-     #LoginLockIcon {
-         width: 38px;
-         filter: invert(1);
-     }
-     
-     #emailInput {
-         margin: 0 auto;
-         padding: 10px;
-         border-radius: 10px;
-         background-color: var(--clr-black);
-         color: #999999;
-     }
-     
-     .emailField {
-         border: #000000 solid 1px;
-         background-color: #000000;
-         display: flex;
-         align-items: center;
-         gap: 3px;
-     }
-     
-     .passwordField {
-         border: #000000 solid 1px;
-         background-color: #000000;
-         display: flex;
-         align-items: center;
-         gap: 3px;
-     }
-     
-     .loginButton input {
-         margin: 0 auto;
-         height: 70px;
-         width: 260px;
-         background-color: #01ACB4;
-         border-radius: 32px;
-     }
-     
-     .loginButton {
-         margin: 0 auto;
-         color: #FFFFFF;
-         border-style: none;
-     }
-     
-     .emailInput {
-         margin: 0 auto;
-         align-items: baseline;
-     }
-     
-     .passwordInput {
-         margin: 0 auto;
-         align-items: baseline;
-     }
-     /* Einde style LoginScreen */
-     /* Hero Style */
-     
-     .intro {
-         background-color: var(--clr-turquoise);
-         color: var(--clr-white);
-         padding: 0 100px 100px 133px;
-         width: max-content;
-         border-radius: 0 0 100px 0;
-         text-align: center;
-         position: relative;
-     }
-     
-     .corner {
-         position: absolute;
-         right: -100px;
-         top: 0;
-         display: block;
-         width: 100px;
-         height: 100px;
-         background-color: var(--clr-turquoise);
-     }
-     
-     .top {
-         position: absolute;
-         border-radius: 50%;
-         right: -200px;
-         top: 0;
-         display: block;
-         width: 200px;
-         height: 200px;
-         background-color: var(--clr-white);
-     }
-     
-     h1 {
-         padding-bottom: 20px;
-         font-size: 50px;
-     }
-     
-     .box {
-         width: 565px;
-         height: 461px;
-         background-color: var(--clr-white);
-         border-radius: 0 0 50px 0;
-     }
-     /* End of Hero style */
-     /*Head style*/
-     
-     header {
-         background: #01ACB4;
-         display: flex;
-         justify-content: space-between;
-     }
-     /* left head */
-     
-     .logo {
-         display: flex;
-         align-content: center;
-         align-items: center;
-     }
-     
-     .logo-head {
-         width: 120px;
-         height: 120px;
-     }
-     
-     .title-head {
-         color: #ffffff;
-         font-size: 30px;
-     }
-     /* center head */
-     
-     .search {
-         display: flex;
-         align-content: center;
-         align-items: center;
-     }
-     
-     .search-head {
-         width: 15px;
-         height: 15px;
-         position: fixed;
-         padding: 10px;
-     }
-     
-     #searchbar {
-         border: 1px #565656;
-         border-radius: 8px;
-         height: 30px;
-         width: 400px;
-     }
-     /* right head*/
-     
-     .icons {
-         display: flex;
-         align-content: center;
-         align-items: center;
-     }
-     
-     .bell-head {
-         width: 40px;
-         height: 40px;
-         filter: invert(1);
-     }
-     
-     .user-head {
-         width: 30px;
-         height: 30px;
-         filter: invert(1);
-     }
-     
-     .translate-head {
-         color: #ffffff;
-     }
-     
-     .UK-head {
-         width: 30px;
-         height: 30px;
-         border-radius: 30px;
-     }
-     /*End od Head style*/
-     /* Applications style*/
-     
-     #app_box {
-         width: 1631px;
-         height: 150px;
-         display: flex;
-         justify-content: space-between;
-     }
-     
-     .app {
-         width: 150px;
-         height: 150px;
-         border: 1px solid black;
-     }
-     
-     #title_applications {
-         width: 150px;
-         padding: 0 0 0 35px;
-     }
-     /* End applications style*/
+:root {
+    --clr-turquoise: #01ACB4;
+    --clr-gray-1: #565656;
+    --clr-gray-2: #999999;
+    --clr-gray-3: #A7A7A7;
+    --clr-black: #000000;
+    --clr-white: #FFFFFF;
+    --clr-blueish: #202731;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(../font/futur.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+
+/* Begin style LoginScreen */
+
+.loginScreen {
+    background-color: #01ACB4;
+}
+
+.login {
+    margin: auto;
+    margin-top: 90px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    background-color: white;
+    grid-column: 1;
+    grid-template-rows: 100px, 100px, 100px, 100px;
+    border-radius: 50px;
+    border-color: #01ACB4;
+}
+
+#loginLogo {
+    width: 136px;
+}
+
+.loginHeader {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.loginText {
+    margin: auto;
+}
+
+.loginInput {
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+#emailInput {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--clr-black);
+    color: #999999;
+}
+
+#passwordInput {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--clr-black);
+    color: #999999;
+}
+
+#passwordInput::selection {
+    outline: none;
+}
+
+#LoginUserIcon {
+    width: 38px;
+    filter: invert(1);
+}
+
+#LoginLockIcon {
+    width: 38px;
+    filter: invert(1);
+}
+
+#emailInput {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--clr-black);
+    color: #999999;
+}
+
+.emailField {
+    border: #000000 solid 1px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.passwordField {
+    border: #000000 solid 1px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.loginButton input {
+    margin: 0 auto;
+    height: 70px;
+    width: 260px;
+    background-color: #01ACB4;
+    border-radius: 32px;
+}
+
+.loginButton {
+    margin: 0 auto;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.emailInput {
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+.passwordInput {
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+
+/* Einde style LoginScreen */
+
+
+/* Hero Style */
+
+.intro {
+    background-color: var(--clr-turquoise);
+    color: var(--clr-white);
+    padding: 0 100px 100px 133px;
+    width: max-content;
+    border-radius: 0 0 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+.corner {
+    position: absolute;
+    right: -100px;
+    top: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--clr-turquoise);
+}
+
+.top {
+    position: absolute;
+    border-radius: 50%;
+    right: -200px;
+    top: 0;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: var(--clr-white);
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.box {
+    width: 565px;
+    height: 461px;
+    background-color: var(--clr-white);
+    border-radius: 0 0 50px 0;
+}
+
+
+/* End of Hero style */
+
+
+/*Head style*/
+
+header {
+    background: #01ACB4;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* left head */
+
+.logo {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.logo-head {
+    width: 120px;
+    height: 120px;
+}
+
+.title-head {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+/* center head */
+
+.search {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.search-head {
+    width: 15px;
+    height: 15px;
+    position: fixed;
+    padding: 10px;
+}
+
+#searchbar {
+    border: 1px #565656;
+    border-radius: 8px;
+    height: 30px;
+    width: 400px;
+}
+
+
+/* right head*/
+
+.icons {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.bell-head {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+}
+
+.user-head {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+.translate-head {
+    color: #ffffff;
+}
+
+.UK-head {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+
+/*End od Head style*/
+
+
+/* Applications style*/
+
+#app_box {
+    width: 1631px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#title_applications {
+    width: 150px;
+    padding: 0 0 0 35px;
+}
+
+
+/* End applications style*/
