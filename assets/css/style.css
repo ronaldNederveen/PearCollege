@@ -406,3 +406,21 @@ header {
         background-color: rgba(0, 0, 0, 60%);
     }
 }
+
+
+
+/* Works made by students */
+#studentworks {
+    width: 1388.42px;
+    height: 629.27px;
+}
+
+.studentapp {
+    width: 315px;
+    height: 481px;
+    border: 1px solid black; 
+}
+
+
+
+/* End works made by students */
