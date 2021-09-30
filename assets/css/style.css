@@ -201,8 +201,8 @@ header {
     background: #01ACB4;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
 
 /* left head */
 
@@ -229,12 +229,15 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height:30px; 
+    width:430px;
 }
 
 .search-head {
     width: 15px;
     height: 15px;
-    position: fixed;
     padding: 10px;
 }
 
@@ -243,6 +246,7 @@ header {
     border-radius: 8px;
     height: 30px;
     width: 400px;
+    outline: none;
 }
 
 
@@ -275,7 +279,6 @@ header {
     height: 30px;
     border-radius: 30px;
 }
-
 
 /*End od Head style*/
 
