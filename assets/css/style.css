@@ -89,11 +89,11 @@
     }
     
     .emailField {
-        border: #000000 solid 1px;
+        border: white solid 1px;
     }
     
     .passwordField {
-        border: #000000 solid 1px
+        border: white solid 1px
     }
     
     .loginButton input {
@@ -166,29 +166,64 @@
     /* End of Hero style */
     /*Head style*/
     
+<<<<<<< HEAD
+=======
+    header {
+        background: #01ACB4;
+        display: flex;
+        justify-content: space-between;
+    } 
+/* left head */
+    .logo{
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+>>>>>>> f4eb62aaa91741fdc7bacb25dc44090925313f13
     .logo-head {
         width: 135px;
         height: 135px;
     }
-    
+    .title-head {
+        color: #ffffff;
+        font-size: 50px;
+    }
+/* center head */
+    .search{
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
     .search-head {
         width: 50px;
         height: 50px;
     }
-    
+    #searchbar{ 
+        border: 1px #565656; 
+        border-radius: 10px;
+        height: 50px;
+        width: 600px;
+    }
+/* right head*/
+    .icons{
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
     .bell-head {
         width: 50px;
         height: 50px;
+        filter: invert(1);
     }
-    
     .user-head {
         width: 50px;
         height: 50px;
+        filter: invert(1);
     }
-    
     .translate-head {
         color: #ffffff;
     }
+<<<<<<< HEAD
     
     header {
         background: #01ACB4;
@@ -198,6 +233,8 @@
         color: #ffffff;
         font-size: 50px;
     }
+=======
+>>>>>>> f4eb62aaa91741fdc7bacb25dc44090925313f13
     /*End od Head style*/
     /* Applications style*/
     
