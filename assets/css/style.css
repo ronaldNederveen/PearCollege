@@ -78,10 +78,6 @@ body {
     color: #999999;
 }
 
-#passwordInput::selection {
-    outline: none;
-}
-
 #LoginUserIcon {
     width: 38px;
     filter: invert(1);
@@ -106,7 +102,6 @@ body {
     display: flex;
     align-items: center;
     gap: 3px;
-    border-radius: 7px;
 }
 
 .passwordField {
@@ -115,7 +110,6 @@ body {
     display: flex;
     align-items: center;
     gap: 3px;
-    border-radius: 7px;
 }
 
 .loginButton input {
@@ -204,6 +198,7 @@ header {
     align-items: center;
 }
 
+
 /* left head */
 
 .logo {
@@ -231,8 +226,8 @@ header {
     align-items: center;
     border-radius: 8px;
     background-color: #ffffff;
-    height:30px; 
-    width:430px;
+    height: 30px;
+    width: 430px;
 }
 
 .search-head {
@@ -283,6 +278,7 @@ header {
     border-radius: 30px;
 }
 
+
 /*End od Head style*/
 
 
@@ -308,10 +304,14 @@ header {
 
 
 /* End applications style*/
+
+
 /* Popups */
 
+
 /* User */
-.popup_user .container{
+
+.popup_user .container {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -322,6 +322,7 @@ header {
     width: 492px;
     animation: popup_user ease .5s;
 }
+
 .popup_user {
     background-color: rgba(0, 0, 0, 60%);
     width: 100vw;
@@ -331,10 +332,12 @@ header {
     z-index: 9;
     animation: background ease .5s;
 }
+
 .popup_user .links a {
     color: var(--clr-turquoise);
     margin-bottom: 20px;
 }
+
 .popup_user .links {
     display: flex;
     flex-direction: column;
@@ -344,17 +347,21 @@ header {
     left: 50%;
     transform: translateX(-50%);
 }
+
 .popup_user p.type {
     font-size: 22px;
     margin-top: 93px;
 }
+
 .popup_user p.input {
     color: var(--clr-gray-1);
     font-size: 20px;
 }
+
 .popup_user .type.nomargin {
     margin-top: 50px;
 }
+
 .popup_user h2 {
     font-size: 30px;
     text-align: center;
@@ -362,23 +369,28 @@ header {
     padding: 20px;
     margin-top: 80px;
 }
+
 .popup_user .box {
     width: 394px;
     position: relative;
     height: 100%;
 }
+
 .popup_user .content {
     margin: 0 80px;
 }
+
 .cross {
     width: 50px;
     height: 50px;
     position: absolute;
 }
+
 .popup_user .cross {
     top: 30px;
     right: 30px;
 }
+
 .line {
     width: 70px;
     height: 5px;
@@ -387,12 +399,15 @@ header {
     top: 23px;
     left: -10px;
 }
+
 .line.first {
     transform: rotate(45deg);
 }
+
 .line.second {
     transform: rotate(-45deg);
 }
+
 @keyframes popup_user {
     0% {
         width: 0;
@@ -401,6 +416,7 @@ header {
         width: 492px;
     }
 }
+
 @keyframes background {
     0% {
         background-color: rgba(0, 0, 0, 0%);
