@@ -1,195 +1,216 @@
-:root {
-    --clr-turquoise: #01ACB4;
-    --clr-gray-1: #565656;
-    --clr-gray-2: #999999;
-    --clr-gray-3: #A7A7A7;
-    --clr-black: #000000;
-    --clr-white: #FFFFFF;
-    --clr-blueish: #202731;
-}
-@font-face {
-    font-family: Futura;
-    src: url(../font/futur.ttf);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-}
-.loginScreen{
-    background-color: #01ACB4;
-}
-
-.login {
-    margin: auto;
-    margin-top: 90px;
-    width: 400px;
-    height: 400px;
-    display: grid;
-    background-color: white;
-    grid-column: 1;
-    grid-template-rows:100px, 100px, 100px, 100px;
-    border-radius: 50px;
-    border-color: #01ACB4;
-}
-
-#loginLogo{
-    width: 136px;
+     :root {
+        --clr-turquoise: #01ACB4;
+        --clr-gray-1: #565656;
+        --clr-gray-2: #999999;
+        --clr-gray-3: #A7A7A7;
+        --clr-black: #000000;
+        --clr-white: #FFFFFF;
+        --clr-blueish: #202731;
+    }
     
-}
-.loginHeader{
-margin: auto;
-}
-
-.loginText{
-margin: auto;
-}
-
-.loginInput{
-background-color: transparent;
-margin: 0 auto;
-}
-
-#emailInput{
-margin: 0 auto;
-padding: 10px;
-border-radius: 10px;
-background-color:var(--clr-black);
-}
-
-#passwordInput{
-margin: 0 auto;
-padding: 10px;
-border-radius: 10px;
-background-color:var(--clr-black);
-color: #999999;
-}
-
-.loginButton{
-margin: 0 auto;
-height: 75px;
-}
-
-.emailInput{
-margin: 0 auto;
-}
-.passwordInput{
-margin: 0 auto;
-}
-
-/* Hero Style */
-.intro {
-    background-color: var(--clr-turquoise);
-    color: var(--clr-white);
-    padding: 0 100px 100px 133px;
-    width: max-content;
-    border-radius: 0 0 100px 0;
-    text-align: center;
-    position: relative;
-}
-.corner {
-    position: absolute;
-    right: -100px;
-    top: 0;
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: var(--clr-turquoise);
-}
-.top {
-    position: absolute;
-    border-radius: 50%;
-    right: -200px;
-    top: 0;
-    display: block;
-    width: 200px;
-    height: 200px;
-    background-color: var(--clr-white);
-}
-h1 {
-    padding-bottom: 20px;
-    font-size: 50px;
-}
-.box {
-    width: 565px;
-    height: 461px;
-    background-color: var(--clr-white);
-    border-radius: 0 0 50px 0;
-}
-
-/* End of Hero style */
-
-/*Head style*/
-/*
-.logo-head  {order: 1; }
-.title-head {order: 2; }
-.search-head{order: 3; }
-.UK-head    {order: 4; }
-.bell-head  {order: 5; }
-.user-head  {order: 6; }
-*/
-
-.logo-head{
-    width: 50px;
-    height: 50px;
-}
-
-.search-head{
-    width: 50px;
-    height: 50px;
-}
-
-.bell-head{
-    width: 50px;
-    height:50px;
-}
-
-.user-head{
-    width: 50px;
-    height: 50px;
-}
-
-
-.title-head{
-    color: #ffffff;
-}
-
-/*End od Head style*/
-/* Applications style*/
-
-
-#application_box {
-	width: 1631px;
-	height: 150px;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-}
-#app_box {
-    display: flex;
-    justify-content: space-between;
-    width: 1000px; 
-    height: 150px; 
-}
-
-.title_applications {
-    display: flex;
-    width: 100px ;
-    height: 100px ;
-     
-}
-.application {
-	width: 150px; 
-	height: 150px;
-	border: solid;
-
-} 
-#title_applications {
-    margin: 0 auto; 
-}
-
-/* End applications style*/
+    @font-face {
+        font-family: Futura;
+        src: url(../font/futur.ttf);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    }
+    
+    .loginScreen {
+        background-color: #01ACB4;
+    }
+    
+    .login {
+        margin: auto;
+        margin-top: 90px;
+        width: 400px;
+        height: 400px;
+        display: grid;
+        background-color: white;
+        grid-column: 1;
+        grid-template-rows: 100px, 100px, 100px, 100px;
+        border-radius: 50px;
+        border-color: #01ACB4;
+    }
+    
+    #loginLogo {
+        width: 136px;
+    }
+    
+    .loginHeader {
+        margin: auto;
+    }
+    
+    .loginText {
+        margin: auto;
+    }
+    
+    .loginInput {
+        background-color: transparent;
+        margin: 0 auto;
+    }
+    
+    #emailInput {
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: var(--clr-black);
+        color: #999999;
+    }
+    
+    #passwordInput {
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: var(--clr-black);
+        color: #999999;
+    }
+    
+    #LoginUserIcon {
+        width: 38px;
+    }
+    
+    #LoginLockIcon {
+        width: 38px;
+    }
+    
+    #emailInput {
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: var(--clr-black);
+        color: #999999;
+    }
+    
+    .emailField {
+        border: #000000 solid 1px;
+    }
+    
+    .passwordField {
+        border: #000000 solid 1px
+    }
+    
+    .loginButton input {
+        margin: 0 auto;
+        height: 70px;
+        width: 260px;
+        background-color: #01ACB4;
+        border-radius: 32px;
+    }
+    
+    .loginButton {
+        margin: 0 auto;
+        color: #FFFFFF;
+        border-style: none;
+    }
+    
+    .emailInput {
+        margin: 0 auto;
+        align-items: baseline;
+    }
+    
+    .passwordInput {
+        margin: 0 auto;
+        align-items: baseline;
+    }
+    /* Hero Style */
+    
+    .intro {
+        background-color: var(--clr-turquoise);
+        color: var(--clr-white);
+        padding: 0 100px 100px 133px;
+        width: max-content;
+        border-radius: 0 0 100px 0;
+        text-align: center;
+        position: relative;
+    }
+    
+    .corner {
+        position: absolute;
+        right: -100px;
+        top: 0;
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: var(--clr-turquoise);
+    }
+    
+    .top {
+        position: absolute;
+        border-radius: 50%;
+        right: -200px;
+        top: 0;
+        display: block;
+        width: 200px;
+        height: 200px;
+        background-color: var(--clr-white);
+    }
+    
+    h1 {
+        padding-bottom: 20px;
+        font-size: 50px;
+    }
+    
+    .box {
+        width: 565px;
+        height: 461px;
+        background-color: var(--clr-white);
+        border-radius: 0 0 50px 0;
+    }
+    /* End of Hero style */
+    /*Head style*/
+    
+    .logo-head {
+        width: 135px;
+        height: 135px;
+    }
+    
+    .search-head {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .bell-head {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .user-head {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .translate-head {
+        color: #ffffff;
+    }
+    
+    header {
+        background: #01ACB4;
+    }
+    
+    .title-head {
+        color: #ffffff;
+        font-size: 50px;
+    }
+    /*End od Head style*/
+    /* Applications style*/
+    
+    #application_box {
+        width: 1300px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .application {
+        width: 70px;
+        height: 70px;
+        border: solid;
+    }
+    /* End applications style*/
