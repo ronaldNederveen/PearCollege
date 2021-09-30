@@ -26,7 +26,7 @@ include "header.php";
         </div>
 
         <div class="loginButton">
-            <input type="submit" name="login">
+            <input type="submit" name="login" placeholder="Login">
         </div>
 
 
