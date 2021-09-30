@@ -205,11 +205,13 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
+    margin-left: 130px;
 }
 
 .logo-head {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
+
 }
 
 .title-head {
@@ -251,12 +253,12 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-right:100px ;
+    margin-right:130px ;
 }
 
 .bell-head {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     filter: invert(1);
     padding-left: 20px;
     padding-right: 25px;
@@ -276,6 +278,7 @@ header {
     width: 30px;
     height: 30px;
     border-radius: 30px;
+    padding-left: 10px;;
 }
 
 
