@@ -44,11 +44,13 @@
     }
     
     .loginHeader {
+        float: left;
         margin: auto;
     }
     
     .loginText {
-        margin: auto;
+        float: left;
+        margin-top: 75px;
     }
     
     .loginInput {
@@ -80,13 +82,6 @@
         width: 38px;
     }
     
-    #emailInput {
-        margin: 0 auto;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: var(--clr-black);
-        color: #999999;
-    }
     
     .emailField {
         border: white solid 1px;
@@ -181,12 +176,12 @@
     }
 >>>>>>> f4eb62aaa91741fdc7bacb25dc44090925313f13
     .logo-head {
-        width: 135px;
-        height: 135px;
+        width: 120px;
+        height: 120px;
     }
     .title-head {
         color: #ffffff;
-        font-size: 50px;
+        font-size: 40px;
     }
 /* center head */
     .search{
@@ -195,14 +190,16 @@
         align-items: center;
     }
     .search-head {
-        width: 50px;
-        height: 50px;
+        width: 15px;
+        height: 15px;
+        position: fixed;
+        padding: 10px;
     }
     #searchbar{ 
         border: 1px #565656; 
-        border-radius: 10px;
-        height: 50px;
-        width: 600px;
+        border-radius: 8px;
+        height: 30px;
+        width: 400px;
     }
 /* right head*/
     .icons{
@@ -211,13 +208,13 @@
         align-items: center;
     }
     .bell-head {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         filter: invert(1);
     }
     .user-head {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         filter: invert(1);
     }
     .translate-head {
