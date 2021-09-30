@@ -3,11 +3,6 @@
 		<head>
 		<meta charset="UTF-8"/> 
 		<link rel="stylesheet" href="assets/css/style.css"/>
-		<style> 
-			.app {
-				background-color: red;
-			}
-		</style>
 		</head>
 		<body>
 				<div id="title_applications"><h3>Applications</h3></div>
