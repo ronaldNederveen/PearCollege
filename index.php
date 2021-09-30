@@ -9,6 +9,7 @@
 <?php
 
 include "header.php";
+include "head.php";
 
 ?>
 
