@@ -29,7 +29,7 @@ include "header.php";
         </div>
 
         <div class="loginButton">
-            <input type="submit" name="login" value="Login">
+            <input type="submit" name="login" value="LOGIN">
         </div>
 
 

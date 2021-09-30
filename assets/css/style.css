@@ -126,7 +126,9 @@ body {
     margin: 0 auto;
     height: 45px;
     width: 260px;
+    color: white;
     background-color: #01ACB4;
+    border: none;
     border-radius: 32px;
 }
 
@@ -221,7 +223,6 @@ header {
 .logo-head {
     width: 80px;
     height: 80px;
-
 }
 
 .title-head {
@@ -263,7 +264,7 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-right:130px ;
+    margin-right: 130px;
 }
 
 .bell-head {
@@ -288,7 +289,8 @@ header {
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    padding-left: 10px;;
+    padding-left: 10px;
+    ;
 }
 
 
