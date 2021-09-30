@@ -17,9 +17,10 @@
         </div>
         <!--icons part-->
         <div class="icons">
+            <div class="Icontext">
             <img src="assets/icons/united-kingdom.svg"                       alt="UK"        class="UK-head">
-         
             <p class=translate-head>English</p> 
+            </div>
             <img src="assets/icons/bell-solid.svg"       alt="bell"      class="bell-head"> 
             <img src="assets/icons/user-solid.svg"       alt="user"      class="user-head">
         </div>    
