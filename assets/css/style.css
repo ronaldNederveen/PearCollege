@@ -44,11 +44,13 @@
     }
     
     .loginHeader {
+        float: left;
         margin: auto;
     }
     
     .loginText {
-        margin: auto;
+        float: left;
+        margin-top: 75px;
     }
     
     .loginInput {
@@ -80,13 +82,6 @@
         width: 38px;
     }
     
-    #emailInput {
-        margin: 0 auto;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: var(--clr-black);
-        color: #999999;
-    }
     
     .emailField {
         border: white solid 1px;
