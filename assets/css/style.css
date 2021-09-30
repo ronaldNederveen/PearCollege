@@ -161,8 +161,6 @@
     /* End of Hero style */
     /*Head style*/
     
-<<<<<<< HEAD
-=======
     header {
         background: #01ACB4;
         display: flex;
@@ -174,7 +172,6 @@
         align-content: center;
         align-items: center;
     }
->>>>>>> f4eb62aaa91741fdc7bacb25dc44090925313f13
     .logo-head {
         width: 120px;
         height: 120px;
