@@ -12,7 +12,7 @@
         <div class="search">
             <img src="assets/icons/search-solid.svg"     alt="search"    class="search-head">
                 <form>
-                    <imput type="text" id="searchbar" name="searchbar">
+                    <input type="text" id="searchbar" name="searchbar">
                 </form>
         </div>
         <!--icons part-->

@@ -10,13 +10,13 @@ include "header.php";
 
     <div class="login">
         <div class="loginHeader">
-
-
             <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo" style="float:right" padding300px;>
+            <h3>Pear College</h3>
+            
         </div>
 
 
-        <h3>Pear College</h3>
+        
     
     <div class="loginInput">
 
