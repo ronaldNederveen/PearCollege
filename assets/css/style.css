@@ -195,6 +195,12 @@
         width: 50px;
         height: 50px;
     }
+    #searchbar{ 
+        border: 1px #565656; 
+        border-radius: 10px;
+        height: 50px;
+        width: 600px;
+    }
 /* right head*/
     .icons{
         display: flex;
@@ -204,10 +210,12 @@
     .bell-head {
         width: 50px;
         height: 50px;
+        filter: invert(1);
     }
     .user-head {
         width: 50px;
         height: 50px;
+        filter: invert(1);
     }
     .translate-head {
         color: #ffffff;
