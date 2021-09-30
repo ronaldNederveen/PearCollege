@@ -201,16 +201,20 @@
     /*End od Head style*/
     /* Applications style*/
     
-    #application_box {
-        width: 1300px;
-        height: 100px;
+    #app_box {
+        width: 1631px;
+        height: 150px;
+        background-color: red;
         display: flex;
         justify-content: space-between;
     }
     
-    .application {
-        width: 70px;
-        height: 70px;
-        border: solid;
+    .app {
+        width: 150px;
+        height: 150px;
+        border: 5px solid black;
+    } 
+    #title_applications {
+        background-color: blue;
     }
     /* End applications style*/
