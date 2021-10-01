@@ -2,8 +2,6 @@
 include "header.php";
 ?>
 
-<!DOCTYPE html>
-
 <body class="loginScreen">
 
     <div class="login">
@@ -15,8 +13,8 @@ include "header.php";
         </div>
         </div>
         
-        <div class="loginInput">
 
+        <div class="loginInput">
             <div class="emailField">
                 <img src="assets/icons/user-solid.svg" alt="Icon user" id="LoginUserIcon">
                 <input type="text" size="25" name="email" placeholder="E-mail..." id="emailInput">
