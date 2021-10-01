@@ -323,18 +323,18 @@ header {
 /* footer style */
 
 .footersmall {
-    height: 20px;
+    height: 26px;
     background-color: black;
 }
 
 .footerbig { 
-    height: 40px;
+    height: 31px;
     background-color: black;
 }
 
 .copyright-notice {
     margin-left: 33.5px;
-    font-size:14px ;
+    font-size: 10.5px;
     color:#ffffff ;
 }
 
