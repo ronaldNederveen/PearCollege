@@ -9,6 +9,7 @@
 <?php
 
 include "header.php";
+include "head.php";
 
 ?>
 
@@ -20,11 +21,13 @@ include "header.php";
             <i class="top"></i>
         </div>
         <div class="news"></div>
-        <div class="apps"></div>
+        <div class="apps">
+        </div>
     </div>  
 
 <?php
 
+//include "popups.php";
 include "foot.php";
 
 ?>

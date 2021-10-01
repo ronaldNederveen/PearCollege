@@ -10,17 +10,19 @@
         </div>
         <!--search bar part -->
         <div class="search">
-            <img scr="assets/icons/search-solid.svg"     alt="search"    class="search-head">
+            <img src="assets/icons/search-solid.svg"     alt="search"    class="search-head">
                 <form>
-                    <imput type="text" id="searchbar" name="searchbar">
+                    <input type="text" id="searchbar" name="searchbar">
                 </form>
         </div>
         <!--icons part-->
         <div class="icons">
-            <img scr="img/"                       alt="UK"        class="UK-head">
+            <div class="Icontext">
+            <img src="assets/icons/united-kingdom.svg"   alt="UK"        class="UK-head">
             <p class=translate-head>English</p> 
+            </div>
             <img src="assets/icons/bell-solid.svg"       alt="bell"      class="bell-head"> 
-            <img scr="assets/icons/user-solid.svg"       alt="user"      class="user-head">
+            <img src="assets/icons/user-solid.svg"       alt="user"      class="user-head">
         </div>    
     </header> 
  
