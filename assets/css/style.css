@@ -335,7 +335,7 @@ header {
     justify-content: space-between;
 }
 
-.app {font-style: ;
+.app {
     width: 150px;
     height: 150px;
     border: 1px solid black;
