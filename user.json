@@ -1,0 +1,11 @@
+{
+    "Student":[
+        {
+            "studentid": "1",
+            "naam": "Achmed Joopje",
+            "opleiding": "ICT",
+            "gebruikersnaam": "AchmedJ2002",
+            "wachtwoord": "Achmed1234"
+        }
+    ]
+}
