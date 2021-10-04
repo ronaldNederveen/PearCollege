@@ -273,12 +273,14 @@ header {
     filter: invert(1);
     padding-left: 20px;
     padding-right: 25px;
+    margin-bottom: 24px;
 }
 
 .user-head {
     width: 30px;
     height: 30px;
     filter: invert(1);
+    margin-bottom: 24px;
 }
 
 .translate-head {
