@@ -22,7 +22,7 @@
             <p class=translate-head>English</p> 
             </div>
             <img src="assets/icons/bell-solid.svg"       alt="bell"      class="bell-head"> 
-            <img src="assets/icons/user-solid.svg"       alt="user"      class="user-head">
+            <img src="assets/icons/user-solid.svg"       alt="user"      class="user-head" id="popupUser" onclick="toggleUserPopup()">
         </div>    
     </header> 
  

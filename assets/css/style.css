@@ -443,6 +443,10 @@ header {
     transform: rotate(-45deg);
 }
 
+.dis {
+    display: none;
+}
+
 @keyframes popup_user {
     0% {
         width: 0;
