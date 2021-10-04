@@ -297,6 +297,34 @@ header {
 
 /*End od Head style*/
 
+/*Latest news style*/
+
+.latest-news {
+    display: flex;
+    width: 852px;
+    height: 543px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+.imgln {
+    width: 231px;
+    height: 126px;
+}
+
+.lntext {
+    font-size: 28px;
+}
+
+.link-news {
+    font-size: 18px;
+    color:#01ACB4;
+}
+
+
+
+/*End of latest news style*/
 
 /* Applications style*/
 
@@ -307,7 +335,7 @@ header {
     justify-content: space-between;
 }
 
-.app {
+.app {font-style: ;
     width: 150px;
     height: 150px;
     border: 1px solid black;
