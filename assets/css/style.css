@@ -299,7 +299,7 @@ header {
 }
 
 #title_applications {
-    width: 150px;
+    width: 15px;
     padding: 0 0 0 35px;
 }
 
@@ -410,17 +410,29 @@ header {
 
 
 /* Works made by students */
-#studentworks {
-    width: 1388.42px;
-    height: 629.27px;
+.a {
+    width: 1388,42px;
+    height: 629,27px;
+    display: flex;
+    gap: 35px;
 }
 
+.a :nth-child(even) {
+    margin-top: 80px;
+}
+.app_title :nth-child(even) {
+    margin-top: 35px;
+}
 .studentapp {
     width: 315px;
     height: 481px;
     border: 1px solid black; 
 }
 
+.app_title {
+    height: 509.5px;
+
+}
 
 
 /* End works made by students */
