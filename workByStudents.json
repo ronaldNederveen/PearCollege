@@ -3,13 +3,13 @@
         "creator": "rob",
         "releaseDate": "18-12-2020",
         "description": "hercreatie van het wereldberoemde spel flappybird",
-        "image": ""
+        "image": "flappingBird.png"
 
     },
     "mariu": {
         "creator": "gerjan",
         "releaseDate": "20-12-2020",
         "description": "platformer die geïnspireeds is op de wereldberoemde italiaanse loodgieter",
-        "image": ""
+        "image": "mariu.png"
     }
 }
