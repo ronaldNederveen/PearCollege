@@ -46,7 +46,7 @@ function StudentWork($value){
     //echo "<div class=\"]\">"; 
     print_r($value);
     echo "<div class=\"studentapp\"> </div>";
-    echo "<p>$value['description']</p>";
+    echo "<p>".$value['description']."</p>";
     echo "</div>";
 
 
