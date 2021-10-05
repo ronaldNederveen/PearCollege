@@ -1,7 +1,7 @@
               
         <?php  session_start();
     if(isset($_POST['Submit'])){
-    $logins = array('Alex' => '123456');
+    $logins = array('AchmedJ2002' => 'Achmed1234');
 
     $Username = isset($_POST['Username']) ? $_POST['Username'] : '';
 $Password = isset($_POST['Password']) ? $_POST['Password'] : '';
