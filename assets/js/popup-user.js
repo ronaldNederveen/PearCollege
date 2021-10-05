@@ -1,7 +1,7 @@
-let popupuser = document.getElementById('popupuser');
+popupuser = document.getElementById('popupuser');
 //let bellIcon = document.getElementById('popupBell');
 //let userIcon = document.getElementById('popupUser');
-let containerPopupUser = document.getElementById('container_popup_user');
+containerPopupUser = document.getElementById('container_popup_user');
         
 function toggleUserPopup() {
     popupuser.classList.toggle('dis');
