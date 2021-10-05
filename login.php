@@ -1,6 +1,5 @@
 <?php
 include "header.php";
-include "loginscript.php"
 ?>
 <!--Login screen of Pear Collage-->
 <body class="loginScreen">

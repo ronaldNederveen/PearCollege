@@ -10,7 +10,7 @@
 
 include "header.php";
 include "head.php";
-if(!isset($_SESSION['UserData']['Username'])){
+if(!isset($_SESSION['UserData']['email'])){
     header("location:login.php");
     exit;
     }
