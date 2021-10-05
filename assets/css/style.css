@@ -208,6 +208,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 133px;
 }
 
 
@@ -297,6 +298,44 @@ header {
 
 /*End od Head style*/
 
+/*Latest news style*/
+
+.latest-news {
+    display: flex;
+    flex-direction: column;
+    margin-left: 953px;
+    margin-top: 69px;
+    width: 852px;
+    height: 543px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+.imgln {
+    width: 231px;
+    height: 126px;
+}
+
+.lntext {
+    display: flex;
+    float: left;
+    font-size: 28px;
+}
+
+.link-news {
+    font-size: 18px;
+    float: left;
+    color:#01ACB4;
+}
+
+.title-news {
+    margin-left: 1051px;
+    margin-top: 195px;
+    font-size: 39px;
+}
+
+/*End of latest news style*/
 
 /* Applications style*/
 
@@ -341,12 +380,11 @@ header {
 
 /* End footer style*/
 
+
 /* Popups */
 
-
 /* User */
-
-.popup_user .container {
+.popup_user .container{
     display: flex;
     justify-content: center;
     position: absolute;
@@ -357,7 +395,6 @@ header {
     width: 492px;
     animation: popup_user ease .5s;
 }
-
 .popup_user {
     background-color: rgba(0, 0, 0, 60%);
     width: 100vw;
@@ -367,12 +404,10 @@ header {
     z-index: 9;
     animation: background ease .5s;
 }
-
 .popup_user .links a {
     color: var(--clr-turquoise);
     margin-bottom: 20px;
 }
-
 .popup_user .links {
     display: flex;
     flex-direction: column;
@@ -382,21 +417,17 @@ header {
     left: 50%;
     transform: translateX(-50%);
 }
-
 .popup_user p.type {
     font-size: 22px;
     margin-top: 93px;
 }
-
 .popup_user p.input {
     color: var(--clr-gray-1);
     font-size: 20px;
 }
-
 .popup_user .type.nomargin {
     margin-top: 50px;
 }
-
 .popup_user h2 {
     font-size: 30px;
     text-align: center;
@@ -404,28 +435,23 @@ header {
     padding: 20px;
     margin-top: 80px;
 }
-
 .popup_user .box {
     width: 394px;
     position: relative;
     height: 100%;
 }
-
 .popup_user .content {
     margin: 0 80px;
 }
-
 .cross {
     width: 50px;
     height: 50px;
     position: absolute;
 }
-
 .popup_user .cross {
     top: 30px;
     right: 30px;
 }
-
 .line {
     width: 70px;
     height: 5px;
@@ -434,11 +460,9 @@ header {
     top: 23px;
     left: -10px;
 }
-
 .line.first {
     transform: rotate(45deg);
 }
-
 .line.second {
     transform: rotate(-45deg);
 }
