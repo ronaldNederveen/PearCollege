@@ -301,6 +301,9 @@ header {
 
 .latest-news {
     display: flex;
+    flex-direction: column;
+    margin-left: 953px;
+    margin-top: 69px;
     width: 852px;
     height: 543px;
     background-color: #ffffff;
@@ -314,15 +317,22 @@ header {
 }
 
 .lntext {
+    display: flex;
+    float: left;
     font-size: 28px;
 }
 
 .link-news {
     font-size: 18px;
+    float: left;
     color:#01ACB4;
 }
 
-
+.title-news {
+    margin-left: 1051px;
+    margin-top: 195px;
+    font-size: 39px;
+}
 
 /*End of latest news style*/
 
