@@ -319,13 +319,14 @@ header {
 
 .lntext {
     display: flex;
-    float: left;
+    flex-direction: column;
     font-size: 28px;
 }
 
 .link-news {
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
-    float: left;
     color:#01ACB4;
 }
 
