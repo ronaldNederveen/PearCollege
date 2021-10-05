@@ -4,15 +4,15 @@
            "studentid": "1",
             "naam": "Achmed Joopje",
             "opleiding": "ICT",
-            "gebruikersnaam1": "AchmedJ2002",
-            "wachtwoord1": "Achmed1234" 
+            "gebruikersnaam": "AchmedJ2002",
+            "wachtwoord": "Achmed1234" 
         },
         {
             "studentid": "2",
             "naam": "Wiebe Klijnstra",
             "opleiding": "ICT",
-            "gebruikersnaam2": "WiebeK1943",
-            "wachtwoord2": "Klijnstra69"
+            "gebruikersnaam": "WiebeK1943",
+            "wachtwoord": "Klijnstra69"
         }
     ]
 }
