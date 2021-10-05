@@ -309,6 +309,7 @@ header {
     height: 543px;
     background-color: #ffffff;
     overflow-y: scroll;
+    overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
 
@@ -330,10 +331,31 @@ header {
     color:#01ACB4;
 }
 
+.ln{
+    height:180px;
+    width:852px;
+    border-bottom: 5px solid #01ACB4;
+}
 .title-news {
     margin-left: 1051px;
     margin-top: 195px;
     font-size: 39px;
+}
+
+.latest-news::-webkit-scrollbar {
+    width: 5px;
+}
+
+.latest-news::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+.latest-news::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+.latest-news::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 
 /*End of latest news style*/

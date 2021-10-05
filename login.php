@@ -33,14 +33,11 @@ include "header.php";
             <input type="submit" name="login" value="LOGIN">
         </div>
 
-                
-        <?php
-
+    <php?
         $json = file_get_contents('user.json');
         $json_data = json_decode($json);
         //print_r($json_data);
-
-
+        
     ?>
     
 </body>
