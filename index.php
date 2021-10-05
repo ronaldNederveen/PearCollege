@@ -6,10 +6,14 @@
 * Programmer('s):
 *
 -->
-<?php
+<?php session_start();
 
 include "header.php";
 include "head.php";
+if(!isset($_SESSION['UserData']['Username'])){
+    header("location:login.php");
+    exit;
+    }
 
 ?>
 <!-- Welcome student -->

@@ -1,5 +1,6 @@
 <?php
 include "header.php";
+include "loginscript.php"
 ?>
 <!--Login screen of Pear Collage-->
 <body class="loginScreen">
@@ -30,7 +31,7 @@ include "header.php";
 
         <!--[LOGIN] button -->
         <div class="loginButton">
-            <input type="submit" name="login" value="LOGIN">
+            <a href="index.php"><input type="submit" name="login" value="LOGIN"></a>
         </div>
 
     <php?
