@@ -24,9 +24,10 @@ echo "</div>";
 function StudentWork($value)
 {
     echo "<div class=\"app_title\">";
-    echo "<div class=\"studentapp\"> </div>";
+    echo "<div class=\"studentapp\"> ";
+    echo "<img src=\"assets/img/workByStudents/".$value['image']."\">";
     echo "<p>" . $value['description'] . "</p>";
-    echo "</div>";
+    echo "</div></div>";
 }
 
 ?>
