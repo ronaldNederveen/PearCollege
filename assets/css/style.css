@@ -308,7 +308,6 @@ header {
     width: 852px;
     height: 543px;
     background-color: #ffffff;
-    overflow-y: scroll;
     overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
@@ -335,6 +334,7 @@ header {
     height:180px;
     width:852px;
     border-bottom: 5px solid #01ACB4;
+    padding-bottom: 20px;
 }
 .title-news {
     margin-left: 1051px;
