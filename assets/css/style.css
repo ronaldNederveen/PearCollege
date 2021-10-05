@@ -341,6 +341,22 @@ header {
     font-size: 39px;
 }
 
+.latest-news::-webkit-scrollbar {
+    width: 5px;
+}
+
+.latest-news::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+.latest-news::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+.latest-news::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 /*End of latest news style*/
 
 /* Applications style*/
