@@ -17,11 +17,11 @@ include "header.php";
         <div class="loginInput">
             <div class="emailField">
                 <img src="assets/icons/user-solid.svg" alt="Icon user" id="LoginUserIcon">
-                <input type="text" size="25" name="email" placeholder="E-mail..." id="emailInput">
+                <input type="text" size="25" name="username" placeholder="Username..." id="emailInput">
             </div>
             <br>
             
-            
+
         <!-- Password-->
             <div class="passwordField">
                 <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
