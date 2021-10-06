@@ -208,7 +208,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 133px;
+    height: 100px;
 }
 
 
@@ -229,6 +229,7 @@ header {
 .title-head {
     color: #ffffff;
     font-size: 30px;
+    font-family: 'futura';
 }
 
 
@@ -293,6 +294,10 @@ header {
     height: 30px;
     border-radius: 30px;
     margin-left: 12px;
+}
+.Icontext:hover .translate-head {
+    color: rgb(218, 218, 218);
+    cursor: pointer;
 }
 
 
@@ -497,6 +502,7 @@ header {
 .btn:hover {
     cursor: pointer;
     color: rgb(218, 218, 218);
+    filter: invert(.8);
 }
 
 @keyframes popup_user {
