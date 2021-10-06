@@ -5,42 +5,6 @@
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-        <div> 
-                <h1>Works made by students</h1>
-                <div class="a"> 
-                    <div class="app_box"> 
-                        <div class="studentapp">
-                            <img src="./assets/img/workByStudents/flappingBird.png" alt="img">
-                        </div>
-                        <p class="apptitle">title</p><p class="devname">Name</p>
-                    </div>
-                    <div class="app_box">
-                        <div class="studentapp">
-                            <div class="testimg"></div>
-                            <div class="b"></div>
-                        </div>
-                        <p class="apptitle">title</p><p class="devname">Name</p>
-                    </div>
-                    <div class="app_box">
-                        <div class="studentapp">
-                            <div class="testimg"></div>
-                            <div class="b"></div>
-                        </div>
-                        <p class="apptitle">text</p><p class="devname">Name</p>
-                    </div>
-                    <div class="app_box">    
-                        <div class="studentapp">
-                            <div class="testimg"></div>
-                            <div class="b"></div>
-                        </div>
-                        <p class="apptitle">text</p><p class="devname">Name</p>
-                    </div>    
-                </div>
-            </div>
-        
-            <br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/> 
-            </body>
-            
 
     <?php
     include "header.php";
@@ -75,11 +39,12 @@
     {
         echo "<div class=\"app_box\">";
         echo "<div class=\"studentapp\"> ";
-        echo "<img class=\"img\" src=\"assets/img/workByStudents/".$value['image']."\">";
+        echo "<img src=\"assets/img/workByStudents/".$value['image']."\">";
+        echo "<div id=\"text\">";
         echo "<p class=\"description\">".$value['description']."</p>";
-        echo "<p class=\"creator\">".$value[creator]."</p>";
-        echo "<p class=\"releaseDate\">".$value[releaseDate] ."</p>";
-        echo "</div></div>";
+        echo "<p class=\"creator\">".$value['creator']."</p>";
+        echo "<p class=\"releaseDate\">".$value['releaseDate']."</p>";
+        echo "</div></div></div>";
     }
 
     ?>

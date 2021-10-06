@@ -417,13 +417,13 @@ header {
     gap: 35px;
 }
 
-.a :nth-child(even) {
+.a:not(.creator) >  :nth-child(even) {
     margin-top: 80px;
 }
-.app_box :nth-child(even) {
+
+.app_box:not(.creator) > :nth-child(even) {
     margin-top: 35px;
 }
-
 
 .studentapp {
     width: 315px;
@@ -431,33 +431,32 @@ header {
     border: 1px solid black; 
 }
 
-/* .studentapp img {
-    max-width:100%;
-    height:auto;
-    opacity: 0%; 
-    border: 1px solid black; 
-} */
-
-.img {
-    margin-left: 30px;
-    max-width:100%;
-    height:auto;
-    opacity: 0%; 
-    border: 1px solid black; 
-}
-.app_box {
-    height: 509.5px;
+.studentapp  img {
+    width: 315px;
+    height: auto; 
 }
 
 .description {
-    color: pink;
+    color: black;
+}
+
+.text .creator {
+    color: black;
+    margin-top: 0px;
+}
+
+.releaseDate {
+    color: black;
+}
+.app_box {
+    height: 481.5px;
 }
 
 .b {
     width: 315px;
     height: 240.5px;
     border: 1px solid pink; 
-    background-color: blue;
+    background-color: violet;
     margin-top: 0px;
 }
 
