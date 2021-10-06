@@ -1,15 +1,22 @@
 {
     "flappingBird": {
-        "creator": "rob",
+        "creator": "Nora Kouma",
         "releaseDate": "18-12-2020",
         "description": "hercreatie van het wereldberoemde spel flappybird",
         "image": "flappingBird.png"
 
     },
     "mariu": {
-        "creator": "gerjan",
+        "creator": "Benn Lane",
         "releaseDate": "20-12-2020",
         "description": "platformer die geïnspireeds is op de wereldberoemde italiaanse loodgieter",
         "image": "mariu.png"
+    },
+    "Angry pigs" {
+        "creator": "Gordon Hartley",
+        "releaseDate": "19-12-2020",
+        "description": "Na jaren lang aangevallen te zijn is het nu tijd voor de varkens om de vogels terug te pakken. In deze nieuwe game pakken de varkens de taktieken van de vogels over en nemen de katapult om binnen te treden in de bouw werken van de vogels en deze te vernietigen",
+        "image": "angrypigs.png"
+
     }
 }
