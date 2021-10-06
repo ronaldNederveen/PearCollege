@@ -187,12 +187,12 @@ body {
 
 h1 {
     padding-bottom: 20px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .box {
-    width: 565px;
-    height: 461px;
+    width: 450px;
+    height: 350px;
     background-color: var(--clr-white);
     border-radius: 0 0 50px 0;
 }
@@ -269,20 +269,14 @@ header {
     margin-right: 130px;
 }
 
-.bell-head {
-    width: 30px;
-    height: 30px;
-    filter: invert(1);
+i.btn {
+    font-size: 30px;
+    color: var(--clr-white);
     padding-left: 20px;
-    padding-right: 25px;
     margin-bottom: 24px;
 }
-
-.user-head {
-    width: 30px;
-    height: 30px;
-    filter: invert(1);
-    margin-bottom: 24px;
+.btn {
+    z-index: 99;
 }
 
 .translate-head {
@@ -417,8 +411,8 @@ header {
     justify-content: center;
     position: absolute;
     background-color: var(--clr-white);
-    height: calc(100vh - 133px);
-    top: 133px;
+    height: calc(100vh - 100px);
+    top: 100px;
     right: 0;
     width: 492px;
     animation: popup_user ease .5s;
@@ -502,7 +496,6 @@ header {
 .btn:hover {
     cursor: pointer;
     color: rgb(218, 218, 218);
-    filter: invert(.8);
 }
 
 @keyframes popup_user {
