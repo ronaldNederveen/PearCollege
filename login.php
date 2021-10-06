@@ -21,6 +21,7 @@ include "header.php";
             </div>
             <br>
             
+            
         <!-- Password-->
             <div class="passwordField">
                 <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
