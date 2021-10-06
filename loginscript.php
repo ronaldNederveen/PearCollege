@@ -20,13 +20,13 @@
                 } else{
                     echo "Geen geldige inlogpoging";
                 }
-            if (isset($logins[$gebruikersnaam]) && $logins[$gebruikersnaam] == $wachtwoord) {
+            /*if (isset($logins[$gebruikersnaam]) && $logins[$gebruikersnaam] == $wachtwoord) {
                 $_SESSION['UserData']['username'] = $logins[$gebruikersnaam];
                 header("location:index.php");
                 exit;
             } else {
                 $msg = "Geen geldige inlogpoging";
-            }
+            } */
           }
 
         ?>
