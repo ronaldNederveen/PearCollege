@@ -34,12 +34,7 @@ include "header.php";
             <a href="index.php"><input type="submit" name="login" value="LOGIN"></a>
         </div>
 
-    <php?
-        $json = file_get_contents('user.json');
-        $json_data = json_decode($json);
-        //print_r($json_data);
-        
-    ?>
+   
     
 </body>
 
