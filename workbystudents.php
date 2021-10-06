@@ -36,24 +36,37 @@ include "header.php";
 
 
 <?php
-$data = file_get_contents("workByStudents.json");
-$data = json_decode($data, true);
+
+// inladen van JSON bestand
+$projects = file_get_contents("workByStudents.json");
+
+//JSON data converteren naar een PHP Array
+$projects = json_decode($projects, true);
+
+
 echo "<h1>Works made by students</h1>";
 echo "<div class=\"a\">";
-foreach ($data as $object) {
-    StudentWork($object);
+
+//Loop door alle JSON objecten / verschillende projecten
+foreach ($projects as $project) {
+    StudentWork($project);
     echo "</br>";
 }
 
 echo "</div>";
 echo "</div>";
 
+
+//functie voor het printen van een blok met informatie van een studenten applicatie
+//Input: Array met informatie over een studenten project
+//Output: een geprint blok met de informatie van een studenten project
 function StudentWork($value)
 {
     echo "<div class=\"app_title\">";
-    echo "<div class=\"studentapp\"> </div>";
+    echo "<div class=\"studentapp\"> ";
+    echo "<img src=\"assets/img/workByStudents/".$value['image']."\">";
     echo "<p>" . $value['description'] . "</p>";
-    echo "</div>";
+    echo "</div></div>";
 }
 
 ?>
