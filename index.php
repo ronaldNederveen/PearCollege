@@ -10,11 +10,12 @@
 
 include "header.php";
 include "head.php";
+include "loginscript.php";
+
 if(!isset($_SESSION['UserData']['email'])){
     header("location:login.php");
     exit;
-    }
-
+}
 ?>
 <!-- Welcome student -->
 
