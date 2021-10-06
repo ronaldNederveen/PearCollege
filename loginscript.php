@@ -5,13 +5,13 @@
         $data = json_decode($users_json, true);
         var_dump($data);
         if (isset($_POST['Submit'])) {
-            $logins = array('email' => 'Password');
+            $logins = array('username' => 'Password');
 
-            $gebruikersnaam = isset($_POST['email']) ? $_POST['email'] : '';
+            $gebruikersnaam = isset($_POST['username']) ? $_POST['username'] : '';
             $wachtwoord = isset($_POST['Password']) ? $_POST['Password'] : '';
 
             if (isset($logins[$gebruikersnaam]) && $logins[$gebruikersnaam] == $wachtwoord) {
-                $_SESSION['UserData']['email'] = $logins[$gebruikersnaam];
+                $_SESSION['UserData']['username'] = $logins[$gebruikersnaam];
                 header("location:index.php");
                 exit;
             } else {
