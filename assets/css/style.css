@@ -420,19 +420,34 @@ header {
 .a :nth-child(even) {
     margin-top: 80px;
 }
-.app_title :nth-child(even) {
+.app_box :nth-child(even) {
     margin-top: 35px;
 }
+
+
 .studentapp {
     width: 315px;
     height: 481px;
     border: 1px solid black; 
 }
 
-.app_title {
+.app_box {
     height: 509.5px;
-
 }
 
+.testimg {
+    width: 315px;
+    height: 240.5px;
+    border: 1px solid black; 
+}
+
+
+.b {
+    width: 315px;
+    height: 240.5px;
+    border: 1px solid pink; 
+    background-color: azure;
+    margin-top: 0;
+}
 
 /* End works made by students */
