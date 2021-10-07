@@ -27,7 +27,7 @@ include "head.php";
 
 <?php
 
-include "popups.php";
+//include "popups.php";
 include "footer.php";
 
 ?>
