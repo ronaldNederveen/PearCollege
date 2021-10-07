@@ -32,6 +32,7 @@ body.loginScreen {
     justify-content: center;
     align-items: center;
 }
+
 .login {
     padding: 50px;
     display: grid;
@@ -41,10 +42,12 @@ body.loginScreen {
     border-radius: 50px;
     border-color: #01ACB4;
 }
+
 form {
     width: 300px;
     margin: 0 auto;
 }
+
 #loginLogo {
     width: 100px;
 }
@@ -130,7 +133,9 @@ form {
     border-radius: 32px;
     height: 56px;
 }
-.loginButton:hover input, .loginButton:hover {
+
+.loginButton:hover input,
+.loginButton:hover {
     background-color: #006c72;
     border-radius: 32px;
     cursor: pointer;
@@ -141,6 +146,7 @@ form {
     color: #FFFFFF;
     border-style: none;
 }
+
 .loginButton input {
     font-weight: 700;
 }
@@ -160,6 +166,7 @@ form {
 
 
 /* Hero Style */
+
 .hero-container {
     display: flex;
     justify-content: space-between;
@@ -288,6 +295,7 @@ i.btn {
     padding-left: 20px;
     margin-bottom: 24px;
 }
+
 .btn {
     z-index: 99;
 }
@@ -302,6 +310,7 @@ i.btn {
     border-radius: 30px;
     margin-left: 12px;
 }
+
 .Icontext:hover .translate-head {
     color: rgb(218, 218, 218);
     cursor: pointer;
@@ -310,13 +319,15 @@ i.btn {
 
 /*End od Head style*/
 
+
 /*Latest news style*/
 
-.latest-block{
+.latest-block {
     display: flex;
     flex-direction: column;
     margin-bottom: 12px;
 }
+
 .latest-news {
     margin-right: 150px;
     margin-left: 10px;
@@ -332,7 +343,7 @@ i.btn {
 }
 
 .text-link {
-    display: flex ;
+    display: flex;
     flex-direction: column;
     margin-left: 30px;
     font-weight: bold;
@@ -342,7 +353,6 @@ i.btn {
     display: grid;
     align-content: center;
     grid: 30px / auto auto;
-
 }
 
 .imgln {
@@ -359,18 +369,19 @@ i.btn {
 .link-news {
     font-size: 13px;
     margin-top: 12px;
-    color:#01ACB4;
+    color: #01ACB4;
 }
 
-.ln{
-    height:108px;
-    width:511.2px;
+.ln {
+    height: 108px;
+    width: 511.2px;
     border-bottom: 3px solid #01ACB4;
     padding-bottom: 6px;
-    padding-top: 12px ;
+    padding-top: 12px;
     display: flex;
     align-items: flex-start;
 }
+
 .title-news {
     font-size: 23.4px;
     margin-left: 110px;
@@ -383,18 +394,20 @@ i.btn {
 }
 
 .latest-news::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-}
-   
-.latest-news::-webkit-scrollbar-thumb {
-    background: #888; 
-}
-  
-.latest-news::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #f1f1f1;
 }
 
+.latest-news::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.latest-news::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
 /*End of latest news style*/
+
 
 /* Applications style*/
 
@@ -412,12 +425,13 @@ i.btn {
 }
 
 #title_applications {
-    width: 150px;
+    width: 15px;
     padding: 0 0 0 35px;
 }
 
 
 /* End applications style*/
+
 
 /* footer style */
 
@@ -426,7 +440,7 @@ i.btn {
     background-color: black;
 }
 
-.footerbig { 
+.footerbig {
     height: 31px;
     background-color: black;
 }
@@ -434,16 +448,19 @@ i.btn {
 .copyright-notice {
     margin-left: 33.5px;
     font-size: 10.5px;
-    color:#ffffff ;
+    color: #ffffff;
 }
+
 
 /* End footer style*/
 
 
 /* Popups */
 
+
 /* User */
-.popup_user .container{
+
+.popup_user .container {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -454,6 +471,7 @@ i.btn {
     width: 350px;
     animation: popup_user ease .5s;
 }
+
 .popup_user {
     background-color: rgba(0, 0, 0, 60%);
     width: 100vw;
@@ -463,10 +481,12 @@ i.btn {
     z-index: 9;
     animation: background ease .5s;
 }
+
 .popup_user .links a {
     color: var(--clr-turquoise);
     margin-bottom: 20px;
 }
+
 .popup_user .links {
     display: flex;
     flex-direction: column;
@@ -476,17 +496,21 @@ i.btn {
     left: 50%;
     transform: translateX(-50%);
 }
+
 .popup_user p.type {
     font-size: 18px;
     margin-top: 93px;
 }
+
 .popup_user p.input {
     color: var(--clr-gray-1);
     font-size: 16px;
 }
+
 .popup_user .type.nomargin {
     margin-top: 50px;
 }
+
 .popup_user h2 {
     font-size: 25px;
     text-align: center;
@@ -495,23 +519,28 @@ i.btn {
     margin: 80px auto 0 auto;
     width: 70%;
 }
+
 .popup_user .box {
     width: 100%;
     position: relative;
     height: 100%;
 }
+
 .popup_user .content {
     margin: 0 80px;
 }
+
 .cross {
     width: 30px;
     height: 30px;
     position: absolute;
 }
+
 .popup_user .cross {
     top: 30px;
     right: 30px;
 }
+
 .line {
     width: 50px;
     height: 4px;
@@ -520,9 +549,11 @@ i.btn {
     top: 23px;
     left: -20px;
 }
+
 .line.first {
     transform: rotate(45deg);
 }
+
 .line.second {
     transform: rotate(-45deg);
 }
@@ -553,3 +584,97 @@ i.btn {
         background-color: rgba(0, 0, 0, 60%);
     }
 }
+
+
+/* Works made by students */
+
+.workByStudents {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.a {
+    width: 1400px;
+    height: 629px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 35px;
+}
+
+.a:not(.creator)> :nth-child(even) {
+    margin-top: 80px;
+}
+
+.app_box:not(.creator)> :nth-child(even) {
+    margin-top: 35px;
+}
+
+.studentapp {
+    width: 315px;
+    height: 481px;
+    border: 1px solid black;
+}
+
+.studentapp img {
+    width: 315px;
+    height: auto;
+}
+
+.title {
+    color: black;
+}
+
+.description {
+    color: black;
+}
+
+.text .creator {
+    color: black;
+    margin-top: 0px;
+}
+
+#text {
+    width: 300px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#q {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.releaseDate {
+    color: black;
+    padding-left: 10px;
+}
+
+.app_box {
+    height: 481.5px;
+}
+
+
+/* Scrollbar workbystudents */
+
+.a::-webkit-scrollbar {
+    height: 10px;
+}
+
+.a::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.a::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.a::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* End works made by students */
