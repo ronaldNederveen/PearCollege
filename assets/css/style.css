@@ -60,6 +60,7 @@ form {
     margin: auto;
     font-family: 'Futura';
     font-size: 25px;
+    font-weight: 700;
 }
 
 .loginInput {
@@ -236,6 +237,7 @@ header {
     color: #ffffff;
     font-size: 30px;
     font-family: 'futura';
+    font-weight: 700;
 }
 
 
