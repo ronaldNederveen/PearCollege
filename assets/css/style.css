@@ -315,14 +315,17 @@ i.btn {
 .latest-block{
     display: flex;
     flex-direction: column;
+    margin-bottom: 12px;
 }
 .latest-news {
     margin-right: 150px;
+    margin-left: 10px;
+    margin-bottom: 12px;
     z-index: 8;
     display: flex;
     flex-direction: column;
     width: 616px;
-    height: 424px;
+    height: 392px;
     background-color: #ffffff;
     overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
@@ -343,18 +346,18 @@ i.btn {
 }
 
 .imgln {
-    width: 138.6px;
-    height: 75.6px;
+    width: 200px;
+    height: 109px;
 }
 
 .lntext {
     margin-bottom: 12px;
-    font-size: 16.8px;
+    font-size: 20px;
     margin-top: 12px;
 }
 
 .link-news {
-    font-size: 10.8px;
+    font-size: 13px;
     margin-top: 12px;
     color:#01ACB4;
 }
@@ -370,7 +373,9 @@ i.btn {
 }
 .title-news {
     font-size: 23.4px;
-    margin-left: 40px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .latest-news::-webkit-scrollbar {
