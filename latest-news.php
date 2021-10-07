@@ -4,8 +4,7 @@
 <div class="latest-block">
     <!-- title of latest news -->
     <p class="title-news">Latest News</p>
-
-
+    
     <!-- news blocks -->
     <div class="latest-news">
         <div class="ln"> 
