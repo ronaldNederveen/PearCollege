@@ -60,6 +60,7 @@ form {
     margin: auto;
     font-family: 'Futura';
     font-size: 25px;
+    font-weight: 700;
 }
 
 .loginInput {
@@ -236,6 +237,7 @@ header {
     color: #ffffff;
     font-size: 30px;
     font-family: 'futura';
+    font-weight: 700;
 }
 
 
@@ -320,8 +322,8 @@ i.btn {
 .text-link {
     display: flex ;
     flex-direction: column;
-    margin-left: 236px;
-    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
 }
 
 .imgln.text-link {
@@ -337,11 +339,14 @@ i.btn {
 }
 
 .lntext {
+    margin-bottom: 20px;
     font-size: 28px;
+    margin-top: 20px;
 }
 
 .link-news {
     font-size: 18px;
+    margin-top: 20px;
     color:#01ACB4;
 }
 
@@ -350,6 +355,8 @@ i.btn {
     width:852px;
     border-bottom: 5px solid #01ACB4;
     padding-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
 }
 .title-news {
     margin-left: 1051px;
