@@ -432,10 +432,16 @@ header {
 
 /* Works made by students */
 
+.workByStudents {
+    margin: 0 auto;
+    width: 1400px;
+}
+
 .a {
-    width: 1388, 42px;
-    height: 629, 27px;
+    width: 1400px;
+    height: 629px;
     display: flex;
+    overflow-x: scroll;
     gap: 35px;
 }
 
@@ -491,6 +497,27 @@ header {
 
 .app_box {
     height: 481.5px;
+}
+
+
+/* Scrollbar workbystudents */
+
+.a::-webkit-scrollbar {
+    height: 10px;
+}
+
+.a::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.a::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.a::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 
