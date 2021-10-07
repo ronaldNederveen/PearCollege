@@ -415,7 +415,6 @@ header {
     height: 629,27px;
     display: flex;
     gap: 35px;
-    overflow-x: auto;
 }
 
 .a:not(.creator) >  :nth-child(even) {
@@ -436,7 +435,9 @@ header {
     width: 315px;
     height: auto; 
 }
-
+.title {
+    color: black;
+}
 .description {
     color: black;
 }
@@ -446,12 +447,16 @@ header {
     margin-top: 0px;
 }
 
-.text {
-    padding-left: 10 px;
+#text {
+    width: 300px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 #q {
     display: flex;
     justify-content: flex-start;
+    padding-top: 10px;
 }
 .releaseDate {
     color: black;
@@ -460,14 +465,4 @@ header {
 .app_box {
     height: 481.5px;
 }
-
-.b {
-    width: 315px;
-    height: 240.5px;
-    border: 1px solid pink; 
-    background-color: violet;
-    margin-top: 0px;
-}
-
-
 /* End works made by students */
