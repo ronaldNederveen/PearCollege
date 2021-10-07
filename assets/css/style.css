@@ -415,6 +415,7 @@ header {
     height: 629,27px;
     display: flex;
     gap: 35px;
+    overflow-x: auto;
 }
 
 .a:not(.creator) >  :nth-child(even) {
@@ -445,8 +446,16 @@ header {
     margin-top: 0px;
 }
 
+.text {
+    padding-left: 10 px;
+}
+#q {
+    display: flex;
+    justify-content: flex-start;
+}
 .releaseDate {
     color: black;
+    padding-left: 10px;
 }
 .app_box {
     height: 481.5px;
