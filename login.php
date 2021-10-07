@@ -24,7 +24,7 @@ include "header.php";
             <!-- Password-->
                 <div class="passwordField">
                     <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
-                    <input type="password" size="25" name="Password" placeholder="Password..." id="passwordInput" required>
+                    <input type="password" size="25" name="password" placeholder="Password..." id="passwordInput" required>
                 </div>
             </div>
 

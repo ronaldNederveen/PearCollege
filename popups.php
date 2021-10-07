@@ -20,7 +20,7 @@
                         <!--Logout/Change password-->
                         <div class="links">
                             <a href="">Change Password</a>
-                            <a href="">Logout</a>
+                            <a href="login.php">Logout</a>
                         </div>
                     </div>
                 </div>

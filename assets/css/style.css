@@ -60,6 +60,7 @@ form {
     margin: auto;
     font-family: 'Futura';
     font-size: 25px;
+    font-weight: 700;
 }
 
 .loginInput {
@@ -128,6 +129,11 @@ form {
     border: none;
     border-radius: 32px;
     height: 56px;
+}
+.loginButton:hover input, .loginButton:hover {
+    background-color: #006c72;
+    border-radius: 32px;
+    cursor: pointer;
 }
 
 .loginButton {
@@ -231,6 +237,7 @@ header {
     color: #ffffff;
     font-size: 30px;
     font-family: 'futura';
+    font-weight: 700;
 }
 
 
