@@ -9,7 +9,7 @@
     <?php
     include "header.php";
     ?>
-    <div>
+    <div class="workByStudents">
 
     <?php
 
