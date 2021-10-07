@@ -1,0 +1,20 @@
+{
+    "news":{
+        "title": "test",
+        "image": "assets/img/news-img/example.PNG",
+        "link": ""
+    },
+    
+    "news1":{
+        "title": "test",
+        "image": "assets/img/news-img/example.PNG",
+        "link": ""
+    },
+
+    "news2":{
+        "title": "test",
+        "image": "assets/img/news-img/example.PNG",
+        "link": ""
+    }
+
+}
