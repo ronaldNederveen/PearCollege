@@ -312,20 +312,30 @@ i.btn {
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
 
+.text-link {
+    display: flex ;
+    flex-direction: column;
+    margin-left: 236px;
+    margin-top: 20px;
+}
+
+.imgln.text-link {
+    display: grid;
+    align-content: center;
+    grid: 50px / auto auto;
+
+}
+
 .imgln {
     width: 231px;
     height: 126px;
 }
 
 .lntext {
-    display: flex;
-    flex-direction: column;
     font-size: 28px;
 }
 
 .link-news {
-    display: flex;
-    flex-direction: column;
     font-size: 18px;
     color:#01ACB4;
 }
