@@ -355,7 +355,7 @@ i.btn {
 .ln{
     height:108px;
     width:511.2px;
-    border-bottom: 5px solid #01ACB4;
+    border-bottom: 3px solid #01ACB4;
     padding-bottom: 12px;
     display: flex;
     align-items: flex-start;
@@ -366,7 +366,7 @@ i.btn {
 }
 
 .latest-news::-webkit-scrollbar {
-    width: 3px;
+    width: 5px;
 }
 
 .latest-news::-webkit-scrollbar-track {
