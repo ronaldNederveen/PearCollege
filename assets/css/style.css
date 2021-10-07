@@ -321,8 +321,8 @@ i.btn {
     z-index: 8;
     display: flex;
     flex-direction: column;
-    width: 511.2px;
-    height: 325.8px;
+    width: 616px;
+    height: 424px;
     background-color: #ffffff;
     overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
@@ -363,7 +363,8 @@ i.btn {
     height:108px;
     width:511.2px;
     border-bottom: 3px solid #01ACB4;
-    padding-bottom: 12px;
+    padding-bottom: 5px;
+    padding-top: 12px;
     display: flex;
     align-items: flex-start;
 }
