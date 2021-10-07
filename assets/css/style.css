@@ -129,6 +129,11 @@ form {
     border-radius: 32px;
     height: 56px;
 }
+.loginButton:hover input, .loginButton:hover {
+    background-color: #006c72;
+    border-radius: 32px;
+    cursor: pointer;
+}
 
 .loginButton {
     margin: 50px auto 0 auto;
