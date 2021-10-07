@@ -13,17 +13,17 @@
 
     <?php
 
-    // inladen van JSON bestand
+    //Loading of the JSON file
     $projects = file_get_contents("workByStudents.json");
 
-    //JSON data converteren naar een PHP Array
+    //JSON data converting to PHP Array
     $projects = json_decode($projects, true);
 
 
     echo "<h1>Works made by students</h1>";
     echo "<div class=\"a\">";
 
-    //Loop door alle JSON objecten / verschillende projecten
+    //Loop for all the JSON objects / different applications
     foreach ($projects as $project) {
         StudentWork($project);
     }
@@ -31,10 +31,10 @@
     echo "</div>";
     echo "</div>";
 
+    //function to print information block about the student application
+    //Input: Array with information about the student application     
+    //Output: Printed block with information about student application
 
-    //functie voor het printen van een blok met informatie van een studenten applicatie
-    //Input: Array met informatie over een studenten project
-    //Output: een geprint blok met de informatie van een studenten project
     function StudentWork($value)
     {
         echo "<div class=\"app_box\">";
