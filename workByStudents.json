@@ -21,6 +21,15 @@
     "link": {
         "creator": "Douglas Shannon",
         "releaseDate": "17-12-2020",
+        "description": "",
         "image": "zelda.png"
+    },
+    "heaven": {
+        "creator": "Carla Sutherland",
+        "releaseDate": "18-12-2020",
+        "description": "After destroying legions worth of demons and zombies you reached your final rest place. or did you? ",
+        "image": "heaven.png"
     }
+
+
 }
