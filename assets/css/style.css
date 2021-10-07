@@ -25,15 +25,15 @@ body {
 
 /* Begin style LoginScreen */
 
-.loginScreen {
+body.loginScreen {
     background-color: #01ACB4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .login {
-    margin: auto;
-    margin-top: 90px;
-    width: 400px;
-    height: 400px;
+    padding: 50px;
     display: grid;
     background-color: white;
     grid-column: 1;
@@ -41,13 +41,16 @@ body {
     border-radius: 50px;
     border-color: #01ACB4;
 }
-
+form {
+    width: 300px;
+    margin: 0 auto;
+}
 #loginLogo {
-    width: 136px;
+    width: 100px;
 }
 
 .loginHeader {
-    margin: auto;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     gap: 3px;
@@ -55,6 +58,8 @@ body {
 
 .loginText {
     margin: auto;
+    font-family: 'Futura';
+    font-size: 25px;
 }
 
 .loginInput {
@@ -68,7 +73,7 @@ body {
     border: none;
     outline: none;
     border-radius: 32px;
-    background-color: var(--clr-black);
+    background-color: var(--clr-blueish);
     color: #999999;
 }
 
@@ -78,7 +83,7 @@ body {
     border: none;
     outline: none;
     border-radius: 32px;
-    background-color: var(--clr-black);
+    background-color: var(--clr-blueish);
     color: #999999;
 }
 
@@ -100,23 +105,15 @@ body {
     margin: 0 auto;
     padding: 10px;
     border-radius: 32px;
-    background-color: var(--clr-black);
-    color: #999999;
+    background-color: var(--clr-blueish);
+    color: var(--clr-gray-2);
 }
 
-.emailField {
-    border: #000000 solid 1px;
-    border-radius: 32px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    gap: 3px;
-}
-
+.emailField,
 .passwordField {
-    border: #000000 solid 1px;
+    border: var(--clr-black) solid 1px;
     border-radius: 32px;
-    background-color: #000000;
+    background-color: var(--clr-blueish);
     display: flex;
     align-items: center;
     gap: 3px;
@@ -125,17 +122,21 @@ body {
 .loginButton input {
     margin: 0 auto;
     height: 45px;
-    width: 260px;
+    width: 300px;
     color: white;
     background-color: #01ACB4;
     border: none;
     border-radius: 32px;
+    height: 56px;
 }
 
 .loginButton {
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     color: #FFFFFF;
     border-style: none;
+}
+.loginButton input {
+    font-weight: 700;
 }
 
 .emailInput {
