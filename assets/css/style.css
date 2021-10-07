@@ -307,11 +307,13 @@ i.btn {
 
 /*Latest news style*/
 
+.latest-block{
+    display: flex;
+    flex-direction: column;
+}
 .latest-news {
     display: flex;
     flex-direction: column;
-    margin-left: 571.8px;
-    margin-top: 41.4px;
     width: 511.2px;
     height: 325.8px;
     background-color: #ffffff;
@@ -359,9 +361,8 @@ i.btn {
     align-items: flex-start;
 }
 .title-news {
-    margin-left: 630.6px;
-    margin-top: 117px;
     font-size: 23.4px;
+    margin-left: 40px;
 }
 
 .latest-news::-webkit-scrollbar {

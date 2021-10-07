@@ -1,8 +1,11 @@
 <?php
   include "header.php";
  ?>
+ 
+<div class="latest-block">
 <!-- title of latest news -->
  <p class="title-news">Latest News</p>
+
 
 <!-- news blocks -->
  <div class="latest-news">
@@ -48,4 +51,5 @@
                 <a class="link-news" href="" >Read more</a>                            <!-- link to the news -->
             </div>  
          </div>    
+    </div>
 </div>

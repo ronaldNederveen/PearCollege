@@ -34,6 +34,7 @@ if(!isset($_SESSION['username'])){
 <?php
 
 include "popups.php";
+include "latest-news.php";
 include "foot.php";
 
 ?>
