@@ -1,34 +1,19 @@
-        <?php 
-        
-        session_start();
-        $users_json = file_get_contents('user.json');
-        $data = json_decode($users_json, true);
-        //var_dump($data);
-        if (isset($_POST['Submit'])) {
-           
-            //$logins = array('username' => 'Password');
+<?php
+$users = [
+    "joe" => "123456",
+    "jon" => "123456"
+];
 
-            $gebruikersnaam = isset($_POST['username']) ? $_POST['username'] : '';
-            $wachtwoord = isset($_POST['Password']) ? $_POST['Password'] : '';
+session_start();
 
-            $user = findOne(array('gebruikersnaam' => 'user1', 'wachtwoord' => 'pass1'));
+if (isset($_POST['username']) && !isset($_SESSION['username'])) {
+    if ($users[$_POST['username']] == $_POST['password']) {
+        $_SESSION['username'] = $_POST['username'];
+    }
+    if (!isset($_SESSION['username'])) { $failed = true;}
+}
 
-
-                if ($gebruikersnaam == 'user1' && $wachtwoord == 'pass1'){
-                    header("location:index.php");
-                    exit;
-                } else{
-                    echo "Geen geldige inlogpoging";
-                }
-            /*if (isset($logins[$gebruikersnaam]) && $logins[$gebruikersnaam] == $wachtwoord) {
-                $_SESSION['UserData']['username'] = $logins[$gebruikersnaam];
-                header("location:index.php");
-                exit;
-            } else {
-                $msg = "Geen geldige inlogpoging";
-            } */
-          }
-
-        ?>
-   
-   
+if (isset($_SESSION['username'])) {
+    header("Location: ../../index.php");
+    exit();
+}
