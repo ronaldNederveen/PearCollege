@@ -8,7 +8,7 @@
 
     },
     "mariu": {
-        "title": "Mariuwu",
+        "title": "MariUwU",
         "creator": "Benn Lane",
         "releaseDate": "20-12-2020",
         "description": "na jaren van falen in het redden van de perzikken princes geeft mario het op. niks heeft meer zin en alles is teveel. tijd voor een verandering.",
@@ -34,6 +34,13 @@
         "releaseDate": "18-12-2020",
         "description": "After destroying legions worth of demons and zombies you reached your final rest place. or did you? ",
         "image": "heaven.png"
+    },
+    "dog hunt": {
+        "title": "dog hunt",
+        "creator": "Mohammed Alexander",
+        "releaseDate": "15-12-2020",
+        "description": "de eenden zijn het zat. Na jaren op gejaagd zijn geweests is het tijd voor een revange.",
+        "image": "doghunt.png"
     }
 
 
