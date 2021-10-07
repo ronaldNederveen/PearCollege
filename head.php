@@ -17,12 +17,12 @@
         </div>
         <!--icons part-->
         <div class="icons">
-            <div class="Icontext">
-            <img src="assets/icons/united-kingdom.svg"   alt="UK"        class="UK-head">
-            <p class=translate-head>English</p> 
+            <div class="Icontext btn">
+                <img src="assets/icons/united-kingdom.svg"   alt="UK"        class="UK-head">
+                <p class=translate-head>English</p> 
             </div>
-            <img src="assets/icons/bell-solid.svg"       alt="bell"      class="bell-head btn"> 
-            <img src="assets/icons/user-solid.svg"       alt="user"      class="user-head btn" id="popupUser" onclick="toggleUserPopup()">
+            <i class="btn fas fa-bell" id="popupBell"></i>
+            <i class="btn fas fa-user" id="popupUser" onclick="toggleUserPopup()"></i>
         </div>    
     </header> 
  

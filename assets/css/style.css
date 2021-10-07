@@ -25,15 +25,15 @@ body {
 
 /* Begin style LoginScreen */
 
-.loginScreen {
+body.loginScreen {
     background-color: #01ACB4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .login {
-    margin: auto;
-    margin-top: 90px;
-    width: 400px;
-    height: 400px;
+    padding: 50px;
     display: grid;
     background-color: white;
     grid-column: 1;
@@ -41,13 +41,16 @@ body {
     border-radius: 50px;
     border-color: #01ACB4;
 }
-
+form {
+    width: 300px;
+    margin: 0 auto;
+}
 #loginLogo {
-    width: 136px;
+    width: 100px;
 }
 
 .loginHeader {
-    margin: auto;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     gap: 3px;
@@ -55,6 +58,8 @@ body {
 
 .loginText {
     margin: auto;
+    font-family: 'Futura';
+    font-size: 25px;
 }
 
 .loginInput {
@@ -68,7 +73,7 @@ body {
     border: none;
     outline: none;
     border-radius: 32px;
-    background-color: var(--clr-black);
+    background-color: var(--clr-blueish);
     color: #999999;
 }
 
@@ -78,7 +83,7 @@ body {
     border: none;
     outline: none;
     border-radius: 32px;
-    background-color: var(--clr-black);
+    background-color: var(--clr-blueish);
     color: #999999;
 }
 
@@ -100,23 +105,15 @@ body {
     margin: 0 auto;
     padding: 10px;
     border-radius: 32px;
-    background-color: var(--clr-black);
-    color: #999999;
+    background-color: var(--clr-blueish);
+    color: var(--clr-gray-2);
 }
 
-.emailField {
-    border: #000000 solid 1px;
-    border-radius: 32px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    gap: 3px;
-}
-
+.emailField,
 .passwordField {
-    border: #000000 solid 1px;
+    border: var(--clr-black) solid 1px;
     border-radius: 32px;
-    background-color: #000000;
+    background-color: var(--clr-blueish);
     display: flex;
     align-items: center;
     gap: 3px;
@@ -125,17 +122,21 @@ body {
 .loginButton input {
     margin: 0 auto;
     height: 45px;
-    width: 260px;
+    width: 300px;
     color: white;
     background-color: #01ACB4;
     border: none;
     border-radius: 32px;
+    height: 56px;
 }
 
 .loginButton {
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     color: #FFFFFF;
     border-style: none;
+}
+.loginButton input {
+    font-weight: 700;
 }
 
 .emailInput {
@@ -187,12 +188,12 @@ body {
 
 h1 {
     padding-bottom: 20px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .box {
-    width: 565px;
-    height: 461px;
+    width: 450px;
+    height: 350px;
     background-color: var(--clr-white);
     border-radius: 0 0 50px 0;
 }
@@ -208,7 +209,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 133px;
+    height: 100px;
 }
 
 
@@ -229,6 +230,7 @@ header {
 .title-head {
     color: #ffffff;
     font-size: 30px;
+    font-family: 'futura';
 }
 
 
@@ -268,20 +270,14 @@ header {
     margin-right: 130px;
 }
 
-.bell-head {
-    width: 30px;
-    height: 30px;
-    filter: invert(1);
+i.btn {
+    font-size: 30px;
+    color: var(--clr-white);
     padding-left: 20px;
-    padding-right: 25px;
     margin-bottom: 24px;
 }
-
-.user-head {
-    width: 30px;
-    height: 30px;
-    filter: invert(1);
-    margin-bottom: 24px;
+.btn {
+    z-index: 99;
 }
 
 .translate-head {
@@ -293,6 +289,10 @@ header {
     height: 30px;
     border-radius: 30px;
     margin-left: 12px;
+}
+.Icontext:hover .translate-head {
+    color: rgb(218, 218, 218);
+    cursor: pointer;
 }
 
 
@@ -308,7 +308,6 @@ header {
     width: 852px;
     height: 543px;
     background-color: #ffffff;
-    overflow-y: scroll;
     overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
@@ -345,6 +344,7 @@ header {
     height:180px;
     width:852px;
     border-bottom: 5px solid #01ACB4;
+    padding-bottom: 20px;
 }
 .title-news {
     margin-left: 1051px;
@@ -422,10 +422,10 @@ header {
     justify-content: center;
     position: absolute;
     background-color: var(--clr-white);
-    height: calc(100vh - 133px);
-    top: 133px;
+    height: calc(100vh - 100px);
+    top: 100px;
     right: 0;
-    width: 492px;
+    width: 350px;
     animation: popup_user ease .5s;
 }
 .popup_user {
@@ -451,25 +451,26 @@ header {
     transform: translateX(-50%);
 }
 .popup_user p.type {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 93px;
 }
 .popup_user p.input {
     color: var(--clr-gray-1);
-    font-size: 20px;
+    font-size: 16px;
 }
 .popup_user .type.nomargin {
     margin-top: 50px;
 }
 .popup_user h2 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     border-bottom: 5px solid var(--clr-turquoise);
     padding: 20px;
-    margin-top: 80px;
+    margin: 80px auto 0 auto;
+    width: 70%;
 }
 .popup_user .box {
-    width: 394px;
+    width: 100%;
     position: relative;
     height: 100%;
 }
@@ -477,8 +478,8 @@ header {
     margin: 0 80px;
 }
 .cross {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     position: absolute;
 }
 .popup_user .cross {
@@ -486,12 +487,12 @@ header {
     right: 30px;
 }
 .line {
-    width: 70px;
-    height: 5px;
+    width: 50px;
+    height: 4px;
     background-color: var(--clr-black);
     position: absolute;
     top: 23px;
-    left: -10px;
+    left: -20px;
 }
 .line.first {
     transform: rotate(45deg);
@@ -514,7 +515,7 @@ header {
         width: 0;
     }
     100% {
-        width: 492px;
+        width: 350px;
     }
 }
 
