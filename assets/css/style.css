@@ -387,7 +387,6 @@ i.btn {
     margin-left: 110px;
     margin-bottom: 15px;
     font-weight: bold;
-    position: fixed;
     z-index: 2;
 }
 
