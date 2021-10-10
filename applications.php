@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="assets/css/style.css"/>
 		</head>
 		<body>
-			<div id="title_applications"><h3>Applications</h3></div>
+			<div id="title_applications"><h2>Applications</h2></div>
 			<div id="app_box"> 	
 				<div class="app"><a href =""><img scr="" alt=""/></a>1</div>
 				<div class="app"><a href =""><img scr="" alt=""/></a>2</div>

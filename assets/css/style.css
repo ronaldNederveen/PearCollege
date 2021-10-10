@@ -368,7 +368,7 @@ i.btn {
 
 .link-news {
     font-size: 13px;
-    margin-top: 12px;
+    margin-top: 20px;
     color: #01ACB4;
 }
 
@@ -413,21 +413,25 @@ i.btn {
 /* Applications style*/
 
 #app_box {
-    width: 1631px;
+    width: 1331px;
     height: 150px;
+    margin-left: 100px;
     display: flex;
-    justify-content: space-between;
 }
 
 .app {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
     border: 1px solid black;
 }
 
 #title_applications {
     width: 15px;
-    padding: 0 0 0 35px;
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 0 0 150px;
 }
 
 

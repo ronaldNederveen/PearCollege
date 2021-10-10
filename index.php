@@ -15,7 +15,7 @@ if(!isset($_SESSION['username'])){
     exit;
 }
 include "hero.php";
-
+include "applications.php";
 include "workbystudents.php";
 
 include "popups.php";
