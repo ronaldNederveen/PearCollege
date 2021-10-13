@@ -683,3 +683,39 @@ i.btn {
 
 
 /* End works made by students */
+
+
+/* Start RSS feed */
+
+.rssFeed {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.rssItem {
+    border: 1px black solid;
+    margin: 0 auto;
+    /* display: flex; */
+    /* align-content: center; */
+    width: 700px;
+}
+
+.rssItem:nth-child(even) {
+    /* margin-left: +30px; */
+}
+
+.rssItem:nth-child(odd) {
+    /* margin-left: +60px; */
+}
+
+.inline-article-image img {
+    width: 120px;
+    height: 120px;
+}
+
+.rssItem .feed_title {
+    font-weight: bold;
+}
+
+
+/* end RSS feed */
