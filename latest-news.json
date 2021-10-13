@@ -1,19 +1,19 @@
 {
-    "news":{
-        "title": "test",
-        "image": "assets/img/news-img/example.PNG",
+    "covid":{
+        "title": "Covid-19",
+        "image": "assets/img/news-img/latest-news-covid.jpeg",
         "link": ""
     },
     
-    "news1":{
-        "title": "test",
-        "image": "assets/img/news-img/example.PNG",
+    "event":{
+        "title": "School event!",
+        "image": "assets/img/news-img/latest-news-event.jpg",
         "link": ""
     },
 
-    "news2":{
-        "title": "test",
-        "image": "assets/img/news-img/example.PNG",
+    "vacation":{
+        "title": "Vakantie tijd!",
+        "image": "assets/img/news-img/latest-news-vacation.jpg",
         "link": ""
     }
 
