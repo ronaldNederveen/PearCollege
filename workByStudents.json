@@ -3,7 +3,8 @@
         "title": "FlappingBird",
         "creator": "Nora Kouma",
         "releaseDate": "18-12-2020",
-        "description": "hercreatie van het wereldberoemde spel flappybird",
+        "descriptionNl": "hercreatie van het wereldberoemde spel flappybird",
+        "descriptionEn": "recreation of the famous game flappybird",
         "image": "flappingBird.png"
 
     },
@@ -11,35 +12,40 @@
         "title": "MariUwU",
         "creator": "Benn Lane",
         "releaseDate": "20-12-2020",
-        "description": "na jaren van falen in het redden van de perzikken princes geeft mario het op. niks heeft meer zin en alles is teveel. tijd voor een verandering.",
+        "descriptionNl": "na jaren van falen in het redden van de perzikken princes geeft mario het op. niks heeft meer zin en alles is teveel. tijd voor een verandering.",
+        "descriptionEn": "after years of failure in safing the princes is it enough. Mario gives up. Nothing has a purpose and everything is to much. It is time for change",
         "image": "mariu.png"
     },
     "Angry pigs": {
         "title": "Angry pigs",
         "creator": "Gordon Hartley",
         "releaseDate": "19-12-2020",
-        "description": "Na jaren lang aangevallen te zijn is het nu tijd voor de varkens om de vogels terug te pakken. In deze nieuwe game pakken de varkens de taktieken van de vogels over en nemen de katapult om binnen te treden in de bouw werken van de vogels en deze te vernietigen",
+        "descriptionNl": "Na jaren lang aangevallen te zijn is het nu tijd voor de varkens om de vogels terug te pakken. In deze nieuwe game pakken de varkens de taktieken van de vogels over en nemen de katapult om binnen te treden in de bouw werken van de vogels en deze te vernietigen",
+        "descriptionEn": "after years of being atacked is it time for the pigs to get the birds. In this new game, the pigs take the tactics of the birds and take the catapult to enter and destroy the buildings of the birds",
         "image": "angrypigs.png"
     },
     "link": {
         "title": "Legend of Link",
         "creator": "Douglas Shannon",
         "releaseDate": "17-12-2020",
-        "description": "",
+        "descriptionNl": "",
+        "descriptionEn": "",
         "image": "zelda.png"
     },
     "heaven": {
         "title": "Heaven",
         "creator": "Carla Sutherland",
         "releaseDate": "18-12-2020",
-        "description": "After destroying legions worth of demons and zombies you reached your final rest place. or did you? ",
+        "descriptionEn": "After destroying legions worth of demons and zombies you reached your final rest place. or did you? ",
+        "descriptionNl": "Na het vernietigen van legioenen aan demonen en zombies heb je eindelijk je laatse rustplaats gevonden, of heb je dat wel?",
         "image": "heaven.png"
     },
     "dog hunt": {
         "title": "dog hunt",
         "creator": "Mohammed Alexander",
         "releaseDate": "15-12-2020",
-        "description": "de eenden zijn het zat. Na jaren op gejaagd zijn geweests is het tijd voor een revange.",
+        "descriptionNl": "de eenden zijn het zat. Na jaren op gejaagd zijn geweests is het tijd voor een revange.",
+        "descriptionEn": "The ducks are done. After years of being hunted is it time for revange.",
         "image": "doghunt.png"
     }
 

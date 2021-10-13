@@ -42,7 +42,7 @@
         echo "<img src=\"assets/img/workByStudents/".$value['image']."\">";
         echo "<div id=\"text\">";
         echo "<p class=\"title\">".$value['title']."<p>";
-        echo "<p class=\"description\">".$value['description']."</p>";
+        echo "<p class=\"description\">".$value['descriptionNl']."</p>";
         echo "<div id=\"q\">";
         echo "<p class=\"creator\">".$value['creator']."</p>";
         echo "<p class=\"releaseDate\">".$value['releaseDate']."</p>";
