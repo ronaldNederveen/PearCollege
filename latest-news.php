@@ -56,13 +56,17 @@
 
 
 <?php 
-    $news = file_get_contents("latest-news.json");
+echo "<br><br>";
+echo "<br><br>";
+
+$news = file_get_contents("latest-news.json");
 
     $news = json_decode($news, true);
 
     function NewsArticle($value){
+        
         echo "<div class=\"ln\"> ";
-        echo "<img src=\"assets/img/news-img/\"latest-news-covid.jpeg\" alt=\"news\" class=\"imgln\"/>";
+        echo "<img src=\"".$value['image']."\" alt=\"news\" class=\"imgln\"/>";
         echo "<div class=\"text-link\">";
         echo "<p class=\"lntext\">Lorum Ipsum</p>";
         echo "<a class=\"link-news\" href=\"\" >Read more</a>";
