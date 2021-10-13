@@ -4,6 +4,10 @@ $users = [
     "jon" => "123456"
 ];
 
+
+$json = file_get_content('user.json');
+$json_data = jsdon_decode($json);
+
 session_start();
 
 if (isset($_POST['username']) && !isset($_SESSION['username'])) {
