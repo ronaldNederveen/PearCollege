@@ -206,13 +206,13 @@ body.loginScreen {
 
 h1 {
     padding-bottom: 20px;
-    padding-top: 20px;
-    font-size: 40px;
+    font-size: 60px;
+    padding-top: 30px;
 }
 
 .box {
-    width: 450px;
-    height: 350px;
+    width: 675px;
+    height: 525px;
     background-color: var(--clr-white);
     border-radius: 0 0 50px 0;
 }
@@ -328,8 +328,7 @@ i.btn {
 
 .latest-block {
     width: 850px;
-    height: 508px;
-    margin-left: 150px;
+    height: 652px;
     display: flex;
     flex-direction: column;
     margin-bottom: 12px;
@@ -342,8 +341,8 @@ i.btn {
     z-index: 8;
     display: flex;
     flex-direction: column;
-    width: 666px;
-    height: 588px;
+    width: 750px;
+    height: 652px;
     background-color: #ffffff;
     overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
@@ -363,36 +362,35 @@ i.btn {
 }
 
 .imgln {
-    width: 220px;
-    height: 119.9px;
+    width: 300px;
+    height: 163.5px;
 }
 
 .lntext {
     margin-bottom: 12px;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 12px;
 }
 
 .link-news {
-    font-size: 13px;
+    font-size: 25px;
     margin-top: 30px;
     color: #01ACB4;
 }
 
 .ln {
-    height: 119.9px;
-    width: 611.2px;
-    border-bottom: 3px solid #01ACB4;
-    padding-bottom: 6px;
+    height: 165px;
+    width: 601.2px;
+    border-bottom: 6px solid #01ACB4;
+    padding-bottom: 12px;
     padding-top: 12px;
     display: flex;
     align-items: flex-start;
 }
 
 .title-news {
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 110px;
-    margin-top: 20px;
     margin-bottom: 15px;
     font-weight: bold;
     z-index: 2;
@@ -421,25 +419,25 @@ i.btn {
 /* Applications style*/
 
 #app_box {
-    width: 1331px;
+    margin: auto;
+    width: 90%;
     height: 150px;
-    margin-left: 100px;
     display: flex;
+    align-content: center;
 }
 
 .app {
-    width: 130px;
-    height: 130px;
+    width: 165px;
+    height: 165px;
     margin-left: 5px;
     border: 1px solid black;
 }
 
 #title_applications {
-    width: 15px;
-    height: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 0 0 0 150px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0 0 0 200px;
 }
 
 
@@ -691,3 +689,145 @@ i.btn {
 
 
 /* End works made by students */
+
+.popup_notifications {
+    background-color: rgba(0, 0, 0, 60%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+.popup_notifications .container {
+    background-color: var(--clr-white);
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 13% 77% 10%;
+    border-radius: 20px;
+    top: 150px;
+    right: 81px;
+}
+.popup_notifications .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-gray-1) !important;
+    padding: 0 25px;
+}
+.popup_notifications .top h2 {
+    font-size: 30px;
+}
+.popup_notifications .cross {
+    position: relative;
+}
+.popup_notifications .cross .line {
+    background-color: var(--clr-gray-1);
+    width: 50px;
+    height: 4px;
+}
+.popup_notifications i {
+    font-size: 40px;
+}
+
+.popup_notifications .triangle {
+	position: absolute;
+    top: -30px;
+    right: 175px;
+	background-color: var(--clr-white);
+	text-align: left;
+    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.popup_notifications .triangle:before,
+.popup_notifications .triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.popup_notifications .triangle,
+.popup_notifications .triangle:before,
+.popup_notifications .triangle:after {
+	width:  40px;
+	height: 40px;
+	border-top-right-radius: 30%;
+}
+.popup_notifications .triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.popup_notifications .triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+/* Messages */
+.popup_notifications .center {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.popup_notifications .center::-webkit-scrollbar {
+    display: none;
+}
+.popup_notifications .message {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-gap: 25px;
+    padding: 25px 50px;
+}
+.popup_notifications .message.unread {
+    padding: 25px 45px;
+    border-bottom: 1px solid var(--clr-gray-3);
+    border-top: 1px solid var(--clr-gray-3);
+    border-left: 5px solid #00257C;
+}
+.popup_notifications .message .profile {
+    width: 75px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(../img/profiles/joris.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.popup_notifications .message .content,
+.popup_notifications .message .time {
+    font-size: .8em;
+}
+.popup_notifications .message p {
+    color: var(--clr-gray-3);
+}
+.popup_notifications .message.unread p {
+    color: var(--clr-black);
+}
+.popup_notifications .message.unread .content {
+    font-weight: 700;
+}
+.popup_notifications .message h3,
+.popup_notifications .message .time p {
+    color: var(--clr-gray-2);
+}
+.popup_notifications .message.unread h3 {
+    color: var(--clr-turquoise);
+}
+
+.popup_notifications .bottom {
+    border-top: 1px solid var(--clr-gray-3);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_notifications .bottom button {
+    background: none;
+    border: none;
+    color: var(--clr-turquoise);
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.popup_notifications .bottom button:hover {
+    cursor: pointer;
+    color: #008086;
+}
+.popup_notifications .bottom.dis {
+    display: none;
+}
