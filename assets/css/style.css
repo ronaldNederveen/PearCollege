@@ -33,7 +33,7 @@ body.loginScreen {
     align-items: center;
 }
 
-.login {
+.loginScreen .login {
     padding: 50px;
     display: grid;
     background-color: white;
@@ -48,30 +48,30 @@ body.loginScreen {
     margin: 0 auto;
 }
 
-#loginLogo {
+.loginScreen #loginLogo {
     width: 100px;
 }
 
-.loginHeader {
+.loginScreen .loginHeader {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
     gap: 3px;
 }
 
-.loginText {
+.loginScreen .loginText {
     margin: auto;
     font-family: 'Futura';
     font-size: 25px;
     font-weight: 700;
 }
 
-.loginInput {
+.loginScreen .loginInput {
     background-color: transparent;
     margin: 0 auto;
 }
 
-#emailInput {
+.loginScreen #emailInput {
     margin: 0 auto;
     padding: 10px;
     border: none;
@@ -81,7 +81,7 @@ body.loginScreen {
     color: #999999;
 }
 
-#passwordInput {
+.loginScreen #passwordInput {
     margin: 0 auto;
     padding: 10px;
     border: none;
@@ -91,21 +91,21 @@ body.loginScreen {
     color: #999999;
 }
 
-#LoginUserIcon {
+.loginScreen #LoginUserIcon {
     width: 30px;
     margin-left: 15px;
     padding: 10px;
     filter: invert(1);
 }
 
-#LoginLockIcon {
+.loginScreen #LoginLockIcon {
     width: 30px;
     margin-left: 15px;
     padding: 10px;
     filter: invert(1);
 }
 
-#emailInput {
+.loginScreen #emailInput {
     margin: 0 auto;
     padding: 10px;
     border-radius: 32px;
@@ -113,8 +113,8 @@ body.loginScreen {
     color: var(--clr-gray-2);
 }
 
-.emailField,
-.passwordField {
+.loginScreen .emailField,
+.loginScreen .passwordField {
     border: var(--clr-black) solid 1px;
     border-radius: 32px;
     background-color: var(--clr-blueish);
@@ -123,7 +123,7 @@ body.loginScreen {
     gap: 3px;
 }
 
-.loginButton input {
+.loginScreen .loginButton input {
     margin: 0 auto;
     height: 45px;
     width: 300px;
@@ -134,29 +134,29 @@ body.loginScreen {
     height: 56px;
 }
 
-.loginButton:hover input,
-.loginButton:hover {
+.loginScreen .loginButton:hover input,
+.loginScreen .loginButton:hover {
     background-color: #006c72;
     border-radius: 32px;
     cursor: pointer;
 }
 
-.loginButton {
+.loginScreen .loginButton {
     margin: 50px auto 0 auto;
     color: #FFFFFF;
     border-style: none;
 }
 
-.loginButton input {
+.loginScreen .loginButton input {
     font-weight: 700;
 }
 
-.emailInput {
+.loginScreen .emailInput {
     margin: 0 auto;
     align-items: baseline;
 }
 
-.passwordInput {
+.loginScreen .passwordInput {
     margin: 0 auto;
     align-items: baseline;
 }
@@ -173,7 +173,7 @@ body.loginScreen {
     align-items: center;
 }
 
-.intro {
+.hero-container .intro {
     background-color: var(--clr-turquoise);
     color: var(--clr-white);
     padding: 0 100px 100px 133px;
@@ -183,7 +183,7 @@ body.loginScreen {
     position: relative;
 }
 
-.corner {
+.hero-container .corner {
     position: absolute;
     right: -100px;
     top: 0;
@@ -193,7 +193,7 @@ body.loginScreen {
     background-color: var(--clr-turquoise);
 }
 
-.top {
+.hero-container .top {
     position: absolute;
     border-radius: 50%;
     right: -200px;
@@ -204,13 +204,13 @@ body.loginScreen {
     background-color: var(--clr-white);
 }
 
-h1 {
+.hero-container h1 {
     padding-bottom: 20px;
     font-size: 60px;
     padding-top: 30px;
 }
 
-.box {
+.hero-container .box {
     width: 675px;
     height: 525px;
     background-color: var(--clr-white);
