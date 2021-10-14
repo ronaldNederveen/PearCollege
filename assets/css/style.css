@@ -686,3 +686,145 @@ i.btn {
 
 
 /* End works made by students */
+
+.popup_notifications {
+    background-color: rgba(0, 0, 0, 60%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+.popup_notifications .container {
+    background-color: var(--clr-white);
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 13% 77% 10%;
+    border-radius: 20px;
+    top: 150px;
+    right: 81px;
+}
+.popup_notifications .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-gray-1) !important;
+    padding: 0 25px;
+}
+.popup_notifications .top h2 {
+    font-size: 30px;
+}
+.popup_notifications .cross {
+    position: relative;
+}
+.popup_notifications .cross .line {
+    background-color: var(--clr-gray-1);
+    width: 50px;
+    height: 4px;
+}
+.popup_notifications i {
+    font-size: 40px;
+}
+
+.popup_notifications .triangle {
+	position: absolute;
+    top: -30px;
+    right: 175px;
+	background-color: var(--clr-white);
+	text-align: left;
+    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.popup_notifications .triangle:before,
+.popup_notifications .triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.popup_notifications .triangle,
+.popup_notifications .triangle:before,
+.popup_notifications .triangle:after {
+	width:  40px;
+	height: 40px;
+	border-top-right-radius: 30%;
+}
+.popup_notifications .triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.popup_notifications .triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+/* Messages */
+.popup_notifications .center {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.popup_notifications .center::-webkit-scrollbar {
+    display: none;
+}
+.popup_notifications .message {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-gap: 25px;
+    padding: 25px 50px;
+}
+.popup_notifications .message.unread {
+    padding: 25px 45px;
+    border-bottom: 1px solid var(--clr-gray-3);
+    border-top: 1px solid var(--clr-gray-3);
+    border-left: 5px solid #00257C;
+}
+.popup_notifications .message .profile {
+    width: 75px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(../img/profiles/joris.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.popup_notifications .message .content,
+.popup_notifications .message .time {
+    font-size: .8em;
+}
+.popup_notifications .message p {
+    color: var(--clr-gray-3);
+}
+.popup_notifications .message.unread p {
+    color: var(--clr-black);
+}
+.popup_notifications .message.unread .content {
+    font-weight: 700;
+}
+.popup_notifications .message h3,
+.popup_notifications .message .time p {
+    color: var(--clr-gray-2);
+}
+.popup_notifications .message.unread h3 {
+    color: var(--clr-turquoise);
+}
+
+.popup_notifications .bottom {
+    border-top: 1px solid var(--clr-gray-3);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_notifications .bottom button {
+    background: none;
+    border: none;
+    color: var(--clr-turquoise);
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.popup_notifications .bottom button:hover {
+    cursor: pointer;
+    color: #008086;
+}
+.popup_notifications .bottom.dis {
+    display: none;
+}
