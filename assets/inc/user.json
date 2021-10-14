@@ -1,18 +1,16 @@
 {
-    "Student":[
-        {
+    "Student":{
            "studentid": "1",
             "naam": "Achmed Joopje",
             "opleiding": "ICT",
             "gebruikersnaam": "AchmedJ2002",
             "wachtwoord": "Achmed1234" 
         },
-        {
+    "Student2": {
             "studentid": "2",
             "naam": "Wiebe Klijnstra",
             "opleiding": "ICT",
             "gebruikersnaam": "WiebeK1943",
             "wachtwoord": "Klijnstra69"
         }
-    ]
 }

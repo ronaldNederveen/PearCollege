@@ -10,31 +10,15 @@
 
 include "header.php";
 include "head.php";
-if(!isset($_SESSION['username'])){
+ if(!isset($_SESSION['username'])){
     header("location:login.php");
     exit;
-}
-?>
-<!-- Welcome student -->
-
-    <div class="hero">
-        <div class="intro">
-            <h1>Welcome Joris</h1>
-            <div class="box"></div>
-            <i class="corner"></i>
-            <i class="top"></i>
-        </div>
-        
-        <!--Boxes for all news and apps -->
-        <div class="news"></div>
-        <div class="apps">
-        </div>
-    </div>  
-
-<?php
+} 
+include "hero.php";
+include "applications.php";
+include "workbystudents.php";
 
 include "popups.php";
-include "latest-news.php";
 include "foot.php";
 
 ?>
