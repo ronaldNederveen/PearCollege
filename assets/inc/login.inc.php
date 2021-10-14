@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 /*$users = [
     "joe" => "123456",
     "jon" => "123456"
@@ -33,8 +33,7 @@ if (isset($_POST['username']) && !isset($_SESSION['username'])) {
             }
 }
        // exit;
-       ob_start();
-       session_start();
+     
 
 
 
