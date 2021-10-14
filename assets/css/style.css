@@ -238,17 +238,18 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-left: 130px;
+    margin-left: 6%;
 }
 
 .logo-head {
-    width: 80px;
-    height: 80px;
+    width: 22%;
+    height: 22%;
+    margin-right: 3%;
 }
 
 .title-head {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 200%;
     font-family: 'futura';
     font-weight: 700;
 }
@@ -262,13 +263,13 @@ header {
     align-items: center;
     border-radius: 8px;
     background-color: #ffffff;
-    height: 30px;
-    width: 430px;
+    height: 35px;
+    width: 38%;
 }
 
 .search-head {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     padding: 10px;
 }
 
@@ -276,7 +277,7 @@ header {
     border: 1px #565656;
     border-radius: 8px;
     height: 30px;
-    width: 400px;
+    width: 100%;
     outline: none;
 }
 
@@ -287,14 +288,14 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-right: 130px;
+    margin-right: 6%;
 }
 
 i.btn {
-    font-size: 30px;
+    font-size: 200%;
     color: var(--clr-white);
-    padding-left: 20px;
-    margin-bottom: 24px;
+    padding-left: 7%;
+    margin-bottom: 2%;
 }
 
 .btn {
@@ -303,22 +304,24 @@ i.btn {
 
 .translate-head {
     color: #ffffff;
+    width: 22%;
 }
 
 .UK-head {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    margin-left: 12px;
+    width: 50%;
+    border-radius: 70%;
+    margin-left: 12%;
 }
-
+.Icontext-btn{
+    width: 20%;
+}
 .Icontext:hover .translate-head {
     color: rgb(218, 218, 218);
     cursor: pointer;
 }
 
 
-/*End od Head style*/
+/*End of Head style*/
 
 
 /*Latest news style*/
