@@ -418,7 +418,7 @@ header .Icontext:hover .translate-head {
 
 /* Applications style*/
 
-#app_box {
+.applications #app_box {
     margin: auto;
     width: 90%;
     height: 150px;
@@ -426,14 +426,14 @@ header .Icontext:hover .translate-head {
     align-content: center;
 }
 
-.app {
+.applications .app {
     width: 165px;
     height: 165px;
     margin-left: 5px;
     border: 1px solid black;
 }
 
-#title_applications {
+.applications #title_applications {
     font-size: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -604,7 +604,7 @@ header .Icontext:hover .translate-head {
     width: 1400px;
 }
 
-.a {
+.workByStudents .a {
     width: 1400px;
     height: 629px;
     display: flex;
@@ -612,78 +612,78 @@ header .Icontext:hover .translate-head {
     gap: 35px;
 }
 
-.a:not(.creator)> :nth-child(even) {
+.workByStudents .a:not(.creator)> :nth-child(even) {
     margin-top: 80px;
 }
 
-.app_box:not(.creator)> :nth-child(even) {
+.workByStudents .app_box:not(.creator)> :nth-child(even) {
     margin-top: 35px;
 }
 
-.studentapp {
+.workByStudents .studentapp {
     width: 315px;
     height: 481px;
     border: 1px solid black;
 }
 
-.studentapp img {
+.workByStudents .studentapp img {
     width: 315px;
     height: auto;
 }
 
-.title {
+.workByStudents .title {
     color: black;
 }
 
-.description {
+.workByStudents .description {
     color: black;
 }
 
-.text .creator {
+.workByStudents .text .creator {
     color: black;
     margin-top: 0px;
 }
 
-#text {
+.workByStudents #text {
     width: 300px;
     text-align: justify;
     padding-left: 10px;
     padding-top: 5px;
 }
 
-#q {
+.workByStudents #q {
     display: flex;
     justify-content: flex-start;
     padding-top: 10px;
 }
 
-.releaseDate {
+.workByStudents .releaseDate {
     color: black;
     padding-left: 10px;
 }
 
-.app_box {
+.workByStudents .app_box {
     height: 481.5px;
 }
 
 
 /* Scrollbar workbystudents */
 
-.a::-webkit-scrollbar {
+.workByStudents .a::-webkit-scrollbar {
     height: 10px;
 }
 
-.a::-webkit-scrollbar-track {
+.workByStudents .a::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 5px;
 }
 
-.a::-webkit-scrollbar-thumb {
+.workByStudents .a::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 5px;
 }
 
-.a::-webkit-scrollbar-thumb:hover {
+.workByStudents .a::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
