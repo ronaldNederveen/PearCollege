@@ -341,7 +341,7 @@ header .Icontext:hover .translate-head {
     z-index: 8;
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 800px;
     height: 652px;
     background-color: #ffffff;
     overflow-x: hidden;
@@ -380,7 +380,7 @@ header .Icontext:hover .translate-head {
 
 .latest-block .ln {
     height: 165px;
-    width: 601.2px;
+    width: 751.2px;
     border-bottom: 6px solid #01ACB4;
     padding-bottom: 12px;
     padding-top: 12px;
@@ -435,8 +435,8 @@ header .Icontext:hover .translate-head {
 
 .applications #title_applications {
     font-size: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 0 0 0 200px;
 }
 
@@ -449,14 +449,15 @@ header .Icontext:hover .translate-head {
 
 .footer {
     height: 60px;
+    width: auto;
     background-color: black;
 }
 
 .copyright-notice {
     margin-left: 33.5px;
     font-size: 14px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 22px;
+    padding-bottom: 14px;
     color: #ffffff;
 }
 
@@ -598,6 +599,7 @@ header .Icontext:hover .translate-head {
 /* Works made by students */
 
 .workByStudents {
+    padding-top: 60px;
     margin: 0 auto;
     width: 1400px;
 }
@@ -611,7 +613,7 @@ header .Icontext:hover .translate-head {
 }
 
 .workByStudents .a:not(.creator)> :nth-child(even) {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .workByStudents .app_box:not(.creator)> :nth-child(even) {
@@ -619,6 +621,7 @@ header .Icontext:hover .translate-head {
 }
 
 .workByStudents .studentapp {
+    margin-top: 25px;
     width: 315px;
     height: 481px;
     border: 1px solid black;

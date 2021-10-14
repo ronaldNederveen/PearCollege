@@ -20,7 +20,7 @@
     $projects = json_decode($projects, true);
 
 
-    echo "<h1>Works made by students</h1>";
+    echo "<h1>Work made by students</h1>";
     echo "<div class=\"a\">";
 
     //Loop for all the JSON objects / different applications
