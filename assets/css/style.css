@@ -325,7 +325,7 @@ i.btn {
 
 .latest-block {
     width: 850px;
-    height: 632px;
+    height: 652px;
     display: flex;
     flex-direction: column;
     margin-bottom: 12px;
@@ -339,7 +339,7 @@ i.btn {
     display: flex;
     flex-direction: column;
     width: 750px;
-    height: 632px;
+    height: 652px;
     background-color: #ffffff;
     overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
@@ -378,8 +378,8 @@ i.btn {
 .ln {
     height: 165px;
     width: 601.2px;
-    border-bottom: 3px solid #01ACB4;
-    padding-bottom: 6px;
+    border-bottom: 6px solid #01ACB4;
+    padding-bottom: 12px;
     padding-top: 12px;
     display: flex;
     align-items: flex-start;
@@ -416,25 +416,25 @@ i.btn {
 /* Applications style*/
 
 #app_box {
-    width: 1331px;
+    margin: auto;
+    width: 90%;
     height: 150px;
-    margin-left: 100px;
     display: flex;
+    align-content: center;
 }
 
 .app {
-    width: 130px;
-    height: 130px;
+    width: 165px;
+    height: 165px;
     margin-left: 5px;
     border: 1px solid black;
 }
 
 #title_applications {
-    width: 15px;
-    height: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 0 0 0 150px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0 0 0 200px;
 }
 
 
