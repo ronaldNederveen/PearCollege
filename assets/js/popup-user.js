@@ -1,16 +1,8 @@
 popupuser = document.getElementById('popupuser');
-bellIcon = document.getElementById('popupBell');
-userIcon = document.getElementById('popupUser');
 containerPopupUser = document.getElementById('container_popup_user');
         
 function toggleUserPopup() {
     popupuser.classList.toggle('dis');
     containerPopupUser.classList.toggle('dis');
-    if (bellIcon.classList.contains('fas')) {
-        bellIcon.classList.replace('fas', 'far');
-        userIcon.classList.replace('fas', 'far');
-    } else {
-        bellIcon.classList.replace('far', 'fas');
-        userIcon.classList.replace('far', 'fas');
-    }
+    buttonReplace()
 }

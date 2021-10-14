@@ -1,0 +1,32 @@
+{
+    "covid":{
+        "title": "Covid-19",
+        "image": "assets/img/news-img/latest-news-covid.jpeg",
+        "link": ""
+    },
+    
+    "event":{
+        "title": "School event!",
+        "image": "assets/img/news-img/latest-news-event.jpg",
+        "link": ""
+    },
+
+    "exams":{
+        "title": "Examens komen er aan",
+        "image": "assets/img/news-img/exam.jpg",
+        "link": ""
+    },
+
+    "vacation":{
+        "title": "Vakantie tijd!",
+        "image": "assets/img/news-img/latest-news-vacation.jpg",
+        "link": ""
+    },
+
+    "birthday":{
+        "title": "Docent jarig",
+        "image": "assets/img/news-img/birtday.jpg",
+        "link": ""
+    }
+    
+}
