@@ -446,19 +446,17 @@ header .Icontext:hover .translate-head {
 
 /* footer style */
 
-.footersmall {
-    height: 26px;
-    background-color: black;
-}
 
-.footerbig {
-    height: 31px;
+.footer {
+    height: 60px;
     background-color: black;
 }
 
 .copyright-notice {
     margin-left: 33.5px;
-    font-size: 10.5px;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     color: #ffffff;
 }
 
