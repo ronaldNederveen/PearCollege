@@ -17,7 +17,7 @@
         </div>
         <!--icons part-->
         <div class="icons">
-            <div class="Icontext-btn">
+            <div class="Icontext-btn btn">
                 <img src="assets/icons/united-kingdom.svg"   alt="UK"        class="UK-head">
                 <p class=translate-head>English</p> 
             </div>
