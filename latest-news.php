@@ -15,8 +15,8 @@ $news = json_decode($news, true);
         echo "<div class=\"ln\"> ";
         echo "<img src=\"".$value['image']."\" alt=\"news\" class=\"imgln\"/>"; #Image for the news 
         echo "<div class=\"text-link\">";
-        echo "<p class=\"lntext\">".$value[title]."</p>"; #Title for the news 
-        echo "<a class=\"link-news\" href=\"".$value[link]."\" >Read more</a>"; #link to the news 
+        echo "<p class=\"lntext\">".$value['title']."</p>"; #Title for the news 
+        echo "<a class=\"link-news\" href=\"".$value['link']."\" >Read more</a>"; #link to the news 
         echo "</div></div>";
     }
 ?>
