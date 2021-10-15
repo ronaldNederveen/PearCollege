@@ -433,6 +433,7 @@ header .Icontext:hover .translate-head {
     border: 1px solid black;
 }
 .applications #app_box .app img{
+    height: 100%;
     width: 100%;
 }
 .applications #title_applications {
