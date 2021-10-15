@@ -598,10 +598,21 @@ header .Icontext:hover .translate-head {
 
 /* Works made by students */
 
+
 .workByStudents {
+    position: relative;
     padding-top: 60px;
     margin: 0 auto;
     width: 1400px;
+}
+.workByStudents::before {
+    content: '';
+    position: absolute;
+    background-color: var(--clr-black);
+    width: 100vw;
+    height: 50%;
+    transform: translate(calc((100vw - 1400px) / 2 * -1), 100%);
+    z-index: -1;
 }
 
 .workByStudents .a {
@@ -624,8 +635,8 @@ header .Icontext:hover .translate-head {
     margin-top: 25px;
     width: 315px;
     height: 481px;
-    border-bottom: 6px solid #01ACB4;
-    border-top: 6px solid #01ACB4;
+    background-color: var(--clr-white);
+    filter: drop-shadow(1px 1px 2px #585858);
 }
 
 .workByStudents .studentapp img {
