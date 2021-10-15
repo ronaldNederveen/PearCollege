@@ -264,7 +264,7 @@ header .search {
     border-radius: 8px;
     background-color: #ffffff;
     height: 35px;
-    width: 35%;
+    width: 38%;
 }
 
 header .search-head {
@@ -277,7 +277,7 @@ header #searchbar {
     border: 1px #565656;
     border-radius: 8px;
     height: 30px;
-    width: 350%;
+    width: 335%;
     outline: none;
 }
 
