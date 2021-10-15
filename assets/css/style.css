@@ -432,7 +432,9 @@ header .Icontext:hover .translate-head {
     margin-left: 5px;
     border: 1px solid black;
 }
-
+.applications #app_box .app img{
+    width: 100%;
+}
 .applications #title_applications {
     font-size: 25px;
     margin-top: 10px;
