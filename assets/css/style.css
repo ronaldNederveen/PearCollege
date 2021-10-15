@@ -20,6 +20,7 @@
 
 body {
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    zoom: .8;
 }
 
 
@@ -612,9 +613,9 @@ header .Icontext:hover .translate-head {
     content: '';
     position: absolute;
     background-color: var(--clr-black);
-    width: 100vw;
+    width: 125vw;
     height: 50%;
-    transform: translate(calc((100vw - 1400px) / 2 * -1), 100%);
+    transform: translate(calc((125vw - 1400px) / 2 * -1), 100%);
     z-index: -1;
 }
 
