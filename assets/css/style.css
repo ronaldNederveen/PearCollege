@@ -169,8 +169,10 @@ form {
 
 .hero-container {
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    width: 1600px;
 }
 
 .intro {
@@ -661,28 +663,32 @@ i.btn {
 }
 
 
-/* Scrollbar workbystudents */
+/* End works made by students */
 
-.a::-webkit-scrollbar {
-    height: 10px;
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
 }
 
-.a::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 5px;
 }
 
-.a::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 5px;
 }
 
-.a::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
 
-/* End works made by students */
+/* end Scrollbar */
 
 
 /* Start RSS feed */
@@ -691,13 +697,13 @@ i.btn {
     height: 500px;
     overflow-y: scroll;
     margin: 0 auto;
-    width: 1350px;
+    width: 1325px;
 }
 
 .rssItem {
     border: 1px black solid;
-    width: 1000px;
-    height: 120px;
+    width: 988px;
+    height: 142px;
     overflow-y: auto;
     margin-bottom: 50px;
 }
@@ -713,7 +719,7 @@ i.btn {
 .inline-article-image img {
     width: 120px;
     height: 120px;
-    float: right;
+    float: left;
 }
 
 .rssItem .feed_title {
