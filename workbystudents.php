@@ -45,6 +45,7 @@
         echo "<p class=\"description\">".$value['descriptionNl']."</p>";
         echo "<div id=\"q\">";
         echo "<p class=\"creator\">".$value['creator']."</p>";
+        echo "<p id=\"stripes\">||<p>";
         echo "<p class=\"releaseDate\">".$value['releaseDate']."</p>";
         echo "</div></div></div></div>";
     }

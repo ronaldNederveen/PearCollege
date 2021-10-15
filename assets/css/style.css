@@ -621,13 +621,14 @@ header .Icontext:hover .translate-head {
 .workByStudents .studentapp {
     width: 315px;
     height: 481px;
-    border: 1px solid black;
+    border-bottom: 6px solid #01ACB4;
+    border-top: 6px solid #01ACB4;
 }
 
 .workByStudents .studentapp img {
     width: 315px;
     height: auto;
-    border-bottom: 6px solid #01ACB4;
+
     
 }
 
@@ -638,6 +639,7 @@ header .Icontext:hover .translate-head {
 
 .workByStudents .description {
     color: black;
+    font-size: smaller;
 }
 
 .workByStudents .creator {
@@ -659,9 +661,11 @@ header .Icontext:hover .translate-head {
     padding-top: 10px;
 }
 
+.workByStudents #stripes {
+    padding: 0 10px 0 10px;
+}
 .workByStudents .releaseDate {
     color: black;
-    padding-left: 10px;
     font-style: italic;
 }
 
