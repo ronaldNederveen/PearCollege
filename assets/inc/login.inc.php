@@ -8,7 +8,10 @@ $json = file_get_contents('user.json');
 
 //make it an associate array
 $json_data = json_decode($json, true);
-          
+      
+
+unset($_SESSION['username']);
+
 //check if the username field has something and the session is empty. if the session isn't empty it should load the index page (see lines 38-41)
 if (isset($_POST['username']) && !isset($_SESSION['username'])) {
 
@@ -17,7 +20,6 @@ if (isset($_POST['username']) && !isset($_SESSION['username'])) {
         
            //check if the username that has been entred is the same as the username in user.json. is it true ==> do the same for passwords
             if($_POST['username'] == $student["gebruikersnaam"]){
-               
 
                 //validate passwords
                 if($_POST['password'] == $student["wachtwoord"]){
@@ -43,5 +45,6 @@ if (isset($_POST['username']) && !isset($_SESSION['username'])) {
 if (isset($_SESSION['username'])) {
     //go to the index page.
     header("Location: ../../index.php");
+    
     exit();
 }
