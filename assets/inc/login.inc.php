@@ -9,7 +9,7 @@ $json = file_get_contents('user.json');
 //make it an associate array
 $json_data = json_decode($json, true);
       
-//remove any session that are still running
+//remove any session that is still running
 unset($_SESSION['username']);
 
 //check if the username field has something and the session is empty. if the session isn't empty it should load the index page (see lines 38-41)
