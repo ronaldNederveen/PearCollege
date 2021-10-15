@@ -1,7 +1,7 @@
 <?php
     include "header.php";
 ?>
-    <!--Footer of Pear College (2 boxes te get the text to the center)-->
+    <!--Footer of Pear College -->
         <div class="footer">
     
 
