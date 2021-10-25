@@ -11,11 +11,6 @@
             <i class="corner"></i>
             <i class="top"></i>
         </div>
-        
-        <!--Boxes for all news and apps -->
-        <div class="news"></div>
-        <div class="apps">
-        </div>
     </div>  
 
     <?php
