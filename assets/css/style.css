@@ -322,21 +322,20 @@ header .Icontext:hover .translate-head {
 
 .latest-block {
     padding-top: 6vh;
-    width: 50vw;
+    width: fit-content;
     height: 72vh;
     display: flex;
     flex-direction: column;
 }
 
 .latest-block .latest-news {  
-    padding-right: 30px;
     margin-left: 10px;
     margin-bottom: 12px;
     z-index: 8;
     display: flex;
     flex-direction: column;
-    width: 800px;
-    height: 652px;
+    width: 90%;
+    height: 100%;
     background-color: #ffffff;
     overflow-x: hidden;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
@@ -356,34 +355,32 @@ header .Icontext:hover .translate-head {
 }
 
 .latest-block .imgln {
-    width: 300px;
-    height: 163.5px;
+    width: 35%;
+    height: 100%;
 }
 
 .latest-block .lntext {
     margin-bottom: 12px;
-    font-size: 30px;
+    font-size: 1.8em;
     margin-top: 12px;
 }
 
 .latest-block .link-news {
-    font-size: 25px;
-    margin-top: 30px;
+    font-size: 1.2em;
     color: #01ACB4;
 }
 
 .latest-block .ln {
-    height: 165px;
-    width: 751.2px;
+    height: 20vh;
+    width: 80%;
     border-bottom: 6px solid #01ACB4;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding: 12px 0;
     display: flex;
     align-items: flex-start;
 }
 
 .latest-block .title-news {
-    font-size: 40px;
+    font-size: 2.5em;
     margin-left: 110px;
     margin-bottom: 15px;
     font-weight: bold;
