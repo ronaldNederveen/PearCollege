@@ -263,7 +263,7 @@ header .title-head {
         align-items: center;
         background-color: #ffffff;
         height: 30px;
-        width: 415px;
+        width: 615px;
         border-radius: 8px;
     }
     .search-head {
@@ -275,9 +275,7 @@ header .title-head {
         border: none; 
         border-radius: 8px;
         height: 30px;
-        width: 400px;
-    }
-    #searchbar::selection{
+        width: 600px;
         outline: none;
     }
 /* right head*/
