@@ -269,11 +269,12 @@ header .title-head {
     height: 15px;
     padding: 10px;
 }
+form,
 #searchbar { 
     border: none; 
     border-radius: 8px;
     height: 30px;
-    width: 30%;
+    width: 100%;
     outline: none;
 }
 /* right head*/
@@ -282,11 +283,10 @@ header .icons {
     display: flex;
     align-content: center;
     align-items: center;
-    /* margin-right: 6%; */
 }
 
 header i.btn {
-    font-size: 200%;
+    font-size: 2em;
     color: var(--clr-white);
     margin-bottom: 2%;
     padding-left: 25px;
@@ -304,7 +304,7 @@ header .translate-head {
 header .UK-head {
     border-radius: 70%;
     margin-left: 17%;
-    width: 37px;
+    width: 2em;
 }
 header .Icontext-btn{
     width: 50px;
