@@ -257,32 +257,27 @@ header .title-head {
 
 
 /* center head */
-
-header .search {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background-color: #ffffff;
-    height: 35px;
-    width: 38%;
-}
-
-header .search-head {
-    width: 18px;
-    height: 18px;
-    padding: 10px;
-}
-
-header #searchbar {
-    border: 1px #565656;
-    border-radius: 8px;
-    height: 30px;
-    width: 335%;
-    outline: none;
-}
-
-
+    .search{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        height: 30px;
+        width: 615px;
+        border-radius: 8px;
+    }
+    .search-head {
+        width: 15px;
+        height: 15px;
+        padding: 10px;
+    }
+    #searchbar{ 
+        border: none; 
+        border-radius: 8px;
+        height: 30px;
+        width: 600px;
+        outline: none;
+    }
 /* right head*/
 
 header .icons {
@@ -335,8 +330,8 @@ header .Icontext:hover .translate-head {
     margin-bottom: 12px;
 }
 
-.latest-block .latest-news {
-    margin-right: 275px;
+.latest-block .latest-news {  
+    padding-right: 30px;
     margin-left: 10px;
     margin-bottom: 12px;
     z-index: 8;
@@ -421,7 +416,7 @@ header .Icontext:hover .translate-head {
 
 .applications #app_box {
     margin: auto;
-    width: 90%;
+    width: 80%;
     height: 150px;
     display: flex;
     align-content: center;
@@ -430,6 +425,7 @@ header .Icontext:hover .translate-head {
 .applications .app {
     width: 165px;
     height: 165px;
+    margin: auto;
     margin-left: 5px;
     border: 1px solid black;
 }
@@ -439,8 +435,10 @@ header .Icontext:hover .translate-head {
 }
 .applications #title_applications {
     font-size: 25px;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 80%;
     padding: 0 0 0 200px;
 }
 
