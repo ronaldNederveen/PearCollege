@@ -20,7 +20,7 @@
 
 body {
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-    zoom: .8;
+    /* zoom: .8; */
 }
 
 
@@ -171,13 +171,12 @@ body.loginScreen {
 .hero-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .hero-container .intro {
     background-color: var(--clr-turquoise);
     color: var(--clr-white);
-    padding: 0 100px 100px 133px;
+    padding: 0 80px 80px 133px;
     width: max-content;
     border-radius: 0 0 100px 0;
     text-align: center;
@@ -212,8 +211,8 @@ body.loginScreen {
 }
 
 .hero-container .box {
-    width: 675px;
-    height: 525px;
+    width: 32vw;
+    height: 50vh;
     background-color: var(--clr-white);
     border-radius: 0 0 50px 0;
 }
@@ -227,9 +226,9 @@ body.loginScreen {
 header {
     background: #01ACB4;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    height: 100px;
+    height: 10vh;
 }
 
 
@@ -239,52 +238,51 @@ header .logo {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-left: 6%;
+    /* margin-left: 10%; */
 }
 
 header .logo-head {
-    height: 100px;
-    margin-right: 3%;
+    height: 10vh;
+    margin-right: 5%;
 }
 
 header .title-head {
     color: #ffffff;
-    font-size: 30px;
-    width: 170px;
-    font-family: 'futura';
+    font-size: 1.6em;
+    font-family: 'futura', sans-serif;
     font-weight: 700;
 }
 
 
 /* center head */
-    .search{
-        display: flex;
-        align-content: center;
-        align-items: center;
-        background-color: #ffffff;
-        height: 30px;
-        width: 615px;
-        border-radius: 8px;
-    }
-    .search-head {
-        width: 15px;
-        height: 15px;
-        padding: 10px;
-    }
-    #searchbar{ 
-        border: none; 
-        border-radius: 8px;
-        height: 30px;
-        width: 600px;
-        outline: none;
-    }
+.search {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 30px;
+    width: 30%;
+    border-radius: 8px;
+}
+.search-head {
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+}
+#searchbar { 
+    border: none; 
+    border-radius: 8px;
+    height: 30px;
+    width: 30%;
+    outline: none;
+}
 /* right head*/
 
 header .icons {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-right: 6%;
+    /* margin-right: 6%; */
 }
 
 header i.btn {
