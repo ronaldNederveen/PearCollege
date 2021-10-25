@@ -321,11 +321,11 @@ header .Icontext:hover .translate-head {
 /*Latest news style*/
 
 .latest-block {
-    width: 850px;
-    height: 652px;
+    padding-top: 6vh;
+    width: 50vw;
+    height: 72vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 12px;
 }
 
 .latest-block .latest-news {  
@@ -609,9 +609,9 @@ header .Icontext:hover .translate-head {
     content: '';
     position: absolute;
     background-color: var(--clr-black);
-    width: 125vw;
+    width: 100vw;
     height: 50%;
-    transform: translate(calc((125vw - 1400px) / 2 * -1), 100%);
+    transform: translate(calc((100vw - 1400px) / 2 * -1), 100%);
     z-index: -1;
 }
 
