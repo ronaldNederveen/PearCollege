@@ -13,7 +13,7 @@
 				</div>
 				<div class="app">
 					<a href ="https://developer.apple.com/">
-						<img src="assets/img/apps-img/appledeveloper.png" alt="Apple Developer"/>
+						<img src="assets/img/apps-img/Xcode_icon.png" alt="Apple Developer"/>
 					</a>
 				</div>
 				<div class="app">
