@@ -257,32 +257,29 @@ header .title-head {
 
 
 /* center head */
-
-header .search {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background-color: #ffffff;
-    height: 35px;
-    width: 38%;
-}
-
-header .search-head {
-    width: 18px;
-    height: 18px;
-    padding: 10px;
-}
-
-header #searchbar {
-    border: 1px #565656;
-    border-radius: 8px;
-    height: 30px;
-    width: 335%;
-    outline: none;
-}
-
-
+    .search{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        height: 30px;
+        width: 415px;
+        border-radius: 8px;
+    }
+    .search-head {
+        width: 15px;
+        height: 15px;
+        padding: 10px;
+    }
+    #searchbar{ 
+        border: none; 
+        border-radius: 8px;
+        height: 30px;
+        width: 400px;
+    }
+    #searchbar::selection{
+        outline: none;
+    }
 /* right head*/
 
 header .icons {
