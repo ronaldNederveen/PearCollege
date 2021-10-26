@@ -97,7 +97,7 @@
         </div>
 
         <!-- Popup Read more Latest news -->
-        <div class="popup_readmore_ln dis" id="popupln">
+        <div class="popup_readmore_ln" id="popupln">
             <div class="container">
                 <div class="content">
                     <div class="img">Image</div>
