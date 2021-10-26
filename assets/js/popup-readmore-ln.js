@@ -1,4 +1,4 @@
-function toggleReadMore() {   
+function toggleReadMore(value) { 
     getAllEntities();
     if(!popupnotifications.classList.contains('dis')) {
         popupnotifications.classList.add('dis');

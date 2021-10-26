@@ -392,6 +392,15 @@ header .Icontext-btn:hover .translate-head {
 .latest-block .link-news {
     font-size: 1.2em;
     color: #01ACB4;
+    border: none;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.latest-block .link-news:hover {
+    cursor: pointer;
+    color: #00bdc7;
 }
 
 .latest-block .ln {
@@ -592,10 +601,6 @@ header .Icontext-btn:hover .translate-head {
 
 .line.second {
     transform: rotate(-45deg);
-}
-
-.dis {
-    display: none;
 }
 
 .btn:hover {
@@ -1019,6 +1024,11 @@ header .Icontext-btn:hover .translate-head {
     margin: 20px 0;
 }
 
+.dis {
+    display: none;
+}
+
+/* Main scrollbar */
 ::-webkit-scrollbar {
     width: 5px;
 }

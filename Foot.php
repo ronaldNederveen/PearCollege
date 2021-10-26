@@ -3,7 +3,7 @@
     
 
         <!--Footer text-->
-            <p class="copyright-notice"> &copy;2021|Pear College </p> 
+            <p class="copyright-notice"> &copy;2021 | Pear College </p> 
         </div>
 
     </body>

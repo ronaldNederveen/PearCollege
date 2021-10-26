@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/img/pearCollege_logo.png">
     <title>PearCollege</title>
+    <script src="latest-news.json"></script>
     <script src="assets/js/icon-replace.js"></script>
     <script src="assets/js/popup-notifications.js"></script>
     <script src="assets/js/popup-user.js"></script>
