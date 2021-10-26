@@ -930,7 +930,7 @@ header .Icontext-btn:hover .translate-head {
     margin-top: 50px;
 }
 
-.rssFeed h2 {
+.rssfeed-outer h2 {
     color: var(--clr-white);
 }
 
