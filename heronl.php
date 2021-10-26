@@ -1,6 +1,3 @@
-    <?php
-  include "header.php";
- ?>
  <div class="hero-container">
      <!-- Welcome student -->
 

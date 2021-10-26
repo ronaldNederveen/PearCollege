@@ -1,6 +1,3 @@
- <?php
-  include "headernl.php";
- ?>
  <!--Header of Pear College-->
     <header>
         <!--logo part -->

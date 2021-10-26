@@ -1,6 +1,3 @@
-    <?php
-    include "headernl.php";
-    ?>
     <div class="workByStudents">
 
     <?php
