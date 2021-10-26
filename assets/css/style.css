@@ -320,12 +320,14 @@ header .UK-head {
 header .Icontext-btn {
     width: 50px;
 }
+
 header .Icontext-btn a {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
 }
+
 header .Icontext-btn p {
     width: fit-content;
 }
@@ -915,6 +917,7 @@ header .Icontext-btn:hover .translate-head {
 
 
 /* Start RSS feed */
+
 .rssfeed-outer {
     background-color: var(--clr-black);
     padding: 50px 15vw;
@@ -932,7 +935,7 @@ header .Icontext-btn:hover .translate-head {
 }
 
 .rssItem {
-    background-color: var(--clr-black);
+    background-color: #0c0c0c;
     width: 55vw;
     height: fit-content;
     overflow-y: auto;
