@@ -724,6 +724,7 @@ header .Icontext:hover .translate-head {
     position: absolute;
     top: 0;
     z-index: 99;
+    animation: background ease .5s;
 }
 .popup_notifications .container {
     background-color: var(--clr-white);

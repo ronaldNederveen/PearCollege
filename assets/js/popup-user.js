@@ -1,8 +1,9 @@
 popupuser = document.getElementById('popupuser');
-containerPopupUser = document.getElementById('container_popup_user');
         
 function toggleUserPopup() {
+    if(!popupnotifications.classList.contains('dis')) {
+        popupnotifications.classList.add('dis');
+    }
     popupuser.classList.toggle('dis');
-    containerPopupUser.classList.toggle('dis');
-    buttonReplace()
+    buttonReplace();
 }
