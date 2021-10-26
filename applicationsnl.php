@@ -31,5 +31,10 @@
 						<img src="assets/img/apps-img/applenewsroom.png" alt="Apple Newsroom"/>
 					</a>
 				</div>
+				<div class="app">
+					<a href ="https://sa-nhlstenden.xedule.nl/">
+						<img src="assets/img/November.png" alt="Calendar"/>
+					</a>
+				</div>
 			</div>
 		</div>
