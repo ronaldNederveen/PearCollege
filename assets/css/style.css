@@ -860,7 +860,6 @@ header .Icontext:hover .translate-head {
     display: none;
 }
 
-
 .popup_readmore_ln {
     background-color: rgba(0, 0, 0, 60%);
     width: 100vw;
@@ -869,11 +868,33 @@ header .Icontext:hover .translate-head {
     top: 0;
     z-index: 9;
     animation: background ease .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .popup_readmore_ln .container {
     width: fit-content;
     height: fit-content;
     background-color: var(--clr-white);
-    
+    padding: 50px;
+    position: relative;
+    border-radius: 30px;
+    min-width: 15vw;
+}
+
+.popup_readmore_ln .cross {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.popup_readmore_ln .content {
+    display: flex;
+    column-gap: 50px;
+}
+
+.popup_readmore_ln .content .text h3 {
+    font-size: 2em;
+    margin: 20px 0;
 }
