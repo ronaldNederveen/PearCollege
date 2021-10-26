@@ -13,6 +13,7 @@ include "headnl.php";
 include "heronl.php";
 include "applicationsnl.php";
 include "workbystudentsnl.php";
+include "rssFeed.php";
 
 include "popupsnl.php";
 include "foot.php";
