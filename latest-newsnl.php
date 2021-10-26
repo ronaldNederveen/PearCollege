@@ -1,9 +1,7 @@
 <?php
-
-
-  
+ 
 //Loading in the JSON file
-$news = file_get_contents("latest-news.json");
+$news = file_get_contents("latest-newsnl.json");
 //JSON data converting to PHP Array
 $news = json_decode($news, true);
 
@@ -16,14 +14,14 @@ $news = json_decode($news, true);
         echo "<img src=\"".$value['image']."\" alt=\"news\" class=\"imgln\"/>"; #Image for the news 
         echo "<div class=\"text-link\">";
         echo "<p class=\"lntext\">".$value['title']."</p>"; #Title for the news 
-        echo "<a class=\"link-news\" href=\"".$value['link']."\" >Read more</a>"; #link to the news 
+        echo "<a class=\"link-news\" href=\"".$value['link']."\" >Lees meer</a>"; #link to the news 
         echo "</div></div>";
     }
 ?>
 
 <div class="latest-block">
 <!-- title of latest news -->
- <p class="title-news">Latest News</p>
+ <p class="title-news">Laatste nieuws</p>
 
 
  <?php 

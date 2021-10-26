@@ -1,6 +1,3 @@
-<?php
-include "header.php";
-?>
 <!--Login screen of Pear Collage-->
 <body class="loginScreen">
     <!--Logo , Title-->

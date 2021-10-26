@@ -12,19 +12,19 @@
     },
 
     "exams":{
-        "title": "Exams are coming",
+        "title": "Examens komen er aan",
         "image": "assets/img/news-img/exam.jpg",
         "link": ""
     },
 
     "vacation":{
-        "title": "Holiday time!",
+        "title": "Vakantie tijd!",
         "image": "assets/img/news-img/latest-news-vacation.jpg",
         "link": ""
     },
 
     "birthday":{
-        "title": "Teacher's birthday!",
+        "title": "Docent jarig",
         "image": "assets/img/news-img/birthday.jpg",
         "link": ""
     }

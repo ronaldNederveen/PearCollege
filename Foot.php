@@ -1,6 +1,3 @@
-<?php
-    include "header.php";
-?>
     <!--Footer of Pear College -->
         <div class="footer">
     

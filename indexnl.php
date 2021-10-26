@@ -8,14 +8,14 @@
 -->
 <?php session_start();
 
-include "header.php";
-include "head.php";
-include "hero.php";
-include "applications.php";
-include "workbystudents.php";
+include "headernl.php";
+include "headnl.php";
+include "heronl.php";
+include "applicationsnl.php";
+include "workbystudentsnl.php";
 include "rssFeed.php";
 
-include "popups.php";
+include "popupsnl.php";
 include "foot.php";
 
 ?>

@@ -3,7 +3,7 @@
 
     <div class="hero">
         <div class="intro">
-            <h1>Welcome Joris</h1>
+            <h1>Welkom Joris</h1>
             <div class="box"> <img src="./assets/img/November.png"/></div>
             <i class="corner"></i>
             <i class="top"></i>
@@ -11,7 +11,7 @@
     </div>  
 
     <?php
-  include "latest-news.php";
+  include "latest-newsnl.php";
  ?>
 
 </div>

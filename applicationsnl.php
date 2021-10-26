@@ -1,5 +1,5 @@
 		<div class="applications">
-			<div id="title_applications"><h2>Applications</h2></div>
+			<div id="title_applications"><h2>Applicaties</h2></div>
 			<div id="app_box"> 	
 				<div class="app">
 					<a href ="https://office365.com/">
