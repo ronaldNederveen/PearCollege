@@ -928,11 +928,11 @@ header .Icontext:hover .translate-head {
     overflow-y: scroll;
     margin: 0 auto;
     width: 1250px;
+    margin-top: 50px;
 }
 
 .rssFeed h2 {
     color: var(--clr-white);
-    margin-top: 50px;
 }
 
 .rssItem {
