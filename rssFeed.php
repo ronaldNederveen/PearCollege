@@ -14,7 +14,7 @@ if (!empty($feedRSS)) {
 
     foreach ($feedRSS->channel->item as $feed_item) {
         if ($i == 10) {
-            exit;
+            continue;
         }
         if (str_contains($feed_item->description, "<img")) {
             echo "<div class=\"rssItem\">";
