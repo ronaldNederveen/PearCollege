@@ -727,7 +727,7 @@ header .Icontext:hover .translate-head {
 }
 
 
-/* End works made by students */
+/* pop-up */
 
 .popup_notifications {
     background-color: rgba(0, 0, 0, 60%);
@@ -809,6 +809,9 @@ header .Icontext:hover .translate-head {
 .popup_notifications .triangle:after {
     transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
 }
+
+
+/* end pop-up */
 
 
 /* Messages */
@@ -898,8 +901,24 @@ header .Icontext:hover .translate-head {
     display: none;
 }
 
+.popup_readmore_ln {
+    background-color: rgba(0, 0, 0, 60%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    animation: background ease .5s;
+}
 
-/* end Scrollbar */
+.popup_readmore_ln .container {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--clr-white);
+}
+
+
+/* end message */
 
 
 /* Start RSS feed */
