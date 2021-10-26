@@ -12,5 +12,15 @@
             "opleiding": "ICT",
             "gebruikersnaam": "WiebeK1943",
             "wachtwoord": "Klijnstra69"
+        },
+
+        "Student3": {
+            "studentid": "3",
+            "naam": "Guus geluk",
+            "opleiding": "ICT",
+            "gebruikersnaam": "G1234",
+            "wachtwoord": "GG45"
         }
+  
+        
 }
