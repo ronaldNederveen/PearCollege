@@ -20,7 +20,6 @@
 
 body {
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-    /* zoom: .8; */
 }
 
 
@@ -36,17 +35,15 @@ body.loginScreen {
 
 .loginScreen .login {
     padding: 50px;
-    display: grid;
     background-color: white;
-    grid-column: 1;
-    grid-template-rows: 100px, 100px, 100px, 100px;
     border-radius: 50px;
     border-color: #01ACB4;
 }
 
 .loginScreen form {
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
+    height: fit-content;
 }
 
 .loginScreen #loginLogo {
