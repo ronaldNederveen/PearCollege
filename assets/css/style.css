@@ -167,7 +167,10 @@ body.loginScreen {
 
 .hero-container {
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
+    width: 1600px;
 }
 
 .hero-container .intro {
@@ -214,12 +217,11 @@ body.loginScreen {
     border-radius: 0 0 50px 0;
 }
 
-.hero-container .box img{
+.hero-container .box img {
     width: 100%;
     height: inherit;
     border-radius: 0 0 50px 0;
 }
-
 
 
 /* End of Hero style */
@@ -258,6 +260,7 @@ header .title-head {
 
 
 /* center head */
+
 .search {
     display: flex;
     align-content: center;
@@ -267,19 +270,23 @@ header .title-head {
     width: 30%;
     border-radius: 8px;
 }
+
 .search-head {
     width: 15px;
     height: 15px;
     padding: 10px;
 }
+
 form,
-#searchbar { 
-    border: none; 
+#searchbar {
+    border: none;
     border-radius: 8px;
     height: 30px;
     width: 100%;
     outline: none;
 }
+
+
 /* right head*/
 
 header .icons {
@@ -309,9 +316,11 @@ header .UK-head {
     margin-left: 17%;
     width: 2em;
 }
-header .Icontext-btn{
+
+header .Icontext-btn {
     width: 50px;
 }
+
 header .Icontext:hover .translate-head {
     color: rgb(218, 218, 218);
     cursor: pointer;
@@ -331,7 +340,7 @@ header .Icontext:hover .translate-head {
     flex-direction: column;
 }
 
-.latest-block .latest-news {  
+.latest-block .latest-news {
     margin-left: 10px;
     margin-bottom: 12px;
     z-index: 8;
@@ -430,12 +439,13 @@ header .Icontext:hover .translate-head {
     height: 100%;
     margin: auto;
     margin-left: 5px;
-
 }
-.applications #app_box .app img{
+
+.applications #app_box .app img {
     height: 100%;
     width: 100%;
 }
+
 .applications #title_applications {
     font-size: 25px;
     text-align: center;
@@ -451,7 +461,6 @@ header .Icontext:hover .translate-head {
 
 
 /* footer style */
-
 
 .footer {
     height: 60px;
@@ -604,13 +613,13 @@ header .Icontext:hover .translate-head {
 
 /* Works made by students */
 
-
 .workByStudents {
     position: relative;
     padding-top: 60px;
     margin: 0 auto;
     width: 1400px;
 }
+
 .workByStudents::before {
     content: '';
     position: absolute;
@@ -648,8 +657,6 @@ header .Icontext:hover .translate-head {
 .workByStudents .studentapp img {
     width: 315px;
     height: auto;
-
-    
 }
 
 .workByStudents .title {
@@ -684,6 +691,7 @@ header .Icontext:hover .translate-head {
 .workByStudents #stripes {
     padding: 0 10px 0 10px;
 }
+
 .workByStudents .releaseDate {
     color: black;
     font-style: italic;
@@ -694,23 +702,27 @@ header .Icontext:hover .translate-head {
 }
 
 
-/* Scrollbar workbystudents */
+/* End works made by students */
 
-.workByStudents .a::-webkit-scrollbar {
-    height: 10px;
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
 }
 
-.workByStudents .a::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 5px;
 }
 
-.workByStudents .a::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 5px;
 }
 
-.workByStudents .a::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
@@ -726,6 +738,7 @@ header .Icontext:hover .translate-head {
     z-index: 9;
     animation: background ease .5s;
 }
+
 .popup_notifications .container {
     background-color: var(--clr-white);
     width: 35%;
@@ -737,6 +750,7 @@ header .Icontext:hover .translate-head {
     top: 150px;
     right: 81px;
 }
+
 .popup_notifications .top {
     display: flex;
     flex-direction: row;
@@ -745,68 +759,83 @@ header .Icontext:hover .translate-head {
     color: var(--clr-gray-1) !important;
     padding: 0 25px;
 }
+
 .popup_notifications .top h2 {
     font-size: 30px;
 }
+
 .popup_notifications .cross {
     position: relative;
 }
+
 .popup_notifications .cross .line {
     background-color: var(--clr-gray-1);
     width: 50px;
     height: 4px;
 }
+
 .popup_notifications i {
     font-size: 40px;
 }
 
 .popup_notifications .triangle {
-	position: absolute;
+    position: absolute;
     top: -30px;
     right: 31%;
-	background-color: var(--clr-white);
-	text-align: left;
-    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+    background-color: var(--clr-white);
+    text-align: left;
+    transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
 }
+
 .popup_notifications .triangle:before,
 .popup_notifications .triangle:after {
-	content: '';
-	position: absolute;
-	background-color: inherit;
+    content: '';
+    position: absolute;
+    background-color: inherit;
 }
+
 .popup_notifications .triangle,
 .popup_notifications .triangle:before,
 .popup_notifications .triangle:after {
-	width:  40px;
-	height: 40px;
-	border-top-right-radius: 30%;
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 30%;
 }
+
 .popup_notifications .triangle:before {
-	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
 }
+
 .popup_notifications .triangle:after {
-	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
 }
+
+
 /* Messages */
+
 .popup_notifications .center {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
 .popup_notifications .center::-webkit-scrollbar {
     display: none;
 }
+
 .popup_notifications .message {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-gap: 25px;
     padding: 25px 50px;
 }
+
 .popup_notifications .message.unread {
     padding: 25px 45px;
     border-bottom: 1px solid var(--clr-gray-3);
     border-top: 1px solid var(--clr-gray-3);
     border-left: 5px solid #00257C;
 }
+
 .popup_notifications .message .profile {
     width: 75px;
     aspect-ratio: 1;
@@ -815,23 +844,29 @@ header .Icontext:hover .translate-head {
     background-position: center;
     background-size: cover;
 }
+
 .popup_notifications .message .content,
 .popup_notifications .message .time {
     font-size: .8em;
 }
+
 .popup_notifications .message p {
     color: var(--clr-gray-3);
 }
+
 .popup_notifications .message.unread p {
     color: var(--clr-black);
 }
+
 .popup_notifications .message.unread .content {
     font-weight: 700;
 }
+
 .popup_notifications .message h3,
 .popup_notifications .message .time p {
     color: var(--clr-gray-2);
 }
+
 .popup_notifications .message.unread h3 {
     color: var(--clr-turquoise);
 }
@@ -843,6 +878,7 @@ header .Icontext:hover .translate-head {
     justify-content: center;
     align-items: center;
 }
+
 .popup_notifications .bottom button {
     background: none;
     border: none;
@@ -852,13 +888,78 @@ header .Icontext:hover .translate-head {
     font-weight: 700;
     margin-left: 20px;
 }
+
 .popup_notifications .bottom button:hover {
     cursor: pointer;
     color: #008086;
 }
+
 .popup_notifications .bottom.dis {
     display: none;
 }
+
+
+/* end Scrollbar */
+
+
+/* Start RSS feed */
+
+.rssFeed {
+    height: 500px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    width: 1250px;
+}
+
+.rssFeed h2 {
+    color: var(--clr-white);
+}
+
+.rssItem {
+    background-color: var(--clr-black);
+    width: 940px;
+    height: 280px;
+    overflow-y: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.rssItem:nth-child(even) {
+    float: left;
+}
+
+.rssItem:nth-child(odd) {
+    float: right;
+}
+
+.inline-article-image img {
+    width: 280px;
+    height: 280px;
+    float: left;
+    margin-right: 28px;
+}
+
+.rssItem .feed_title {
+    font-weight: bold;
+    color: var(--clr-white);
+}
+
+.rssItem h3 {
+    color: var(--clr-white);
+    font-size: 35px;
+    margin-top: 28px;
+}
+
+.feedPubDate {
+    color: var(--clr-gray-2);
+    position: absolute;
+    bottom: 24px;
+    font-size: 14px;
+    left: 310px;
+}
+
+
+/* end RSS feed */
 
 .popup_readmore_ln {
     background-color: rgba(0, 0, 0, 60%);
