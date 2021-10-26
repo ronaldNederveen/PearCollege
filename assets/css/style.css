@@ -214,6 +214,14 @@ body.loginScreen {
     border-radius: 0 0 50px 0;
 }
 
+.hero-container .box{
+    width: 32vw;
+    height: 50vh;
+    background-color: var(--clr-white);
+    border-radius: 0 0 50px 0;
+}
+
+
 
 /* End of Hero style */
 
