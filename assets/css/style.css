@@ -20,6 +20,7 @@
 
 body {
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -707,22 +708,22 @@ header .Icontext:hover .translate-head {
 
 /* Scrollbar */
 
-::-webkit-scrollbar {
+.workByStudents ::-webkit-scrollbar {
     height: 15px;
     width: 15px;
 }
 
-::-webkit-scrollbar-track {
+.workByStudents ::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 5px;
 }
 
-::-webkit-scrollbar-thumb {
+.workByStudents ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 5px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+.workByStudents ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
@@ -901,33 +902,20 @@ header .Icontext:hover .translate-head {
     display: none;
 }
 
-.popup_readmore_ln {
-    background-color: rgba(0, 0, 0, 60%);
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    z-index: 9;
-    animation: background ease .5s;
-}
-
-.popup_readmore_ln .container {
-    width: fit-content;
-    height: fit-content;
-    background-color: var(--clr-white);
-}
-
 
 /* end message */
 
 
 /* Start RSS feed */
+.rssfeed-outer {
+    background-color: var(--clr-black);
+    padding: 0 15vw;
+}
 
 .rssFeed {
     height: 500px;
     overflow-y: scroll;
     margin: 0 auto;
-    width: 1250px;
     margin-top: 50px;
 }
 
@@ -937,8 +925,8 @@ header .Icontext:hover .translate-head {
 
 .rssItem {
     background-color: var(--clr-black);
-    width: 940px;
-    height: 280px;
+    width: 55vw;
+    height: fit-content;
     overflow-y: auto;
     margin-bottom: 50px;
     position: relative;
@@ -1018,4 +1006,22 @@ header .Icontext:hover .translate-head {
 .popup_readmore_ln .content .text h3 {
     font-size: 2em;
     margin: 20px 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

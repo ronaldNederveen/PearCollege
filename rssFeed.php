@@ -1,5 +1,5 @@
 
-
+<div class="rssfeed-outer">
 <?php
 // Inladen van RSS feed van apple
 $feedRSS = simplexml_load_file("https://developer.apple.com/news/rss/news.rss");
@@ -38,3 +38,5 @@ function extractRSSImage($feedDescription){
     return "<div class='inline-article-image'>".$image."></div>";
 
 }
+?>
+</div>
