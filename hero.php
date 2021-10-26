@@ -7,7 +7,7 @@
     <div class="hero">
         <div class="intro">
             <h1>Welcome Joris</h1>
-            <div class="box"></div>
+            <div class="box"> <img src="./assets/img/calendar.jpg"/></div>
             <i class="corner"></i>
             <i class="top"></i>
         </div>
