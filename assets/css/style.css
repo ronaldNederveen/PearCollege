@@ -723,7 +723,7 @@ header .Icontext:hover .translate-head {
     height: 100vh;
     position: absolute;
     top: 0;
-    z-index: 99;
+    z-index: 9;
     animation: background ease .5s;
 }
 .popup_notifications .container {
@@ -858,4 +858,22 @@ header .Icontext:hover .translate-head {
 }
 .popup_notifications .bottom.dis {
     display: none;
+}
+
+
+.popup_readmore_ln {
+    background-color: rgba(0, 0, 0, 60%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    animation: background ease .5s;
+}
+
+.popup_readmore_ln .container {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--clr-white);
+    
 }
