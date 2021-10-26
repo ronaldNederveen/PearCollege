@@ -1,7 +1,5 @@
 <?php
-  include "headernl.php";
-
-  
+ 
 //Loading in the JSON file
 $news = file_get_contents("latest-newsnl.json");
 //JSON data converting to PHP Array

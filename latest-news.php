@@ -1,5 +1,5 @@
 <?php
-  include "header.php";
+
 
   
 //Loading in the JSON file

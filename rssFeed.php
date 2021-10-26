@@ -1,7 +1,4 @@
-<?php
 
-include "header.php";
-?>
 
 <?php
 // Inladen van RSS feed van apple
