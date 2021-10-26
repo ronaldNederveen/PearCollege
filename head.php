@@ -16,8 +16,8 @@
         <!--icons part-->
         <div class="icons">
             <div class="Icontext-btn btn">
-                <a href="indexnl.php"><img src="assets/icons/netherlands.svg"   alt="NL"        class="UK-head">
-                <p class=translate-head>Nederlands</p></a>
+                <a href="indexnl.php"><img src="assets/icons/united-kingdom.svg"   alt="EN"        class="UK-head">
+                <p class=translate-head>English</p></a>
             </div>
             <i class="btn fas fa-bell" id="popupBell" onclick="toggleNotificationsPopup()"></i>
             <i class="btn fas fa-user" id="popupUser" onclick="toggleUserPopup()"></i>

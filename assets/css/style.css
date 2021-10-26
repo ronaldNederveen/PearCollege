@@ -312,16 +312,25 @@ header .translate-head {
 }
 
 header .UK-head {
-    border-radius: 70%;
-    margin-left: 17%;
+    border-radius: 5em;
     width: 2em;
+    height: 2em;
 }
 
 header .Icontext-btn {
     width: 50px;
 }
+header .Icontext-btn a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+header .Icontext-btn p {
+    width: fit-content;
+}
 
-header .Icontext:hover .translate-head {
+header .Icontext-btn:hover .translate-head {
     color: rgb(218, 218, 218);
     cursor: pointer;
 }
