@@ -12,16 +12,16 @@ include "header.php";
             </div>
         </div>
         
-        <!-- E-mail-->
+        
         <form action="./assets/inc/login.inc.php" method="post">
             <div class="loginInput">
+                <!-- E-mail-->
                 <div class="emailField">
                     <img src="assets/icons/user-solid.svg" alt="Icon user" id="LoginUserIcon">
                     <input type="text" size="25" name="username" placeholder="Username..." id="emailInput" required>
                 </div>
                 <br>               
-
-            <!-- Password-->
+                <!-- Password-->
                 <div class="passwordField">
                     <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
                     <input type="password" size="25" name="password" placeholder="Password..." id="passwordInput" required>

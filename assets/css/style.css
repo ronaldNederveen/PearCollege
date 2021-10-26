@@ -20,7 +20,6 @@
 
 body {
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-    /* zoom: .8; */
 }
 
 
@@ -36,17 +35,15 @@ body.loginScreen {
 
 .loginScreen .login {
     padding: 50px;
-    display: grid;
     background-color: white;
-    grid-column: 1;
-    grid-template-rows: 100px, 100px, 100px, 100px;
     border-radius: 50px;
     border-color: #01ACB4;
 }
 
 .loginScreen form {
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
+    height: fit-content;
 }
 
 .loginScreen #loginLogo {
@@ -238,7 +235,6 @@ header .logo {
     display: flex;
     align-content: center;
     align-items: center;
-    /* margin-left: 10%; */
 }
 
 header .logo-head {
@@ -323,7 +319,7 @@ header .Icontext:hover .translate-head {
 .latest-block {
     padding-top: 6vh;
     width: fit-content;
-    height: 72vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
 }
@@ -334,6 +330,7 @@ header .Icontext:hover .translate-head {
     z-index: 8;
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
     width: 90%;
     height: 100%;
     background-color: #ffffff;
@@ -409,17 +406,21 @@ header .Icontext:hover .translate-head {
 
 /* Applications style*/
 
+.applications {
+    margin: 50px 0 100px 0;
+}
+
 .applications #app_box {
     margin: auto;
-    width: 80%;
-    height: 150px;
+    width: fit-content;
+    height: 100px;
     display: flex;
+    column-gap: 30px;
     align-content: center;
 }
 
 .applications .app {
-    width: 165px;
-    height: 165px;
+    height: 100%;
     margin: auto;
     margin-left: 5px;
 
@@ -430,11 +431,12 @@ header .Icontext:hover .translate-head {
 }
 .applications #title_applications {
     font-size: 25px;
+    text-align: center;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 80%;
-    padding: 0 0 0 200px;
+    margin-bottom: 20px;
+    /* width: 80%; */
+    /* padding: 0 0 0 200px; */
 }
 
 
