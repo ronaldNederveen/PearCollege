@@ -697,15 +697,22 @@ i.btn {
     height: 500px;
     overflow-y: scroll;
     margin: 0 auto;
-    width: 1325px;
+    width: 1250px;
+    /* background-color: #0b0b0c; */
+}
+
+.rssFeed h2 {
+    color: var(--clr-white);
 }
 
 .rssItem {
-    border: 1px black solid;
-    width: 988px;
-    height: 142px;
+    /* border: 1px black solid; */
+    background-color: var(--clr-black);
+    width: 940px;
+    height: 280px;
     overflow-y: auto;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .rssItem:nth-child(even) {
@@ -717,17 +724,29 @@ i.btn {
 }
 
 .inline-article-image img {
-    width: 120px;
-    height: 120px;
+    width: 280px;
+    height: 280px;
     float: left;
+    margin-right: 28px;
 }
 
 .rssItem .feed_title {
     font-weight: bold;
+    color: var(--clr-white);
+}
+
+.rssItem h3 {
+    color: var(--clr-white);
+    font-size: 35px;
+    margin-top: 28px;
 }
 
 .feedPubDate {
     color: var(--clr-gray-2);
+    position: absolute;
+    bottom: 24px;
+    font-size: 14px;
+    left: 310px;
 }
 
 
