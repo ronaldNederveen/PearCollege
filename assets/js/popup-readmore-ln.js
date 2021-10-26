@@ -1,6 +1,5 @@
-popupln = document.getElementById('popupln');
-        
-function toggleReadMore() {
+function toggleReadMore() {   
+    getAllEntities();
     if(!popupnotifications.classList.contains('dis')) {
         popupnotifications.classList.add('dis');
     } else if(!popupuser.classList.contains('dis')) {

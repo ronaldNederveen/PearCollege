@@ -1,7 +1,5 @@
-bellIcon = document.getElementById('popupBell');
-userIcon = document.getElementById('popupUser');
-
 function buttonReplace() {
+    getAllEntities();
     if (bellIcon.classList.contains('fas')) {
         bellIcon.classList.replace('fas', 'far');
         userIcon.classList.replace('fas', 'far');
