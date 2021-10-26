@@ -215,9 +215,8 @@ body.loginScreen {
 }
 
 .hero-container .box img{
-    width: inherit;
+    width: 100%;
     height: inherit;
-    background-color: var(--clr-white);
     border-radius: 0 0 50px 0;
 }
 
@@ -297,7 +296,7 @@ header i.btn {
 }
 
 header .btn {
-    z-index: 99;
+    z-index: 999;
 }
 
 header .translate-head {
@@ -763,7 +762,7 @@ header .Icontext:hover .translate-head {
 .popup_notifications .triangle {
 	position: absolute;
     top: -30px;
-    right: 175px;
+    right: 31%;
 	background-color: var(--clr-white);
 	text-align: left;
     transform: rotate(-60deg) skewX(-30deg) scale(1,.866);

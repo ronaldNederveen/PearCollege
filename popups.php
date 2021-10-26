@@ -1,5 +1,5 @@
-       <!--Popup personalinfo-->
-       <div class="popup_user dis" id="popupuser">
+        <!--Popup personalinfo-->
+        <div class="popup_user dis" id="popupuser">
             <div class="container dis" id="container_popup_user">
                 <div class="box">
                     <div class="btn cross" onclick="toggleUserPopup()">
@@ -12,14 +12,12 @@
                     <div class="content">
                         <p class="type name nomargin">Name:</p>
                         <p class="input i-name">Joris Hummel</p>
-                        <p class="type edu">Education:</p>
-                        <p class="input i-edu"></p>
                         <p class="type id">Student ID:</p>
                         <p class="input i-id"></p>
                         
                         <!--Logout/Change password-->
                         <div class="links">
-                            <a href="">Change Password</a>
+                            <a href="Rpassword.php">Change Password</a>
                             <a href="login.php">Logout</a>
                         </div>
                     </div>
