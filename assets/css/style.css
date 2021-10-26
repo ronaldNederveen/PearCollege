@@ -932,6 +932,7 @@ header .Icontext:hover .translate-head {
 
 .rssFeed h2 {
     color: var(--clr-white);
+    margin-top: 50px;
 }
 
 .rssItem {
