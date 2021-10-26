@@ -1,5 +1,5 @@
 
-
+<div class="rssfeed-outer">
 <?php
 echo "<!--begin rssFeed-->";
 // Inladen van RSS feed van apple
@@ -41,3 +41,4 @@ function extractRSSImage($feedDescription)
 }
 echo "<!--einde rssFeed-->";
 ?>
+</div>
