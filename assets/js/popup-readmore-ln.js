@@ -6,5 +6,6 @@ function toggleReadMore(value) {
         popupuser.classList.add('dis');
     }
     popupln.classList.toggle('dis');
-    buttonReplace();
+
+    checkState();
 }
