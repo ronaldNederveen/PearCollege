@@ -1,11 +1,11 @@
 function toggleNotificationsPopup() {
     getAllEntities();
-    if(!popupuser.classList.contains('dis')) {
-        popupuser.classList.add('dis');
-    } else if(!popupln.classList.contains('dis')) {
-        popupln.classList.add('dis');
+    if(!popupUser.classList.contains('dis')) {
+        popupUser.classList.add('dis');
+    } else if(!popupLn.classList.contains('dis')) {
+        popupLn.classList.add('dis');
     }
-    popupnotifications.classList.toggle('dis');
+    popupNotifications.classList.toggle('dis');
 
     checkState();
 }
