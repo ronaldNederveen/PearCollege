@@ -26,7 +26,7 @@ if (isset($_POST['username']) && !isset($_SESSION['username'])) {
               
 
                     //if the passwords are also true, set the session
-                    $_SESSION['username'] = $_POST['username'];
+                    $_SESSION['username'] = $student["voornaam"];
 
 
                    // warning and return to login.php when a wrong password has been entrerd     

@@ -1,22 +1,25 @@
 {
     "Student":{
            "studentid": "1",
-            "naam": "Achmed Joopje",
+            "voornaam": "Achmed",
+            "achternaam": "Joopje",
             "opleiding": "ICT",
             "gebruikersnaam": "AchmedJ2002",
             "wachtwoord": "Achmed1234" 
         },
     "Student2": {
             "studentid": "2",
-            "naam": "Wiebe Klijnstra",
+            "voornaam": "Wiebe",
+            "achternaam": "Klijnstra",
             "opleiding": "ICT",
             "gebruikersnaam": "WiebeK1943",
-            "wachtwoord": "Klijnstra69"
+            "wachtwoord": "WiebeK1943"
         },
 
         "Student3": {
             "studentid": "3",
-            "naam": "Guus geluk",
+            "voornaam": "Guus",
+            "achternaam": "Geluk",
             "opleiding": "ICT",
             "gebruikersnaam": "G1234",
             "wachtwoord": "GG45"

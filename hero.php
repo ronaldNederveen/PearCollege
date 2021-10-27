@@ -3,7 +3,11 @@
 
     <div class="hero">
         <div class="intro">
-            <h1>Welcome Joris</h1>
+            <h1>
+            <?php
+            echo "Welcome " . $_SESSION['username'];
+            ?>
+            </h1>
             <div class="box"> <img src="./assets/img/November.png"/></div>
             <i class="corner"></i>
             <i class="top"></i>
