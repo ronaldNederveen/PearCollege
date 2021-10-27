@@ -23,7 +23,6 @@ function checkState() {
     });
     
     popups.every(item => {
-        console.log(item);
         if(item.classList.contains('dis')) {
             popupsVisable = false;
             return true;
