@@ -10,10 +10,10 @@ $json = file_get_contents('user.json');
 $json_data = json_decode($json, true);
       
 //remove any session that is still running
-unset($_SESSION['username']);
+unset($_SESSION['naam']['anaam']['sid']);
 
 //check if the username field has something and the session is empty. if the session isn't empty it should load the index page (see lines 45-50)
-if (isset($_POST['username']) && !isset($_SESSION['username'])) {
+if (isset($_POST['username']) && !isset($_SESSION['naam']['anaam']['sid'])) {
 
    //loop through the json file 
     foreach($json_data as $student){
