@@ -14,7 +14,7 @@
                         <p class="input i-name">
                             <?php
                                 echo $_SESSION['naam'];
-                                echo $_session['anaam']
+                                echo $_SESSION['anaam']
                             ?> 
                         </p>
                         <p class="type id">Student ID:</p>
