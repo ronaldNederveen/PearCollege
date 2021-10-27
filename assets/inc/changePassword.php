@@ -15,6 +15,7 @@ $json_data = json_decode($json, true);
 foreach ($json_data as $index => $value) {
 	if ($value['gebruikersnaam'] == $username) {
 		$json_data[$index]['wachtwoord'] = $newPassword;
+		break;
 	}
 }
 
