@@ -26,7 +26,7 @@ if (isset($_POST['username']) && !isset($_SESSION['username'])) {
               
 
                     //if the passwords are also true, set the session
-                    $_SESSION['username'] = $student["voornaam"];
+                    $_SESSION['naam']['anaam']['sid'] = $student["voornaam"]["achternaam"]["studentid"];
 
 
                    // warning and return to login.php when a wrong password has been entrerd     
@@ -42,7 +42,7 @@ if (isset($_POST['username']) && !isset($_SESSION['username'])) {
 }
 
 //is the seession is filled with the username
-if (isset($_SESSION['username'])) {
+if (isset($_SESSION['naam']['anaam']['sid'])) {
     //go to the index page.
     header("Location: ../../index.php");
     
