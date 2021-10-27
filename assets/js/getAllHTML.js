@@ -2,9 +2,9 @@ function getAllEntities() {
     // Popups
     popupUser = document.getElementById('popupUser');
     popupNotifications = document.getElementById('popupNotifications');
-    popupLn = document.getElementById('popupLn');
+    popupLN = document.getElementById('popupLN');
 
-    popups = [popupUser, popupNotifications, popupLn];
+    popups = [popupUser, popupNotifications, popupLN];
     
     // Icons
     bellIcon = document.getElementById('popupBell');

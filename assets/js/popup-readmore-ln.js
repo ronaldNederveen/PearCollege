@@ -1,18 +1,18 @@
 function toggleReadMore(value) { 
     getAllEntities();
-    if(!popupnotifications.classList.contains('dis')) {
-        popupnotifications.classList.add('dis');
-    } else if(!popupuser.classList.contains('dis')) {
-        popupuser.classList.add('dis');
+    if(!popupNotifications.classList.contains('dis')) {
+        popupNotifications.classList.add('dis');
+    } else if(!popupUser.classList.contains('dis')) {
+        popupUser.classList.add('dis');
     }
-    popupln.classList.toggle('dis');
+    popupLN.classList.toggle('dis');
 
     checkState();
 
-    if(!popupln.classList.contains('dis')) {
-        lnimg = document.getElementById('pp-lnimg');
-        lntitle = document.getElementById('pp-lntitle');
-        lntext = document.getElementById('pp-lntext');
+    if(!popupLN.classList.contains('dis')) {
+        lnImg = document.getElementById('pp-lnImg');
+        lnTitle = document.getElementById('pp-lnTitle');
+        lnText = document.getElementById('pp-lnText');
 
         // Replace ./data.json with your JSON feed
         fetch('./latest-news.json').then(response => {
@@ -22,9 +22,9 @@ function toggleReadMore(value) {
             items = Object.keys(data);
             items.forEach(item => {
                 if(data[item]['id'] == value) {
-                    lnimg.src = data[item]['image'];
-                    lntitle.innerHTML = data[item]['title'];
-                    lntext.innerHTML = data[item]['text'];
+                    lnImg.src = data[item]['image'];
+                    lnTitle.innerHTML = data[item]['title'];
+                    lnText.innerHTML = data[item]['text'];
                 }
             })
         });
