@@ -111,7 +111,7 @@
         <div class="popup_readmore_ln dis" id="popupln">
             <div class="container">
                 <div class="content">
-                    <img class="img" id="pp-lnimg" src="">
+                    <img id="pp-lnimg" src="">
                     <div class="text">
                         <h3 id="pp-lntitle"></h3>
                         <p id="pp-lntext">Lorum Ipsum</p>

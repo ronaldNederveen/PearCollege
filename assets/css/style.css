@@ -1006,6 +1006,7 @@ header .Icontext-btn:hover .translate-head {
     position: relative;
     border-radius: 30px;
     min-width: 15vw;
+    max-width: 70vw;
 }
 
 .popup_readmore_ln .cross {
@@ -1022,6 +1023,11 @@ header .Icontext-btn:hover .translate-head {
 .popup_readmore_ln .content .text h3 {
     font-size: 2em;
     margin: 20px 0;
+}
+
+.popup_readmore_ln .content img {
+    max-width: 30vw;
+    max-height: 60vh;
 }
 
 .dis {
