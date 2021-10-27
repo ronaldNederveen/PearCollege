@@ -1,5 +1,5 @@
         <!--Popup personalinfo-->
-        <div class="popup_user dis" id="popupuser">
+        <div class="popup_user dis" id="popupUser">
             <div class="container dis" id="container_popup_user">
                 <div class="box">
                     <div class="btn cross" onclick="toggleUserPopup()">
@@ -26,7 +26,7 @@
         </div>
 
         <!-- Popup Notifications -->
-        <div class="popup_notifications dis" id="popupnotifications">
+        <div class="popup_notifications dis" id="popupNotifications">
             <div class="container">
                 <div class="triangle"></div>
                 <div class="top">
@@ -97,13 +97,13 @@
         </div>
 
         <!-- Popup Read more Latest news -->
-        <div class="popup_readmore_ln dis" id="popupln">
+        <div class="popup_readmore_ln dis" id="popupLN">
             <div class="container">
                 <div class="content">
-                    <div class="img">Image</div>
+                    <img id="pp-lnImg" src="">
                     <div class="text">
-                        <h3>Title</h3>
-                        <p>Lorum Ipsum</p>
+                        <h3 id="pp-lnTitle"></h3>
+                        <p id="pp-lnText">Lorum Ipsum</p>
                     </div>
                 </div>
                 <div class="btn cross" onclick="toggleReadMore()">

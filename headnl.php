@@ -1,4 +1,4 @@
- <!--Header of Pear College-->
+    <!--Header of Pear College-->
     <header>
         <!--logo part -->
         <div class="logo">
@@ -18,8 +18,8 @@
                 <a href="index.php"><img src="assets/icons/netherlands.svg"   alt="NL"        class="UK-head">
                 <p class=translate-head>Nederlands</p></a>
             </div>
-            <i class="btn fas fa-bell" id="popupBell" onclick="toggleNotificationsPopup()"></i>
-            <i class="btn fas fa-user" id="popupUser" onclick="toggleUserPopup()"></i>
+            <i class="btn fas fa-bell" id="iconBell" onclick="toggleNotificationsPopup()"></i>
+            <i class="btn fas fa-user" id="iconUser" onclick="toggleUserPopup()"></i>
         </div>    
     </header> 
  
