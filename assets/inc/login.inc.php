@@ -28,6 +28,7 @@ if (isset($_POST['username']) && !isset($_SESSION['naam'])) {
               
 
                     //if the passwords are also true, set the session
+                    $_SESSION['username'] = $student['gebruikersnaam'];
                     $_SESSION['naam'] = $student["voornaam"];
                     $_SESSION['anaam'] = $student["achternaam"];
                     $_SESSION['sid'] = $student["studentid"];
