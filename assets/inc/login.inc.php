@@ -10,10 +10,12 @@ $json = file_get_contents('user.json');
 $json_data = json_decode($json, true);
       
 //remove any session that is still running
-unset($_SESSION['naam']['anaam']['sid']);
+unset($_SESSION['naam']);
+unset($_SESSION['anaam']);
+unset($_SESSION['sid']);
 
 //check if the username field has something and the session is empty. if the session isn't empty it should load the index page (see lines 45-50)
-if (isset($_POST['username']) && !isset($_SESSION['naam']['anaam']['sid'])) {
+if (isset($_POST['username']) && !isset($_SESSION['naam'])) {
 
    //loop through the json file 
     foreach($json_data as $student){
@@ -26,7 +28,9 @@ if (isset($_POST['username']) && !isset($_SESSION['naam']['anaam']['sid'])) {
               
 
                     //if the passwords are also true, set the session
-                    $_SESSION['naam']['anaam']['sid'] = $student["voornaam"]["achternaam"]["studentid"];
+                    $_SESSION['naam'] = $student["voornaam"];
+                    $_SESSION['anaam'] = $student["achternaam"];
+                    $_SESSION['sid'] = $student["studentid"];
 
 
                    // warning and return to login.php when a wrong password has been entrerd     
@@ -42,7 +46,7 @@ if (isset($_POST['username']) && !isset($_SESSION['naam']['anaam']['sid'])) {
 }
 
 //is the seession is filled with the username
-if (isset($_SESSION['naam']['anaam']['sid'])) {
+if (isset($_SESSION['naam'])) {
     //go to the index page.
     header("Location: ../../index.php");
     

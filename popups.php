@@ -13,7 +13,8 @@
                         <p class="type name nomargin">Name:</p>
                         <p class="input i-name">
                             <?php
-                                echo $_SESSION['naam']['anaam'];
+                                echo $_SESSION['naam'];
+                                echo $_session['anaam']
                             ?> 
                         </p>
                         <p class="type id">Student ID:</p>
