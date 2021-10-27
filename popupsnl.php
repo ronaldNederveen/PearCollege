@@ -95,3 +95,20 @@
                 </div>
             </div>
         </div>
+
+        <!-- Popup Read more Latest news -->
+        <div class="popup_readmore_ln dis" id="popupln">
+            <div class="container">
+                <div class="content">
+                    <div class="img">Image</div>
+                    <div class="text">
+                        <h3>Title</h3>
+                        <p>Lorum Ipsum</p>
+                    </div>
+                </div>
+                <div class="btn cross" onclick="toggleReadMore()">
+                    <div class="line first"></div>
+                    <div class="line second"></div>
+                </div>
+            </div>
+        </div>
