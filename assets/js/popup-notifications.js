@@ -6,6 +6,6 @@ function toggleNotificationsPopup() {
         popupln.classList.add('dis');
     }
     popupnotifications.classList.toggle('dis');
-    // document.body.style.toggle(overflow('hidden'));
-    buttonReplace();
+
+    checkState();
 }

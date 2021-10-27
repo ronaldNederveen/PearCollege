@@ -6,5 +6,6 @@ function toggleUserPopup() {
         popupln.classList.add('dis');
     }
     popupuser.classList.toggle('dis');
-    buttonReplace();
+    
+    checkState();
 }

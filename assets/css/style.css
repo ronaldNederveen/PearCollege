@@ -859,7 +859,7 @@ header .Icontext-btn:hover .translate-head {
     width: 75px;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-image: url(../img/profiles/joris.jpg);
+    /* background-image: url(../img/profiles/joris.jpg); */
     background-position: center;
     background-size: cover;
 }
