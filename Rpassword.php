@@ -13,18 +13,14 @@ include "header.php"
         </div>
         
         <!-- E-mail-->
-        <form action="./assets/inc/login.inc.php" method="post">
+        <form action="./assets/inc/changePassword.php" method="post">
             <div class="loginInput">
-                <div class="emailField">
-                <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
-                    <input type="password" size="25" name="nieuw wachtwoord" placeholder="Password..." id="emailInput" required>
-                </div>
                 <br>               
 
             <!-- Password-->
                 <div class="passwordField">
                     <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
-                    <input type="password" size="25" name="Password" placeholder="Repeat password..." id="passwordInput" required>
+                    <input type="password" size="25" name="nieuwWachtwoord" placeholder="new password..." id="passwordInput" required>
                 </div>
             </div>
 
