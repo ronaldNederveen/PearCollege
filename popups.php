@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bottom">
+                <div class="bottom dis">
                     <i class="far fa-comment"></i>
                     <button>New message</button>
                 </div>
