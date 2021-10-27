@@ -14,12 +14,12 @@
                         <p class="input i-name">
                             <?php
                                 echo $_SESSION['naam']['anaam'];
-                            ?>
+                            ?> 
                         </p>
                         <p class="type id">Student ID:</p>
                         <p class="input i-id">
                             <?php
-                                echo $_SESSION['sid'];
+                               echo $_SESSION['sid'];
                             ?>
                         </p>
                         
