@@ -14,6 +14,7 @@
                         <p class="input i-name">
                             <?php
                                 echo $_SESSION['naam'];
+                                echo " ";
                                 echo $_session['anaam']
                             ?> 
                         </p>
