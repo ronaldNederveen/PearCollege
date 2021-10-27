@@ -111,10 +111,10 @@
         <div class="popup_readmore_ln dis" id="popupLn">
             <div class="container">
                 <div class="content">
-                    <div class="img">Image</div>
+                    <img id="pp-lnimg" src="">
                     <div class="text">
-                        <h3>Title</h3>
-                        <p>Lorum Ipsum</p>
+                        <h3 id="pp-lntitle"></h3>
+                        <p id="pp-lntext">Lorum Ipsum</p>
                     </div>
                 </div>
                 <div class="btn cross" onclick="toggleReadMore()">
