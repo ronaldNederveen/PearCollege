@@ -1,5 +1,5 @@
         <!--Popup personalinfo-->
-        <div class="popup_user" id="popupuser">
+        <div class="popup_user dis" id="popupuser">
             <div class="container" id="container_popup_user">
                 <div class="box">
                     <div class="btn cross" onclick="toggleUserPopup()">
@@ -16,6 +16,7 @@
                                 echo $_SESSION['naam'];
                                 echo " ";
                                 echo $_session['anaam']
+                                
                             ?> 
                         </p>
                         <p class="type id">Student ID:</p>
