@@ -5,7 +5,7 @@
         <div class="intro">
             <h1>
              <?php   
-                echo "Welcome " . $_SESSION['username'];
+                echo "Welkom " . $_SESSION['username'];
              ?>   
             </h1>
             <div class="box"> <img src="./assets/img/November.png"/></div>
