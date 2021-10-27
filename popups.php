@@ -15,7 +15,7 @@
                             <?php
                                 echo $_SESSION['naam'];
                                 echo " ";
-                                echo $_session['anaam']
+                                echo $_session['anaam'];
                                 
                             ?> 
                         </p>
