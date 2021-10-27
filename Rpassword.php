@@ -1,4 +1,7 @@
-<!--Login screen of Pear Collage-->
+<?php
+include "header.php"
+?>
+<!--Login screen of Pear College-->
 <body class="loginScreen">
     <!--Logo , Title-->
     <div class="login">
