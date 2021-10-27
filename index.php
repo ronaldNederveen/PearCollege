@@ -17,7 +17,7 @@ include "head.php";
 include "hero.php";
 include "applications.php";
 include "workbystudents.php";
-require "rssFeed.php";
+//require "rssFeed.php";
 
 include "popups.php";
 include "Foot.php";
