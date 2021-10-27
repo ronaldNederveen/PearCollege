@@ -21,8 +21,8 @@
                     <p class=translate-head>English</p>
                 </a>
             </div>
-            <i class="btn fas fa-bell" id="popupBell" onclick="toggleNotificationsPopup()"></i>
-            <i class="btn fas fa-user" id="popupUser" onclick="toggleUserPopup()"></i>
+            <i class="btn fas fa-bell" id="iconBell" onclick="toggleNotificationsPopup()"></i>
+            <i class="btn fas fa-user" id="iconUser" onclick="toggleUserPopup()"></i>
         </div>    
     </header> 
  

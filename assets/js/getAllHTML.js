@@ -7,8 +7,8 @@ function getAllEntities() {
     popups = [popupUser, popupNotifications, popupLN];
     
     // Icons
-    bellIcon = document.getElementById('popupBell');
-    userIcon = document.getElementById('popupUser');
+    bellIcon = document.getElementById('iconBell');
+    userIcon = document.getElementById('iconUser');
 
     icons = [userIcon, bellIcon];
 }
