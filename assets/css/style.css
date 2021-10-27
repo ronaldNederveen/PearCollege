@@ -510,8 +510,8 @@ header .Icontext-btn:hover .translate-head {
     justify-content: center;
     position: absolute;
     background-color: var(--clr-white);
-    height: calc(100vh - 100px);
-    top: 100px;
+    height: 90vh;
+    top: 10vh;
     right: 0;
     width: 350px;
     animation: popup_user ease .5s;
@@ -797,7 +797,7 @@ header .Icontext-btn:hover .translate-head {
 .popup_notifications .triangle {
     position: absolute;
     top: -30px;
-    right: 31%;
+    right: 9vw;
     background-color: var(--clr-white);
     text-align: left;
     transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
