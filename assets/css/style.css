@@ -11,7 +11,9 @@
 @font-face {
     font-family: Futura;
     src: url('../font/futur.ttf') format("truetype");
+    src: url('../font/Futura-Bold.woff') format("woff");
 }
+
 
 * {
     margin: 0;
