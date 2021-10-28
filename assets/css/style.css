@@ -11,7 +11,9 @@
 @font-face {
     font-family: Futura;
     src: url('../font/futur.ttf') format("truetype");
+    src: url('../font/Futura-Bold.woff') format("woff");
 }
+
 
 * {
     margin: 0;
@@ -760,10 +762,10 @@ header .Icontext-btn:hover .translate-head {
     width: 35%;
     height: 70%;
     position: absolute;
-    display: grid;
-    grid-template-rows: 13% 77% 10%;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
-    top: 150px;
+    top: 15vh;
     right: 81px;
 }
 
@@ -774,6 +776,7 @@ header .Icontext-btn:hover .translate-head {
     align-items: center;
     color: var(--clr-gray-1) !important;
     padding: 0 25px;
+    height: 20%;
 }
 
 .popup_notifications .top h2 {
@@ -801,6 +804,7 @@ header .Icontext-btn:hover .translate-head {
     background-color: var(--clr-white);
     text-align: left;
     transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
+    z-index: -1;
 }
 
 .popup_notifications .triangle:before,
@@ -835,6 +839,7 @@ header .Icontext-btn:hover .translate-head {
 .popup_notifications .center {
     overflow-y: scroll;
     overflow-x: hidden;
+    height: 100%;
 }
 
 .popup_notifications .center::-webkit-scrollbar {
@@ -846,6 +851,7 @@ header .Icontext-btn:hover .translate-head {
     grid-template-columns: 20% 60% 20%;
     grid-gap: 25px;
     padding: 25px 50px;
+    z-index: 8;
 }
 
 .popup_notifications .message.unread {
