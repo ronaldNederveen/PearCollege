@@ -3,7 +3,7 @@
 
   
 //Loading in the JSON file
-$news = file_get_contents("latest-news.json");
+$news = file_get_contents("../assets/json/latest-news.json");
 //JSON data converting to PHP Array
 $news = json_decode($news, true);
 

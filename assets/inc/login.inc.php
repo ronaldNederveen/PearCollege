@@ -4,7 +4,7 @@
 //start of file and start the session
 
 // open the file and get the content
-$json = file_get_contents('user.json');
+$json = file_get_contents('../json/user.json');
 
 //make it an associate array
 $json_data = json_decode($json, true);

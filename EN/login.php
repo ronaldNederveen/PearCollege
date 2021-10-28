@@ -6,24 +6,24 @@ include "header.php"
     <!--Logo , Title-->
     <div class="login">
         <div class="loginHeader">    
-            <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo" style="float:left">
+            <img src="../assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo" style="float:left">
             <div class="loginText">
                 <h3>Pear College</h3>
             </div>
         </div>
         
         
-        <form action="./assets/inc/login.inc.php" method="post">
+        <form action="../assets/inc/login.inc.php" method="post">
             <div class="loginInput">
                 <!-- E-mail-->
                 <div class="emailField">
-                    <img src="assets/icons/user-solid.svg" alt="Icon user" id="LoginUserIcon">
+                    <img src="../assets/icons/user-solid.svg" alt="Icon user" id="LoginUserIcon">
                     <input type="text" size="25" name="username" placeholder="Username..." id="emailInput" required>
                 </div>
                 <br>               
                 <!-- Password-->
                 <div class="passwordField">
-                    <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
+                    <img src="../assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
                     <input type="password" size="25" name="password" placeholder="Password..." id="passwordInput" required>
                 </div>
             </div>

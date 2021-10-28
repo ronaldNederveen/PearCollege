@@ -27,8 +27,8 @@
                         
                         <!--Logout/Change password-->
                         <div class="links">
-                            <a href="Rpassword.php">Wijzig wachtwoord</a>
-                            <a href="login.php">Uitloggen</a>
+                            <a href="../EN/Rpassword.php">Wijzig wachtwoord</a>
+                            <a href="../EN/login.php">Uitloggen</a>
                         </div>
                     </div>
                 </div>

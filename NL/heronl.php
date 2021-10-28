@@ -8,7 +8,7 @@
                 echo "Welkom " . $_SESSION['naam'];
              ?>   
             </h1>
-            <div class="box"> <img src="./assets/img/November.png"/></div>
+            <div class="box"> <img src="../assets/img/November.png"/></div>
             <i class="corner"></i>
             <i class="top"></i>
         </div>

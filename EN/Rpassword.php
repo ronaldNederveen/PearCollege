@@ -6,20 +6,20 @@ include "header.php"
     <!--Logo , Title-->
     <div class="login">
         <div class="loginHeader">    
-            <img src="assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo" style="float:left">
+            <img src="../assets/img/PearCollege_logo.svg" alt="PearCollege Logo" id="loginLogo" style="float:left">
             <div class="loginText">
                 <h3>Pear College</h3>
             </div>
         </div>
         
         <!-- E-mail-->
-        <form action="./assets/inc/changePassword.php" method="post">
+        <form action="../assets/inc/changePassword.php" method="post">
             <div class="loginInput">
                 <br>               
 
             <!-- Password-->
                 <div class="passwordField">
-                    <img src="assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
+                    <img src="../assets/icons/lock-solid.svg" alt="Icon lock" id="LoginLockIcon">
                     <input type="password" size="25" name="nieuwWachtwoord" placeholder="new password..." id="passwordInput" required>
                 </div>
             </div>

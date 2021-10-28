@@ -6,7 +6,7 @@ $newPassword = $_POST['nieuwWachtwoord'];
 
 
 // open the file and get the content
-$json = file_get_contents('user.json');
+$json = file_get_contents('../json/user.json');
 
 //make it an associate array
 $json_data = json_decode($json, true);
@@ -23,5 +23,5 @@ foreach ($json_data as $index => $value) {
 $newData = json_encode($json_data);
 
 // schrijven naar het bestand
-file_put_contents('user.json', $newData);
-header("Location: ../../index.php");
+file_put_contents('../json/user.json', $newData);
+header("Location: ../../EN/index.php");

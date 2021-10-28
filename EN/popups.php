@@ -28,8 +28,8 @@
                         
                         <!--Logout/Change password-->
                         <div class="links">
-                            <a href="Rpassword.php">Change Password</a>
-                            <a href="login.php">Logout</a>
+                            <a href="./Rpassword.php">Change Password</a>
+                            <a href="./login.php">Logout</a>
                         </div>
                     </div>
                 </div>

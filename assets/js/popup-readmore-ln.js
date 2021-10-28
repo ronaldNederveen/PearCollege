@@ -15,9 +15,9 @@ function toggleReadMore(value) {
         lnText = document.getElementById('pp-lnText');
 
         if(document.documentElement.lang == "nl") {
-            jsonFile = './latest-newsnl.json';
+            jsonFile = '../assets/json/latest-newsnl.json';
         } else {
-            jsonFile = './latest-news.json';
+            jsonFile = '../assets/json/latest-news.json';
         }
 
         // Replace ./data.json with your JSON feed
