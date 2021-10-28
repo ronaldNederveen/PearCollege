@@ -6,8 +6,10 @@
 * Programmer('s):
 *
 -->
-<?php session_start();
+<?php 
+session_start();
 
+include "isLogedIn.php";
 include "headernl.php";
 include "headnl.php";
 include "heronl.php";

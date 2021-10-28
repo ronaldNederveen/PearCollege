@@ -9,6 +9,7 @@
 <?php 
 session_start();
 
+include "isLogedIn.php";
 include "header.php";
 include "head.php";
 include "hero.php";
