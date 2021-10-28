@@ -11,9 +11,19 @@
                     <h2>Persoonlijke info</h2>
                     <div class="content">
                         <p class="type name nomargin">Naam:</p>
-                        <p class="input i-name">Joris Hummel</p>
+                        <p class="input i-name">
+                            <?php
+                                echo $_SESSION['naam'];
+                                echo " ";
+                                echo $_SESSION['anaam'];
+                            ?>
+                        </p>
                         <p class="type id">Student ID:</p>
-                        <p class="input i-id"></p>
+                        <p class="input i-id">
+                            <?php
+                                echo $_SESSION['sid'];
+                            ?>
+                        </p>
                         
                         <!--Logout/Change password-->
                         <div class="links">
