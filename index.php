@@ -1,9 +1,9 @@
 <!-- 
 * Filename      : index.php
-* Subject       :
-* Created       : 
-* Description   :
-* Programmer('s):
+* Project       : Operation PearWeb
+* Created       : 22-09-2021
+* Description   : Intranet Pear College
+* Programmer('s): Jonathan Heezen, Ronald Nederveen, Serhan Gunes, Jaafar Jawadi, Nikita Hoogeveen, Gijs Bleeker, Sarah Vogelzang & Joris Hummel
 *
 -->
 <?php 
