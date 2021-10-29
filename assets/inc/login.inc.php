@@ -37,7 +37,7 @@ if (isset($_POST['username']) && !isset($_SESSION['naam'])) {
                    // warning and return to login.php when a wrong password has been entrerd     
                 } else{
                     echo ("verkeerd wachtwoord <br>");
-                    echo ("<a href=../../login.php>probeer opnieuw</a>");
+                    echo ("<a href=../../EN/login.php>probeer opnieuw</a>");
                 }
                            
                 
