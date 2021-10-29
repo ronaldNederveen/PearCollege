@@ -246,6 +246,7 @@ header .logo {
     display: flex;
     align-content: center;
     align-items: center;
+    width: 17%;
 }
 
 header .logo-head {
