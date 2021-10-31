@@ -3,10 +3,12 @@ function buttonReplace() {
     if (bellIcon.classList.contains('fas')) {
         bellIcon.classList.replace('fas', 'far');
         userIcon.classList.replace('fas', 'far');
+        document.body.style.overflow = "hidden";
 
     } else {
         bellIcon.classList.replace('far', 'fas');
         userIcon.classList.replace('far', 'fas');
+        document.body.style.overflow = "";
     }
 }
 
